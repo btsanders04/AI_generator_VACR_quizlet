@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-
+import {getRandomImage } from '../services/fetchImage'
 interface ImageData {
   url: string;
   answer: string;
@@ -18,12 +18,8 @@ export default function SingleImageForm() {
 
   const fetchRandomImage = async () => {
     try {
-      const response = await fetch('/api/images?count=single');
-      if (!response.ok) {
-        throw new Error('Failed to fetch image');
-      }
-      const imageData = await response.json();
-      setCurrentImage(imageData);
+      const response = getRandomImage()
+      setCurrentImage(response);
     } catch (error) {
       console.error('Error fetching random image:', error);
     }
@@ -43,17 +39,21 @@ export default function SingleImageForm() {
       } else {
         setIncorrectGuesses(prev => prev + 1);
       }
+      setShowAnswer(true);
     }
   };
 
   const handleNext = () => {
-    if (!isCorrect) {
+    if (!isCorrect && !showAnswer) {
       setIncorrectGuesses(prev => prev + 1);
     }
-    setInputValue('');
-    setIsCorrect(null);
-    setShowAnswer(false);
-    fetchRandomImage();
+    setShowAnswer(true);
+    setTimeout(() => {
+      setInputValue('');
+      setIsCorrect(null);
+      setShowAnswer(false);
+      fetchRandomImage();
+    }, 2000); // 2 second delay
   };
 
   const handleReset = () => {

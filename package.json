@@ -5,13 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "next lint"
   },
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "next": "14.2.15",
+    "@mui/material": "^5.15.12",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0"
   },
   "devDependencies": {
     "typescript": "^5",
