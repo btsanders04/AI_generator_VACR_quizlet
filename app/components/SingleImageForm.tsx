@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { getRandomImage } from '../services/fetchImage';
-
+import Score from './Score';
 interface ImageData {
   url: string;
   answers: string[];
@@ -16,6 +16,7 @@ export default function SingleImageForm() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [correctGuesses, setCorrectGuesses] = useState(0);
   const [incorrectGuesses, setIncorrectGuesses] = useState(0);
+  const [isLoading, setLoading] = useState<boolean>(false);
 
   const fetchRandomImage = async () => {
     try {
@@ -41,19 +42,26 @@ export default function SingleImageForm() {
         setIncorrectGuesses(prev => prev + 1);
       }
       setShowAnswer(true);
+      handleNext();
     }
   };
 
-  const handleNext = () => {
+  const handleSkip = () => {
     if (!isCorrect && !showAnswer) {
       setIncorrectGuesses(prev => prev + 1);
     }
     setShowAnswer(true);
+    handleNext();
+  }
+
+  const handleNext = () => {
+    setLoading(true);
     setTimeout(() => {
       setInputValue('');
       setIsCorrect(null);
       setShowAnswer(false);
       fetchRandomImage();
+      setLoading(false);
     }, 2000);
   };
 
@@ -63,6 +71,7 @@ export default function SingleImageForm() {
     setInputValue('');
     setIsCorrect(null);
     setShowAnswer(false);
+    setLoading(false);
     fetchRandomImage();
   };
 
@@ -98,20 +107,22 @@ export default function SingleImageForm() {
                 ? 'bg-blue-500 text-white hover:bg-blue-600'
                 : 'bg-gray-300 text-gray-500 cursor-not-allowed'
             }`}
-            disabled={!inputValue.trim()}
+            disabled={!inputValue.trim() || isLoading} 
           >
             Submit
           </button>
           <button
             type="button"
-            onClick={handleNext}
+            onClick={handleSkip}
+            disabled={isLoading}
             className="flex-1 px-4 py-2 rounded bg-green-500 text-white hover:bg-green-600"
           >
-            Next
+            Skip
           </button>
           <button
             type="button"
             onClick={handleReset}
+            disabled={isLoading}
             className="flex-1 px-4 py-2 rounded bg-red-500 text-white hover:bg-red-600"
           >
             Reset
@@ -119,13 +130,10 @@ export default function SingleImageForm() {
         </div>
       </form>
 
-      <div className="w-full bg-gray-100 p-4 rounded mt-4">
-        <h3 className="text-lg font-bold mb-2">Score</h3>
-        <div className="flex justify-between">
-          <div className="text-green-600">Correct: {correctGuesses}</div>
-          <div className="text-red-600">Incorrect: {incorrectGuesses}</div>
-        </div>
-      </div>
+      <Score
+        correctGuesses={correctGuesses}
+        incorrectGuesses={incorrectGuesses}
+      />
 
       {isCorrect !== null && !showAnswer && (
         <div className={`mt-4 p-2 rounded w-full text-center ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
