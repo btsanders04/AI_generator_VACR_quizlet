@@ -60,3 +60,19 @@ export function getRandomImage(): RandomImage {
     answer: selectedFolder
   };
 }
+
+export function getAllAircraftImages(): ImageData {
+  return Object.entries(images).reduce<ImageData>((acc, [folder, files]) => {
+    acc[folder] = files.map(file => {
+      const encodedBaseDir = encodeURIComponent(baseDir);
+      const encodedFolder = encodeURIComponent(folder);
+      const encodedFile = encodeURIComponent(file);
+      return `${encodedBaseDir}/${encodedFolder}/${encodedFile}`.replace(/%2F/g, '/');
+    });
+    return acc;
+  }, {});
+}
+
+export function getAircraftNames(): string[] {
+  return Object.keys(images);
+}
