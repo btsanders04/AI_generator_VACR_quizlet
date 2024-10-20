@@ -1,0 +1,242 @@
+[
+    {
+      "key": "AirBus A300",
+      "altNames": ["Airbus 300", "A300"]
+    },
+    {
+      "key": "AirBus A320",
+      "altNames": ["Airbus 320", "A320"]
+    },
+    {
+      "key": "Airbus A330",
+      "altNames": ["Airbus 330", "A330"]
+    },
+    {
+      "key": "Airbus A340",
+      "altNames": ["Airbus 340", "A340"]
+    },
+    {
+      "key": "Boeing 737",
+      "altNames": ["B737", "737"]
+    },
+    {
+      "key": "Boeing 747",
+      "altNames": ["B747", "747"]
+    },
+    {
+      "key": "Boeing 757",
+      "altNames": ["B757", "757"]
+    },
+    {
+      "key": "Boeing 767",
+      "altNames": ["B767", "767"]
+    },
+    {
+      "key": "Boeing 777",
+      "altNames": ["B777", "777"]
+    },
+    {
+      "key": "Boeing 787",
+      "altNames": ["B787", "787"]
+    },
+    {
+      "key": "AN-124 Condor",
+      "altNames": ["AN-124", "Condor"]
+    },
+    {
+      "key": "C-5 Galaxy",
+      "altNames": ["C-5", "Galaxy"]
+    },
+    {
+      "key": "C-17 Globemaster",
+      "altNames": ["C-17", "Globemaster"]
+    },
+    {
+      "key": "E-3 Sentry",
+      "altNames": []
+    },
+    {
+      "key": "KC-135 Stratotanker",
+      "altNames": ["KC-135", "Stratotanker"]
+    },
+    {
+      "key": "AS-350 Squirrel",
+      "altNames": ["AS-350", "Squirrel"]
+    },
+    {
+      "key": "AW-109 Power",
+      "altNames": []
+    },
+    {
+      "key": "Bell 206",
+      "altNames": ["Huey", "Jet Ranger"]
+    },
+    {
+      "key": "Bell 412",
+      "altNames": ["Kiowa"]
+    },
+    {
+      "key": "Bo-105",
+      "altNames": []
+    },
+    {
+      "key": "CH-53 Sea Stallion",
+      "altNames": ["CH-53", "Sea Stallion"]
+    },
+    {
+      "key": "EC-120",
+      "altNames": ["Colibri"]
+    },
+    {
+      "key": "EC-135",
+      "altNames": []
+    },
+    {
+      "key": "HH-65 Dolphin",
+      "altNames": ["HH-65", "Dolphin II", "Dolphin", "MH-65"]
+    },
+    {
+      "key": "MD Defender 500",
+      "altNames": ["MD 500 Defender 500", "MD-500", "Defender 500"]
+    },
+    {
+      "key": "MV-22 Osprey",
+      "altNames": ["MV-22", "V-22", "Osprey", "Death Trap"]
+    },
+    {
+      "key": "Robinson R-44 Raven",
+      "altNames": ["Robinson R-44 Raven II", "R-44", "Raven", "Raven II"]
+    },
+    {
+      "key": "UH-60 Blackhawk",
+      "altNames": ["UH-60", "Blackhawk"]
+    },
+    {
+      "key": "UH-72 Lakota",
+      "altNames": ["UH-72", "Lakota"]
+    },
+    {
+      "key": "VH-3 Sea King",
+      "altNames": ["VH-3", "Sea King"]
+    },
+    {
+      "key": "VH-92 Patriot",
+      "altNames": ["VH-92", "Patriot", "Sikorsky"]
+    },
+    {
+      "key": "ATR-72",
+      "altNames": []
+    },
+    {
+      "key": "Beech Baron",
+      "altNames": ["Beechcraft Baron"]
+    },
+    {
+      "key": "Beech Bonanza",
+      "altNames": ["Beechcraft Bonanza"]
+    },
+    {
+      "key": "Beech King Air",
+      "altNames": ["Beechcraft King Air"]
+    },
+    {
+      "key": "C-130 Hercules",
+      "altNames": ["C-130", "Hercules"]
+    },
+    {
+      "key": "Cessna 172 Skyhawk",
+      "altNames": ["Cessna 172", "Skyhawk"]
+    },
+    {
+      "key": "Cessna 310",
+      "altNames": []
+    },
+    {
+      "key": "Cessna 421 Golden Eagle",
+      "altNames": ["Cessna 421", "Golden Eagle"]
+    },
+    {
+      "key": "Dash 8",
+      "altNames": []
+    },
+    {
+      "key": "Mooney M-22 Mustang",
+      "altNames": ["M-22", "Mooney Mustang"]
+    },
+    {
+      "key": "Piper PA-18 Cub",
+      "altNames": ["Piper Cub", "Piper Super Cub", "PA-18"]
+    },
+    {
+      "key": "Piper PA-28 Cherokee",
+      "altNames": ["Piper Cherokee", "PA-28"]
+    },
+    {
+      "key": "Saab 340",
+      "altNames": []
+    },
+    {
+      "key": "SR-22",
+      "altNames": []
+    },
+    {
+      "key": "Cessna 500 Citation",
+      "altNames": ["Cessna 500", "Citation"]
+    },
+    {
+      "key": "Challenger",
+      "altNames": []
+    },
+    {
+      "key": "CRJ",
+      "altNames": ["CRJ-100"]
+    },
+    {
+      "key": "Dassault Falcon 50",
+      "altNames": []
+    },
+    {
+      "key": "DC-10",
+      "altNames": []
+    },
+    {
+      "key": "ERJ-145",
+      "altNames": []
+    },
+    {
+      "key": "ERJ-170",
+      "altNames": []
+    },
+    {
+      "key": "F-15 Eagle",
+      "altNames": ["F-15", "Eagle"]
+    },
+    {
+      "key": "F-16 Fighting Falcon",
+      "altNames": ["F-16", "Fighting Falcon"]
+    },
+    {
+      "key": "F/A-18 Hornet",
+      "altNames": ["F/A-18", "F-18", "Hornet", "Super Hornet"]
+    },
+    {
+      "key": "F-22 Raptor",
+      "altNames": ["F-22", "Raptor"]
+    },
+    {
+      "key": "Gulf Stream",
+      "altNames": []
+    },
+    {
+      "key": "Hawker 800",
+      "altNames": []
+    },
+    {
+      "key": "LearJet",
+      "altNames": []
+    },
+    {
+      "key": "MD-80",
+      "altNames": []
+    }
+  ]

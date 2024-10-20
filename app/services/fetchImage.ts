@@ -1,12 +1,17 @@
 const baseDir = '/pictures/NCR 24 VACR Training/Aircrafts NCR24';
-
+import aircraftDataJson from '../../public/alt-answers.json';
 interface ImageData {
   [folder: string]: string[];
 }
 
 interface RandomImage {
   url: string;
-  answer: string;
+  answers: string[];
+}
+
+interface AircraftNames {
+  key: string;
+  altNames: string[];
 }
 
 // Define a type for the require.context function
@@ -40,7 +45,7 @@ function importAll(r: ReturnType<RequireContext>): ImageData {
 }
 
 const images: ImageData = importAll(require.context('../../public/pictures/NCR 24 VACR Training/Aircrafts NCR24', true, /\.jpg$/));
-
+const altAircraftAnswers = aircraftDataJson as AircraftNames[]
 export function getRandomImage(): RandomImage {
   const folders = Object.keys(images);
   const shuffledFolders = [...folders].sort(() => 0.5 - Math.random());
@@ -57,7 +62,7 @@ export function getRandomImage(): RandomImage {
   
   return {
     url: url,
-    answer: selectedFolder
+    answers: [selectedFolder, ...(altAircraftAnswers.find(({key}) => key.toLowerCase() === (selectedFolder.toLowerCase()))?.altNames ?? [])]
   };
 }
 

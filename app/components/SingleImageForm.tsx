@@ -6,7 +6,7 @@ import { getRandomImage } from '../services/fetchImage';
 
 interface ImageData {
   url: string;
-  answer: string;
+  answers: string[];
 }
 
 export default function SingleImageForm() {
@@ -33,7 +33,7 @@ export default function SingleImageForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (currentImage) {
-      const correct = inputValue.toLowerCase().trim() === currentImage.answer.toLowerCase();
+      const correct =  !!currentImage.answers.find(value => inputValue.toLowerCase().trim() === value.toLowerCase().trim())
       setIsCorrect(correct);
       if (correct) {
         setCorrectGuesses(prev => prev + 1);
@@ -134,7 +134,7 @@ export default function SingleImageForm() {
       )}
       {showAnswer && (
         <div className="mt-4 p-2 rounded w-full text-center bg-blue-100 text-blue-800">
-          The correct answer was: {currentImage.answer}
+          The correct answer was one of : {currentImage.answers.join(', ')}
         </div>
       )}
     </div>
