@@ -26,12 +26,14 @@ const AnswerKey: React.FC = () => {
       <h1 className="text-3xl font-bold mb-8">Answer Key</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {aircraftNames.map((aircraft) => (
-          <div key={aircraft} className="border rounded-lg p-4">
-            <h2 className="text-xl font-semibold mb-4">{aircraft}</h2>
-            <ImageCarousel
-              images={aircraftImages[aircraft] || []}
-            />
-          </div>
+          <Link href={`/aircraft/${encodeURIComponent(aircraft)}`} key={aircraft}>
+            <div className="border rounded-lg p-4 cursor-pointer hover:shadow-lg transition-shadow">
+              <h2 className="text-xl font-semibold mb-4">{aircraft}</h2>
+              <ImageCarousel
+                images={aircraftImages[aircraft] || []}
+              />
+            </div>
+          </Link>
         ))}
       </div>
     </div>
