@@ -209,7 +209,25 @@
     },
     {
       "key": "F-15 Eagle",
-      "altNames": ["F-15", "Eagle"]
+      "altNames": ["F-15", "Eagle"],
+      "generalData": [
+          {
+              "key": "Country of Origin",
+              "value": "US",
+              "rank": "1"
+          },
+          {
+              "key": "Similiar Aircraft",
+              "value": "F/A-18 Hornet",
+              "rank": "2"
+          }
+      ],
+      "weftDescription": [
+          {
+              "key": "Wings",
+              "value": "Mid-mounted, swept-back wings with square tips and a slight dihedral."
+          }
+      ]
     },
     {
       "key": "F-16 Fighting Falcon",
