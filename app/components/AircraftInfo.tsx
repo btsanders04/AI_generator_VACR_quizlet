@@ -1,8 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
-import { getAircraftImages, getAllAircraftImages } from '../services/fetchImage';
+import { getAircraftImages } from '../services/fetchImage';
 import ImageCarousel from './ImageCarousel';
 
 interface AircraftInfoProps {
