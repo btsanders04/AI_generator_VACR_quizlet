@@ -13,8 +13,13 @@ interface RandomImage {
 export interface AircraftData {
   key: string;
   altNames: string[];
-  generalData: Record<string, string>[],
-  weftDescription: Record<string, string>[],
+  generalData: GenericKeyValue[],
+  weftDescription: GenericKeyValue[],
+}
+
+interface GenericKeyValue {
+  key: string,
+  value: string
 }
 
 // Define a type for the require.context function

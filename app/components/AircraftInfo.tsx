@@ -29,6 +29,7 @@ const AircraftInfo: React.FC<AircraftInfoProps> = ({ aircraft }) => {
         <div className="text-gray-600">
          {aircraftData?.generalData.map(item => (
           <p
+          key={`general-${item.key}`}
           className="flex items-center gap-2 p-3 bg-gray-100  group transition-colors duration-200"
           >{item.key}: {item.value}</p>
          ))}
@@ -37,6 +38,7 @@ const AircraftInfo: React.FC<AircraftInfoProps> = ({ aircraft }) => {
         <div className=" text-gray-600">
          {aircraftData?.weftDescription.map(item => (
           <p
+          key={`weft-${item.key}`}
           className="flex items-center gap-2 p-3 bg-gray-100 group  transition-colors duration-200"
           >{item.key}: {item.value}</p>
          ))}
