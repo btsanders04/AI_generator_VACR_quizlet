@@ -222,7 +222,7 @@
       "value": "Twin vertical stabilizers that are canted outward along with large horizontal stabilizers positioned near the tail, contributing to the aircraft's agility and control during high-speed maneuvers."
     }
   ]
-}
+},
 {
   "key": "AN-124 Condor",
   "altNames": ["AN-124", "Condor", "AN-124 Condor"],
@@ -278,7 +278,7 @@
       "value": "Conventional tail with a low-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "C-5 Galaxy",
   "altNames": ["C-5", "Galaxy", "C-5 Galaxy"],
@@ -334,7 +334,7 @@
       "value": "T-tail configuration with a single large vertical stabilizer and high-mounted horizontal stabilizers. This setup enhances stability and control, especially for such a large aircraft."
     }
   ]
-}
+},
 {
   "key": "C-17 Globemaster III",
   "altNames": ["C-17", "Globemaster", "C-17 Globemaster"],
@@ -390,7 +390,7 @@
       "value": "T-tail configuration with a single large vertical stabilizer and high-mounted horizontal stabilizers providing control and stability during heavy-lift operations."
     }
   ]
-}
+},
 {
   "key": "C-130 Hercules",
   "altNames": ["C-130 Hercules", "C-130", "Hercules"],
@@ -446,7 +446,7 @@
       "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers. This configuration provides stability during heavy-lift operations and ensures control during short takeoff and landing scenarios."
     }
   ]
-}
+},
 {
   "key": "ATR 72",
   "altNames": [],
@@ -502,7 +502,7 @@
       "value": "Conventional tail with a single vertical stabilizer and a low-mounted horizontal stabilizer, giving the aircraft stability during its relatively low-speed short-haul operations."
     }
   ]
-}
+},
 {
   "key": "Beechcraft Baron",
   "altNames": ["Beechcraft Baron", "Beech Baron"],
@@ -558,7 +558,7 @@
       "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers. The tail design is similar to that of other light utility aircraft, offering stability and control."
     }
   ]
-}
+},
 {
   "key": "Beechcraft Bonanza",
   "altNames": ["Beechcraft Bonanza", "Beech Bonanza"],
@@ -614,7 +614,7 @@
       "value": "The early model features the distinctive V-tail configuration, also known as a 'butterfly tail,' with two ruddervators angled outward, serving the function of both the rudder and elevator."
     }
   ]
-}
+},
 {
   "key": "Cessna 310",
   "altNames": [],
@@ -670,7 +670,7 @@
       "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers. The tail design offers stability and control during flight, characteristic of many light twin-engine aircraft."
     }
   ]
-}
+},
 {
   "key": "Piper PA-28 Cherokee",
   "altNames": ["PA-28", "Piper Cherokee", "Piper PA-28 Cherokee"],
@@ -726,7 +726,7 @@
       "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers, providing stability and control during flight."
     }
   ]
-}
+},
 {
   "key": "Piper PA-18 Cub",
   "altNames": ["PA-18", "Piper Cub", "Piper PA-18 Cub"],
@@ -782,7 +782,7 @@
       "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers, offering stability during flight, especially at low speeds."
     }
   ]
-}
+},
 {
   "key": "Dash 8",
   "altNames": [],
@@ -838,7 +838,7 @@
       "value": "Conventional tail with a single vertical stabilizer and high-mounted horizontal stabilizers providing stability during flight."
     }
   ]
-}
+},
 {
   "key": "Cessna 421 Golden Eagle",
   "altNames": ["Cessna 421", "Golden Eagle", "Cessna 421 Golden Eagle"],
@@ -894,7 +894,7 @@
       "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers, offering stability and control during flight."
     }
   ]
-}
+},
 {
   "key": "Beechcraft King Air",
   "altNames": ["Beechcraft King Air", "Beech King Air"],
@@ -950,7 +950,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin, providing good stability and control during flight."
     }
   ]
-}
+},
 {
   "key": "Mooney M-22 Mustang",
   "altNames": ["Mooney M-22", "Mooney Mustang"],
@@ -1006,7 +1006,7 @@
       "value": "Conventional tail arrangement with a distinctive vertical stabilizer that features an angled top and a broad rudder surface."
     }
   ]
-}
+},
 {
   "key": "MV-22 Osprey",
   "altNames": ["MV-22", "Osprey", "MV-22 Osprey"],
@@ -1062,7 +1062,7 @@
       "value": "Twin vertical stabilizers mounted on a horizontal tailplane."
     }
   ]
-}
+},
 {
   "key": "Saab 340",
   "altNames": [],
@@ -1118,7 +1118,7 @@
       "value": "T-tail configuration with straight horizontal stabilizers mounted on top of the vertical stabilizer, giving it a distinctive T-shape."
     }
   ]
-}
+},
 {
   "key": "Cessna 172 Skyhawk",
   "altNames": ["Cessna 172", "Skyhawk", "Cessna 172 Skyhawk"],
@@ -1174,7 +1174,7 @@
       "value": "Conventional tail design with straight horizontal and vertical stabilizers."
     }
   ]
-}
+},
 {
   "key": "SR-22",
   "altNames": ["SR-22"],
@@ -1230,7 +1230,7 @@
       "value": "Single tail configuration with straight horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Airbus A300",
   "altNames": ["Airbus A300", "A300"],
@@ -1286,7 +1286,7 @@
       "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Airbus A320",
   "altNames": ["A320", "Airbus 320"],
@@ -1342,7 +1342,7 @@
       "value": "Conventional tail with a vertical stabilizer and a low-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "Airbus A330",
   "altNames": ["A330", "Airbus 330"],
@@ -1398,7 +1398,7 @@
       "value": "Conventional tail with a tall vertical stabilizer and a low-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "Airbus A340",
   "altNames": ["A340", "Airbus 340"],
@@ -1454,7 +1454,7 @@
       "value": "Conventional tail with a tall vertical stabilizer and a low-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "Boeing 737",
   "altNames": ["B737", "Boeing 737","737"],
@@ -1510,7 +1510,7 @@
       "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Boeing 747",
   "altNames": ["B747", "Boeing 747","747"],
@@ -1566,7 +1566,7 @@
       "value": "Conventional tail with a large single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Boeing 757",
   "altNames": ["B757", "Boeing 757","757"],
@@ -1622,7 +1622,7 @@
       "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Boeing 767",
   "altNames": ["B767", "Boeing 767","767"],
@@ -1678,7 +1678,7 @@
       "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Boeing 777",
   "altNames": ["B777", "Boeing 777", "777"],
@@ -1734,7 +1734,7 @@
       "value": "Conventional tail design with a large single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Boeing 787",
   "altNames": ["B787", "Boeing 787", "787"],
@@ -1790,7 +1790,7 @@
       "value": "Conventional tail design with a large single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Challenger",
   "altNames": [],
@@ -1846,7 +1846,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "Cessna 500 Citation",
   "altNames": ["Cessna 500 Citation", "Cessna 500", "Citation", "Cessna Citation"],
@@ -1902,7 +1902,7 @@
       "value": "T-tail configuration with a single vertical stabilizer and high-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Bombardier CRJ-100",
   "altNames": ["CRJ-100", "CRJ"],
@@ -1958,7 +1958,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin."
     }
   ]
-}
+},
 {
   "key": "Dassault Falcon 50",
   "altNames": [],
@@ -2014,7 +2014,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin."
     }
   ]
-}
+},
 {
   "key": "McDonnell Douglas DC-10",
   "altNames": ["DC-10"],
@@ -2070,7 +2070,7 @@
       "value": "Conventional tail with a large vertical stabilizer and low-mounted horizontal stabilizers. The central engine is mounted at the tail."
     }
   ]
-}
+},
 {
   "key": "Embraer ERJ-145",
   "altNames": ["ERJ-145"],
@@ -2126,7 +2126,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin."
     }
   ]
-}
+},
 {
   "key": "Embraer ERJ-170",
   "altNames": ["ERJ-170"],
@@ -2182,7 +2182,7 @@
       "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "Gulfstream",
   "altNames": [],
@@ -2238,7 +2238,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "Hawker 800",
   "altNames": [],
@@ -2294,7 +2294,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "Lear Jet",
   "altNames": ["Learjet"],
@@ -2350,7 +2350,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "MD-80",
   "altNames": ["MD-80"],
@@ -2406,7 +2406,7 @@
       "value": "T-tail configuration with a high-mounted horizontal stabilizer."
     }
   ]
-}
+},
 {
   "key": "UH-60 Blackhawk",
   "altNames": ["Blackhawk", "UH-60"],
@@ -2462,7 +2462,7 @@
       "value": "Tail boom with a four-bladed tail rotor for anti-torque control."
     }
   ]
-}
+},
 {
   "key": "BO-105",
   "altNames": ["BO-105"],
@@ -2518,7 +2518,7 @@
       "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
     }
   ]
-}
+},
 {
   "key": "MD-500 Defender",
   "altNames": ["MD-500", "Defender 500"],
@@ -2574,7 +2574,7 @@
       "value": "Tail boom with a two-bladed tail rotor for anti-torque control."
     }
   ]
-}
+},
 {
   "key": "HH-65 Dolphin II",
   "altNames": ["HH-65 Dolphin", "HH-65", "Dolphin II", "Dolphin", "MH-65"],
@@ -2630,7 +2630,7 @@
       "value": "Fenestron enclosed tail rotor for increased safety and reduced noise."
     }
   ]
-}
+},
 {
   "key": "EC-120 Colibri",
   "altNames": ["EC-120", "Colibri"],
@@ -2686,7 +2686,7 @@
       "value": "Fenestron enclosed tail rotor for enhanced safety and reduced noise."
     }
   ]
-}
+},
 {
   "key": "EC-135",
   "altNames": ["EC-135"],
@@ -2742,7 +2742,7 @@
       "value": "Fenestron enclosed tail rotor for increased safety and reduced noise."
     }
   ]
-}
+},
 {
   "key": "Bell 206",
   "altNames": ["Bell 206"],
@@ -2798,7 +2798,7 @@
       "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
     }
   ]
-}
+},
 {
   "key": "Bell 412",
   "altNames": ["Bell 412"],
@@ -2854,7 +2854,7 @@
       "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
     }
   ]
-}
+},
 {
   "key": "UH-72 Lakota",
   "altNames": ["UH-72", "Lakota"],
@@ -2910,7 +2910,7 @@
       "value": "Tail boom with a two-bladed tail rotor."
     }
   ]
-}
+},
 {
   "key": "AW-109 Power",
   "altNames": [ "AW-109 Power"],
@@ -2966,7 +2966,7 @@
       "value": "Tail boom with a two-bladed tail rotor for anti-torque control."
     }
   ]
-}
+},
 {
   "key": "R-44 Raven II",
   "altNames": ["R-44", "Raven II"],
@@ -3022,7 +3022,7 @@
       "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
     }
   ]
-}
+},
 {
   "key": "VH-3 Sea King",
   "altNames": ["Sea King", "VH-3"],
@@ -3078,7 +3078,7 @@
       "value": "Tail boom with a five-bladed tail rotor mounted on the side."
     }
   ]
-}
+},
 {
   "key": "CH-53 Sea Stallion",
   "altNames": ["CH-53", "Sea Stallion"],
@@ -3134,7 +3134,7 @@
       "value": "Tail boom with a four-bladed tail rotor mounted on the side."
     }
   ]
-}
+},
 {
   "key": "AS-350 Squirrel",
   "altNames": ["AS-350", "Squirrel"],
@@ -3190,7 +3190,7 @@
       "value": "Tail boom with a two-bladed tail rotor."
     }
   ]
-}
+},
 {
   "key": "VH-92 Patriot",
   "altNames": ["VH-92", "Patriot", "Sikorsky"],
@@ -3246,7 +3246,7 @@
       "value": "Tail boom with a four-bladed tail rotor mounted on the side."
     }
   ]
-}
+},
 {
   "key": "E-3 Sentry",
   "altNames": [],
@@ -3302,7 +3302,7 @@
       "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers."
     }
   ]
-}
+},
 {
   "key": "KC-135 Stratotanker",
   "altNames": ["KC-135", "Stratotanker"],
