@@ -8,7 +8,6 @@ const nextConfig = {
     config.resolve.fallback = { fs: false, path: false };
     return config;
   },
-  output: 'export',
   basePath: process.env.GITHUB_ACTIONS && '/nextjs-app',
   assetPrefix: process.env.GITHUB_ACTIONS && '/nextjs-app/',
 };
