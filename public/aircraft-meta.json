@@ -1,0 +1,3362 @@
+[
+    {
+  "key": "F-15 Eagle",
+  "altNames": ["F-15", "Eagle", "F-15 Eagle"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "McDonnell Douglas"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "F/A-18 Hornet, F-16 Fighting Falcon"
+    },
+    {
+      "key": "Crew:",
+      "value": "One"
+    },
+    {
+      "key": "Role:",
+      "value": "Air superiority fighter, capable of air-to-air and air-to-ground missions"
+    },
+    {
+      "key": "Armament:",
+      "value": "Air-to-air missiles (AIM-7, AIM-120, AIM-9), air-to-ground bombs and missiles, 20mm M61 Vulcan cannon"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 63 ft, 9 in (19.43 m), Span: 42 ft, 10 in (13.05 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "F-15 Eagle, F-15, Eagle"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Mid-mounted, swept-back wings with square tips and a slight dihedral."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turbofan engines with afterburners, mounted internally at the rear of the fuselage, with visible nozzles extending beyond the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long and sleek with a pointed nose. The cockpit is located forward of the wings, providing the pilot with excellent visibility. The fuselage has a distinctive wedge-shaped design, with twin intakes under the wings for engine air supply."
+    },
+    {
+      "key": "Tail:",
+      "value": "Twin vertical stabilizers mounted outward on either side of the engine exhausts, with low-mounted horizontal stabilizers. The twin-tail configuration enhances maneuverability and control, contributing to the aircraft’s air superiority role. “Shark Tooth” on stabilizer."
+    }
+  ]
+    },
+    {
+  "key": "F-16 Fighting Falcon",
+  "altNames": ["F-16", "Fighting Falcon", "F-16 Fighting Falcon"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "General Dynamics"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "F/A-18 Hornet, F-15 Eagle"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Multi-role fighter jet for air-to-air combat and air-to-ground attack missions"
+    },
+    {
+      "key": "Armament:",
+      "value": "Air-to-air missiles (AIM-9, AIM-120), air-to-ground bombs (GBU, JDAM), 20mm M61 Vulcan cannon"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 49 ft 5 in (15.06 m), Span: 32 ft 8 in (9.96 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "F-16 Fighting Falcon, F-16"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Mid-mounted swept-back wings with sharp leading edges and clipped tips providing excellent maneuverability at high speeds."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single turbofan engine with afterburner mounted inside the fuselage with an exhaust nozzle extending slightly beyond the rear."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Sleek aerodynamically optimized fuselage with a bubble canopy for enhanced pilot visibility. The nose is sharp and pointed, housing advanced radar systems. The body tapers towards the tail providing a streamlined appearance."
+    },
+    {
+      "key": "Tail:",
+      "value": "Single vertical stabilizer with twin low-mounted horizontal stabilizers. The vertical stabilizer is large and canted slightly backwards while the horizontal stabilizers are broad and positioned towards the rear of the fuselage."
+    }
+  ]
+},
+{
+  "key": "F/A-18 Hornet",
+  "altNames": ["F/A-18", "Hornet", "F/A-18 Hornet", "F-18", "F-18 Hornet"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "McDonnell Douglas"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "F-16 Fighting Falcon, F-15 Eagle"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) or two (pilot and weapons systems officer, depending on variant)"
+    },
+    {
+      "key": "Role:",
+      "value": "Multi-role fighter jet for air-to-air combat and air-to-ground attack missions"
+    },
+    {
+      "key": "Armament:",
+      "value": "Air-to-air missiles (AIM-9, AIM-120), air-to-ground bombs and missiles (GBU, JDAM), 20mm M61 Vulcan cannon"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 56 ft (17.1 m), Span: 40 ft 4 in (12.3 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "F/A-18 Hornet, Hornet"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Mid-mounted swept-back wings with square tips and outward-angled leading edges. The wings are equipped with leading-edge extensions (LEX) that improve maneuverability and stability during high-angle-of-attack maneuvers."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turbofan engines with afterburners mounted internally at the rear of the fuselage with twin exhaust nozzles extending slightly beyond the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Sleek and aerodynamic with a pointed nose housing radar and avionics. The cockpit is positioned forward of the wings and features a bubble canopy for excellent pilot visibility. The fuselage tapers toward the rear, providing a streamlined design for high-speed performance."
+    },
+    {
+      "key": "Tail:",
+      "value": "Twin vertical stabilizers mounted outward on either side of the exhausts with two low-mounted horizontal stabilizers. The twin-tail configuration offers enhanced control and stability during air combat maneuvers."
+    }
+  ]
+},
+{
+  "key": "F-22 Raptor",
+  "altNames": ["F-22", "Raptor", "F-22 Raptor"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Lockheed Martin"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "F-35 Lightning II, F-15 Eagle"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Air superiority stealth fighter with advanced air-to-air and air-to-ground capabilities"
+    },
+    {
+      "key": "Armament:",
+      "value": "Air-to-air missiles (AIM-9, AIM-120), air-to-ground bombs (JDAM, SDB), 20mm M61 Vulcan cannon"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 62 ft 1 in (18.9 m), Span: 44 ft 6 in (13.6 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "F-22 Raptor, Raptor"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Mid-mounted trapezoidal wings with sharp clipped tips and minimal dihedral. The wings are designed for stealth and high maneuverability at high speeds."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turbofan engines with afterburners and thrust vectoring nozzles mounted internally at the rear of the fuselage. The exhaust nozzles are flat and wide, contributing to the stealth profile."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Sleek angular fuselage with a pointed nose and blended body contours designed for low radar visibility. The cockpit is located forward of the wings and features a bubble canopy that provides excellent visibility. The overall shape of the fuselage is optimized for stealth, with internal weapons bays to reduce radar signature."
+    },
+    {
+      "key": "Tail:",
+      "value": "Twin vertical stabilizers that are canted outward along with large horizontal stabilizers positioned near the tail, contributing to the aircraft's agility and control during high-speed maneuvers."
+    }
+  ]
+},
+{
+  "key": "AN-124 Condor",
+  "altNames": ["AN-124", "Condor", "AN-124 Condor"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Antonov"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Russia"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "C-5 Galaxy, Boeing 747"
+    },
+    {
+      "key": "Crew:",
+      "value": "Six (pilot, co-pilot, navigator, flight engineer, loadmaster, communications officer)"
+    },
+    {
+      "key": "Role:",
+      "value": "Strategic heavy-lift cargo aircraft for transporting oversized equipment, vehicles, and cargo"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 226 ft 9 in (69.1 m), Span: 240 ft 5 in (73.3 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "AN-124 Condor, Condor"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted swept-back wings with slight taper and broad square tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four turbofan engines mounted under the wings with large nacelles extending forward of the wings' leading edges."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Extremely large and wide fuselage with a rounded nose, which opens upwards for cargo loading. The fuselage is designed to carry oversized cargo and has a double-deck structure with the cockpit and crew positioned in the upper section."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a low-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "C-5 Galaxy",
+  "altNames": ["C-5", "Galaxy", "C-5 Galaxy"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Lockheed"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Antonov AN-124, Boeing 747"
+    },
+    {
+      "key": "Crew:",
+      "value": "Seven (pilot, co-pilot, flight engineer, loadmasters, and additional crew)"
+    },
+    {
+      "key": "Role:",
+      "value": "Strategic heavy-lift cargo aircraft for transporting oversized equipment, vehicles, and troops"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 247 ft 1 in (75.3 m), Span: 222 ft 9 in (67.9 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "C-5 Galaxy, Galaxy"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted swept-back wings with a slight taper and large fuel tanks integrated into the wing structure."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four turbofan engines mounted under the wings, evenly spaced and extending forward from the wings' leading edges."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Massive long fuselage with a wide bulbous nose. The aircraft features both nose and tail loading doors for cargo, with the nose capable of tilting upward for access. The upper deck is reserved for crew and additional passengers, while the lower deck is used for cargo."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a single large vertical stabilizer and high-mounted horizontal stabilizers. This setup enhances stability and control, especially for such a large aircraft."
+    }
+  ]
+},
+{
+  "key": "C-17 Globemaster III",
+  "altNames": ["C-17", "Globemaster", "C-17 Globemaster"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "C-5 Galaxy, Boeing 747"
+    },
+    {
+      "key": "Crew:",
+      "value": "Three (pilot, co-pilot, loadmaster)"
+    },
+    {
+      "key": "Role:",
+      "value": "Tactical and strategic airlift for cargo and troop transport, medical evacuation"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 174 ft (53 m), Span: 169 ft 10 in (51.75 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "C-17 Globemaster, Globemaster"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted swept-back wings with slight taper and winglets at the tips for enhanced aerodynamics."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four turbofan engines mounted under the wings, positioned close to the fuselage for better control during short landings and takeoffs."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Large sleek fuselage with a bulbous nose. The fuselage is designed to carry heavy cargo, vehicles, and personnel, featuring a rear loading ramp for rapid offloading of supplies or equipment. The fuselage tapers slightly toward the rear."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a single large vertical stabilizer and high-mounted horizontal stabilizers providing control and stability during heavy-lift operations."
+    }
+  ]
+},
+{
+  "key": "C-130 Hercules",
+  "altNames": ["C-130 Hercules", "C-130", "Hercules"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Lockheed"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "C-160 Transall, C-17 Globemaster III"
+    },
+    {
+      "key": "Crew:",
+      "value": "Five (pilot, co-pilot, navigator, flight engineer, loadmaster)"
+    },
+    {
+      "key": "Role:",
+      "value": "Tactical airlift for cargo and personnel transport, medical evacuation, and specialized missions"
+    },
+    {
+      "key": "Armament:",
+      "value": "None in standard transport configurations, but can be equipped with defensive countermeasures"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 97 ft 9 in (29.8 m), Span: 132 ft 7 in (40.4 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "C-130 Hercules, C-130, Hercules"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted straight wings with a wide span and square tips. The wings are designed for efficient short takeoff and landing capabilities."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four turboprop engines mounted under the wings, each with large six-blade propellers for maximum lift and performance, especially in austere environments."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Large cylindrical fuselage with a blunt nose and stepped cockpit. The fuselage is optimized for cargo and personnel, featuring side doors for parachute operations and a rear ramp for loading large cargo or vehicles."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers. This configuration provides stability during heavy-lift operations and ensures control during short takeoff and landing scenarios."
+    }
+  ]
+},
+{
+  "key": "ATR 72",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Aerei da Trasporto Regionale"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France/Italy"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Dash 8, Beechcraft King Air"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot), with capacity for up to 70 passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Regional airliner for short to medium-haul flights capable of cargo and passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 89 ft (27 m), Span: 88 ft 9 in (27.05 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "ATR 72"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted straight wings with square tips and large nacelles for the engines."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboprop engines mounted under the wings, each with large six-blade propellers. The engines are positioned close to the fuselage, providing better weight distribution and control during flight."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow and cylindrical fuselage with a slightly pointed nose designed for efficient regional transport. The fuselage is elongated to accommodate passengers and cargo, with multiple windows along the sides."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and a low-mounted horizontal stabilizer, giving the aircraft stability during its relatively low-speed short-haul operations."
+    }
+  ]
+},
+{
+  "key": "Beechcraft Baron",
+  "altNames": ["Beechcraft Baron", "Beech Baron"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Beechcraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Beechcraft Bonanza, Cessna 310"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to five passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility aircraft for private transport, training, and regional travel"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 29 ft 10 in (9.1 m), Span: 37 ft 10 in (11.53 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Beechcraft Baron, Beech Baron"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with square tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two piston engines mounted on the wings with propellers extending beyond the leading edges of the wings."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow fuselage with a slightly pointed nose. The cockpit is located forward with large windows providing excellent visibility. The body is streamlined and narrow to accommodate passengers and light cargo."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers. The tail design is similar to that of other light utility aircraft, offering stability and control."
+    }
+  ]
+},
+{
+  "key": "Beechcraft Bonanza",
+  "altNames": ["Beechcraft Bonanza", "Beech Bonanza"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Beechcraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Beechcraft Baron, Cessna 172"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to five passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light aircraft for private transport, training, and recreational flying"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 26 ft 5 in (8.05 m), Span: 33 ft 6 in (10.21 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Beechcraft Bonanza, Beech Bonanza"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with rounded tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "One piston engine mounted in the nose with a single propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow and elongated fuselage with a pointed nose. The cabin is enclosed with large windows providing good visibility."
+    },
+    {
+      "key": "Tail:",
+      "value": "The early model features the distinctive V-tail configuration, also known as a 'butterfly tail,' with two ruddervators angled outward, serving the function of both the rudder and elevator."
+    }
+  ]
+},
+{
+  "key": "Cessna 310",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Cessna"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Beechcraft Baron, Piper PA-23"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to five passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light twin-engine aircraft for private transport, air taxi, and regional travel"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 27 ft 0 in (8.23 m), Span: 35 ft 9 in (10.9 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Cessna 310"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with tip tanks for additional fuel storage. The wing design allows for improved range and performance."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two piston engines mounted on the wings with propellers extending beyond the leading edges."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined narrow fuselage with a slightly pointed nose. The cabin has large windows providing visibility for both the pilot and passengers. The overall design is optimized for light passenger transport."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers. The tail design offers stability and control during flight, characteristic of many light twin-engine aircraft."
+    }
+  ]
+},
+{
+  "key": "Piper PA-28 Cherokee",
+  "altNames": ["PA-28", "Piper Cherokee", "Piper PA-28 Cherokee"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Piper Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Cessna 172, Beechcraft Bonanza"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to three passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light aircraft for private transport, training, and recreational flying"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 24 ft 7 in (7.49 m), Span: 30 ft 0 in (9.14 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Piper PA-28 Cherokee, Piper Cherokee, PA-28"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with rounded tips, designed for stable and predictable handling, making it ideal for training purposes."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single piston engine mounted in the nose with a single propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow elongated fuselage with a pointed nose and enclosed cabin. The aircraft has large side windows for visibility and comfort, typical for light personal and training aircraft."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers, providing stability and control during flight."
+    }
+  ]
+},
+{
+  "key": "Piper PA-18 Cub",
+  "altNames": ["PA-18", "Piper Cub", "Piper PA-18 Cub"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Piper Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Cessna 170, Cessna 172"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for one passenger"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility aircraft for bush flying, training, and general aviation"
+    },
+    {
+      "key": "Armament:",
+      "value": "None (can be equipped for specialized roles such as agricultural or observation tasks)"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 22 ft 7 in (6.88 m), Span: 35 ft 3 in (10.74 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Piper PA-18 Cub, Piper Cub"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted straight wings with rounded tips and external struts for added support and stability. The high-wing configuration gives it excellent ground visibility and helps with STOL (short takeoff and landing) capabilities."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single piston engine mounted in the nose with a two-blade propeller. The engine is typically more powerful than the J-3 Cub, enabling the Super Cub's improved performance."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow fuselage with tandem seating for two (pilot and passenger). The fuselage is enclosed with large windows offering good visibility for bush flying and observation roles."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers, offering stability during flight, especially at low speeds."
+    }
+  ]
+},
+{
+  "key": "Dash 8",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "De Havilland Canada"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Canada"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "ATR 72, Saab 340"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot), with capacity for up to 90 passengers depending on the variant"
+    },
+    {
+      "key": "Role:",
+      "value": "Regional airliner for short to medium-haul flights"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 80 ft 7 in (24.61 m), Span: 93 ft 3 in (28.42 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Dash 8"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted straight wings with winglets and large nacelles to house the engines."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboprop engines mounted under the wings with six-blade propellers extending beyond the leading edge of the wings."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long and cylindrical fuselage with a rounded nose and multiple windows along the sides for passengers. The design is optimized for efficient regional transport, offering stability and fuel efficiency."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and high-mounted horizontal stabilizers providing stability during flight."
+    }
+  ]
+},
+{
+  "key": "Cessna 421 Golden Eagle",
+  "altNames": ["Cessna 421", "Golden Eagle", "Cessna 421 Golden Eagle"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Cessna"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Beechcraft Baron, Cessna 310"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to seven passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light transport aircraft primarily used for business aviation and personal transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 36 ft 1 in (11.00 m), Span: 41 ft 1 in (12.52 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Cessna 421 Golden Eagle, Cessna 421, Golden Eagle"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with rounded tips housing engine nacelles on each side."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two piston engines mounted under the wings, each driving a three-blade propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long narrow fuselage with a rounded nose, a large windshield, and multiple circular windows along the sides. The design focuses on maximizing cabin comfort for passengers in business travel configurations."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers, offering stability and control during flight."
+    }
+  ]
+},
+{
+  "key": "Beechcraft King Air",
+  "altNames": ["Beechcraft King Air", "Beech King Air"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Beechcraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Beechcraft Baron, Cessna 421"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot) with capacity for up to 9-11 passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Utility executive transport, reconnaissance, and light cargo aircraft"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 43 ft 10 in (13.36 m), Span: 54 ft 6 in (16.61 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Beechcraft King Air, Beech King Air"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with rounded tips, equipped with engine nacelles and winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two engines mounted under the wings, each driving a multi-bladed propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long narrow fuselage with a rounded nose, large rectangular windows along the side, and a cabin configured for passenger comfort or mission-specific equipment."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin, providing good stability and control during flight."
+    }
+  ]
+},
+{
+  "key": "Mooney M-22 Mustang",
+  "altNames": ["Mooney M-22", "Mooney Mustang"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Mooney"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Piper Cherokee, Beechcraft Bonanza"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with room for up to three passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "General aviation personal transport and utility aircraft"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 23 ft 3 in (7.09 m), Span: 32 ft 8 in (9.96 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Mooney M-22 Mustang, Mooney M-22, Mooney Mustang"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with squared tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single engine mounted at the nose, driving a two-bladed propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined and narrow with a pointed nose, a single front windscreen, and side windows along the length of the fuselage."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail arrangement with a distinctive vertical stabilizer that features an angled top and a broad rudder surface."
+    }
+  ]
+},
+{
+  "key": "MV-22 Osprey",
+  "altNames": ["MV-22", "Osprey", "MV-22 Osprey"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Bell Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "None (unique tiltrotor aircraft)"
+    },
+    {
+      "key": "Crew:",
+      "value": "Four (pilot, co-pilot, two crew chiefs)"
+    },
+    {
+      "key": "Role:",
+      "value": "Multirole combat transport and logistics aircraft"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed but can be equipped with various weapons like a belly-mounted M240 machine gun or a ramp-mounted GAU-17/A minigun"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 57 ft 4 in (17.48 m), Rotor diameter: 38 ft (11.6 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "MV-22 Osprey, MV-22, Osprey"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted straight wings with two large nacelles housing the engines and rotors, which tilt to facilitate both vertical and horizontal flight."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two Rolls-Royce T406 turboshaft engines mounted in nacelles on each wingtip, each driving a three-bladed tiltrotor."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long and boxy fuselage with a distinctive angled nose, large cockpit windows, and a rear loading ramp."
+    },
+    {
+      "key": "Tail:",
+      "value": "Twin vertical stabilizers mounted on a horizontal tailplane."
+    }
+  ]
+},
+{
+  "key": "Saab 340",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Saab"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Sweden"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Embraer EMB 120, Fairchild Metro"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Regional airliner, cargo, and military transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 64 ft 9 in (19.7 m), Wingspan: 70 ft 4 in (21.4 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Saab 340"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with two underslung engine nacelles housing the turboprop engines. The wings are clean and unobstructed with no winglets."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboprop engines driving four-bladed propellers located on each wing just outside the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Tubular fuselage with a flat bottom and rounded top, featuring several round windows. The nose is slightly pointed, and the fuselage is long and narrow."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with straight horizontal stabilizers mounted on top of the vertical stabilizer, giving it a distinctive T-shape."
+    }
+  ]
+},
+{
+  "key": "Cessna 172 Skyhawk",
+  "altNames": ["Cessna 172", "Skyhawk", "Cessna 172 Skyhawk"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Cessna"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "United States"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Piper PA-28, Diamond DA40"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) plus passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "General aviation, flight training, personal use"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 27 ft 2 in (8.28 m), Wingspan: 36 ft 1 in (11.0 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Cessna 172 Skyhawk, Cessna 172, Skyhawk"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "High-mounted straight wings with wing struts connecting the wing to the fuselage."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single piston engine located at the front with a two-bladed propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Small and narrow with a tubular design and a rounded nose."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with straight horizontal and vertical stabilizers."
+    }
+  ]
+},
+{
+  "key": "SR-22",
+  "altNames": ["SR-22"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Cirrus Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "United States"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Cessna TTx, Piper PA-46"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) plus passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "General aviation, personal use, and flight training"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 26 ft (7.92 m), Wingspan: 38 ft 4 in (11.68 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "SR-22"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with slightly tapered wingtips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single piston engine at the front with a three-bladed propeller."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Sleek aerodynamic fuselage made from composite materials with a side stick control."
+    },
+    {
+      "key": "Tail:",
+      "value": "Single tail configuration with straight horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Airbus A300",
+  "altNames": ["Airbus A300", "A300"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 767, Airbus A320"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Wide-body commercial airliner for medium to long-haul passenger and cargo transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 177 ft 5 in (54.1 m), Wingspan: 147 ft 1 in (44.84 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Airbus A300, A300"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with slight taper and no winglets."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turbofan engines mounted under the wings."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide-body fuselage with twin-aisle configuration."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Airbus A320",
+  "altNames": ["A320", "Airbus 320"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 737, Airbus A321"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 123 ft 3 in (37.57 m), Wingspan: 111 ft 10 in (34.10 m), Height: 38 ft 7 in (11.76 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Airbus A320, A320"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with small winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Cylindrical narrow-body fuselage with single-aisle configuration for passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a vertical stabilizer and a low-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "Airbus A330",
+  "altNames": ["A330", "Airbus 330"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 777, Airbus A340"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Long-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 208 ft 10 in (63.66 m), Wingspan: 197 ft 10 in (60.3 m), Height: 55 ft 1 in (16.79 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Airbus A330, A330"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long wide-body fuselage with twin-aisle configuration for passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a tall vertical stabilizer and a low-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "Airbus A340",
+  "altNames": ["A340", "Airbus 340"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 777, Airbus A330"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Long-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 247 ft 2 in (75.36 m), Wingspan: 208 ft 2 in (63.45 m), Height: 55 ft 10 in (17.03 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Airbus A340, A340"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four underwing-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Long wide-body fuselage with twin-aisle configuration for passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a tall vertical stabilizer and a low-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "Boeing 737",
+  "altNames": ["B737", "Boeing 737","737"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Airbus A320, Boeing 757"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Narrow-body commercial airliner for short to medium-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 102 ft (31.09 m) to 138 ft 2 in (42.1 m), Span: 117 ft 5 in (35.8 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Boeing 737, B737"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with slight taper and blended winglets on newer models."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turbofan engines mounted under the wings with nacelles extending forward of the wings' leading edges."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow cylindrical body with a rounded nose, single passenger aisle, and conventional pressurized cabin design."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Boeing 747",
+  "altNames": ["B747", "Boeing 747","747"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Airbus A380, Boeing 777"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Long-haul commercial airliner and cargo transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 231 ft 10 in (70.66 m), Wingspan: 224 ft 7 in (68.4 m), Height: 63 ft 6 in (19.4 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Boeing 747, B747"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with high dihedral and large blended winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four underwing-mounted turbofan engines evenly spaced along the wings."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide-body fuselage with a distinctive hump for the upper deck at the front. The aircraft has a large cylindrical body with two passenger decks."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a large single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Boeing 757",
+  "altNames": ["B757", "Boeing 757","757"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 767, Airbus A321"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Narrow-body commercial airliner for short to medium-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 155 ft 3 in (47.32 m), Wingspan: 124 ft 10 in (38.05 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Boeing 757, B757"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with slight taper and winglets on some models."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted turbofan engines with nacelles extending forward of the wings' leading edges."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow cylindrical body with a single aisle and conventional pressurized cabin design."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Boeing 767",
+  "altNames": ["B767", "Boeing 767","767"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 757, Airbus A330"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Wide-body commercial airliner for medium to long-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 159 ft 2 in (48.51 m) to 220 ft (67.3 m), Wingspan: 156 ft 1 in (47.57 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Boeing 767, B767"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with winglets on some models."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide-body cylindrical fuselage with twin-aisle configuration."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Boeing 777",
+  "altNames": ["B777", "Boeing 777", "777"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 787, Airbus A350"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Wide-body commercial airliner for long-haul passenger and cargo transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 209 ft 1 in (63.73 m) to 242 ft 4 in (73.86 m), Wingspan: 199 ft 11 in (60.93 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Boeing 777, B777"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with raked wingtips and large wingspan for increased fuel efficiency."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted high-bypass turbofan engines, some of the largest in commercial aviation."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide-body fuselage with twin-aisle configuration, cylindrical shape, and a slightly pointed nose."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a large single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Boeing 787",
+  "altNames": ["B787", "Boeing 787", "787"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Airbus A350, Boeing 777"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Wide-body commercial airliner for long-haul passenger and cargo transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 186 ft (56.7 m) to 224 ft (68.28 m), Wingspan: 197 ft (60.1 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Boeing 787, B787"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with raked wingtips, designed for increased fuel efficiency and range."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted high-bypass turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide-body fuselage with a twin-aisle configuration, built using lightweight composite materials for improved fuel efficiency."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a large single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Challenger",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Bombardier Aerospace"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Canada"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Gulfstream GIII, Dassault Falcon 50"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Business jet for corporate and VIP transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 68 ft 5 in (20.85 m), Wingspan: 64 ft 4 in (19.61 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Challenger"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with slight taper and no winglets."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide fuselage with a rounded nose and ample cabin space for VIP configurations."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "Cessna 500 Citation",
+  "altNames": ["Cessna 500 Citation", "Cessna 500", "Citation", "Cessna Citation"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Cessna"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Learjet, Beechcraft Hawker 800"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Business jet for corporate and personal transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 43 ft 7 in (13.28 m), Wingspan: 47 ft 1 in (14.35 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Cessna 500 Citation, Cessna 500, Citation"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with small winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turbofan engines mounted at the rear fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow fuselage with a pointed nose and a small passenger cabin designed for business travel."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a single vertical stabilizer and high-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Bombardier CRJ-100",
+  "altNames": ["CRJ-100", "CRJ"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Bombardier"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Canada"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Embraer ERJ-145, Gulf Stream"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Regional jet for short-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 87 ft 10 in (26.77 m), Wingspan: 69 ft 6 in (21.21 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Bombardier CRJ-100, CRJ-100"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with small winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines close to the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow cylindrical fuselage with a single aisle and seating for regional passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin."
+    }
+  ]
+},
+{
+  "key": "Dassault Falcon 50",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Dassault Aviation"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Dassault Falcon 900, DC-10"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Business jet for corporate and VIP transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 60 ft 9 in (18.52 m), Wingspan: 61 ft 9 in (18.82 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Dassault Falcon 50"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with small winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Three turbofan engines, two mounted on the sides of the rear fuselage and one at the rear center of the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined and narrow fuselage with a pointed nose, designed for business jet configurations."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin."
+    }
+  ]
+},
+{
+  "key": "McDonnell Douglas DC-10",
+  "altNames": ["DC-10"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "McDonnell Douglas"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Lockheed L-1011 TriStar, Boeing 747"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Wide-body commercial airliner for long-haul passenger and cargo transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 182 ft 3 in (55.5 m), Wingspan: 155 ft 4 in (47.34 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "DC-10"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with a slight dihedral."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Three turbofan engines: two under the wings and one mounted at the base of the vertical stabilizer."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Wide-body cylindrical fuselage with a twin-aisle passenger configuration and a distinctive engine mounted at the tail."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a large vertical stabilizer and low-mounted horizontal stabilizers. The central engine is mounted at the tail."
+    }
+  ]
+},
+{
+  "key": "Embraer ERJ-145",
+  "altNames": ["ERJ-145"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Embraer"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Brazil"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bombardier CRJ-100, Fokker 70"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Regional jet for short to medium-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 98 ft (29.87 m), Wingspan: 65 ft 9 in (20.04 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "ERJ-145"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with slight taper and no winglets."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines located close to the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow cylindrical fuselage with a single aisle and seating for regional passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer on the vertical fin."
+    }
+  ]
+},
+{
+  "key": "Embraer ERJ-170",
+  "altNames": ["ERJ-170"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Embraer"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Brazil"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bombardier CRJ-700, Airbus A318"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Regional jet for short to medium-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 98 ft 1 in (29.9 m), Wingspan: 85 ft 4 in (26 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "ERJ-170"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with winglets at the tips."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two underwing-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow cylindrical fuselage with a single aisle and seating for regional passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail design with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "Gulfstream",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Gulfstream Aerospace"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Dassault Falcon 7X, Bombardier Global 6000"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Business jet for corporate, executive, and VIP transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 96 ft 5 in (29.4 m), Wingspan: 93 ft 6 in (28.5 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Gulfstream"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with large winglets at the tips for increased range and fuel efficiency."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with a narrow body designed for high-speed performance and long-range travel."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "Hawker 800",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Hawker Beechcraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Learjet 60, Cessna Citation X"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Business jet for corporate, executive, and VIP transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 51 ft 2 in (15.6 m), Wingspan: 54 ft 4 in (16.56 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Hawker 800, Hawker Beechcraft 800"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with winglets at the tips for enhanced fuel efficiency."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with a rounded nose and cabin optimized for executive travel."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "Lear Jet",
+  "altNames": ["Learjet"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Bombardier"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Canada"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Cessna Citation X, Gulfstream G280"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Business jet for corporate, executive, and VIP transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 58 ft 2 in (17.73 m), Wingspan: 47 ft 10 in (14.58 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Learjet"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted straight wings with winglets at the tips for enhanced performance."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with a pointed nose and cabin optimized for speed and high-altitude travel."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "MD-80",
+  "altNames": ["MD-80"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "McDonnell Douglas"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 737, Airbus A320"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Narrow-body commercial airliner for short to medium-haul passenger transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 147 ft 10 in (45.06 m), Wingspan: 107 ft 10 in (32.92 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "MD-80"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with slight taper and no winglets."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two rear-mounted turbofan engines located close to the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow cylindrical fuselage with a single aisle and seating for passengers."
+    },
+    {
+      "key": "Tail:",
+      "value": "T-tail configuration with a high-mounted horizontal stabilizer."
+    }
+  ]
+},
+{
+  "key": "UH-60 Blackhawk",
+  "altNames": ["Blackhawk", "UH-60"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Sikorsky Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing CH-47 Chinook, Bell UH-1 Iroquois"
+    },
+    {
+      "key": "Crew:",
+      "value": "Four (pilot, co-pilot, two crew chiefs)"
+    },
+    {
+      "key": "Role:",
+      "value": "Utility helicopter for troop transport, medical evacuation, and air assault"
+    },
+    {
+      "key": "Armament:",
+      "value": "Can be equipped with M240 or M134 machine guns, rocket pods, and other mission-specific weapons"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 64 ft 10 in (19.76 m), Rotor diameter: 53 ft 8 in (16.36 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "UH-60 Blackhawk, Blackhawk, UH-60"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; features a single four-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage near the rotor mast."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with a boxy shape, a large sliding door on each side for troop and cargo access, and a rear ramp for loading."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a four-bladed tail rotor for anti-torque control."
+    }
+  ]
+},
+{
+  "key": "BO-105",
+  "altNames": ["BO-105"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Messerschmitt-Bölkow-Blohm"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Germany"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 206 Jet Ranger, Aérospatiale Gazelle"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter, primarily for medical evacuation, law enforcement, and military operations"
+    },
+    {
+      "key": "Armament:",
+      "value": "Can be equipped with anti-tank missiles, machine guns, and rocket pods for military variants"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 39 ft 1 in (11.9 m), Rotor diameter: 32 ft 10 in (10.00 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "BO-105"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; equipped with a rigid four-bladed main rotor."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow fuselage with a pointed nose and large cockpit windows. The cabin can be configured for medical, military, or law enforcement missions."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
+    }
+  ]
+},
+{
+  "key": "MD-500 Defender",
+  "altNames": ["MD-500", "Defender 500"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "McDonnell Douglas"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell OH-58 Kiowa, Hughes OH-6 Cayuse"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot)"
+    },
+    {
+      "key": "Role:",
+      "value": "Light attack, scout, and utility helicopter"
+    },
+    {
+      "key": "Armament:",
+      "value": "Equipped with machine guns, rockets, and anti-tank missiles"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 32 ft 7 in (9.94 m), Rotor diameter: 27 ft 4 in (8.33 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "MD-500 Defender, MD-500, Defender 500"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; equipped with a five-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single turboshaft engine mounted at the rear of the cabin."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Small, streamlined fuselage with a rounded nose and bubble canopy for enhanced visibility."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor for anti-torque control."
+    }
+  ]
+},
+{
+  "key": "HH-65 Dolphin II",
+  "altNames": ["HH-65 Dolphin", "HH-65", "Dolphin II", "Dolphin", "MH-65"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus Helicopters"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "AgustaWestland AW109, Sikorsky S-76"
+    },
+    {
+      "key": "Crew:",
+      "value": "Four (pilot, co-pilot, two rescue swimmers/crew chiefs)"
+    },
+    {
+      "key": "Role:",
+      "value": "Search and rescue, law enforcement, and maritime patrol"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed, but can be fitted with door-mounted machine guns"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 44 ft 5 in (13.54 m), Rotor diameter: 39 ft 2 in (11.94 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "HH-65 Dolphin, HH-65, Dolphin II"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single four-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage near the rotor."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with a slightly pointed nose, large sliding doors on both sides, and a rear ramp for rescue operations."
+    },
+    {
+      "key": "Tail:",
+      "value": "Fenestron enclosed tail rotor for increased safety and reduced noise."
+    }
+  ]
+},
+{
+  "key": "EC-120 Colibri",
+  "altNames": ["EC-120", "Colibri"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus Helicopters"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 206 Jet Ranger, Robinson R44"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to four passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for private, law enforcement, and training roles"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed, but can be fitted for light law enforcement roles"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 31 ft 5 in (9.6 m), Rotor diameter: 35 ft 1 in (10.69 m)"
+    },
+    {
+      "key": "Names:",
+      "value": " Colibri, EC-120, EC-120 Colibri"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single three-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "One turboshaft engine mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Compact fuselage with a rounded nose and large windows for excellent visibility."
+    },
+    {
+      "key": "Tail:",
+      "value": "Fenestron enclosed tail rotor for enhanced safety and reduced noise."
+    }
+  ]
+},
+{
+  "key": "EC-135",
+  "altNames": ["EC-135"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus Helicopters"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 429, AgustaWestland AW109"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot) with capacity for up to five passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for medical evacuation, law enforcement, and corporate transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed, but can be fitted for law enforcement roles"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 33 ft 7 in (10.24 m), Rotor diameter: 36 ft 1 in (11 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "EC-135"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single four-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with large sliding doors on both sides for quick access in medical or law enforcement roles."
+    },
+    {
+      "key": "Tail:",
+      "value": "Fenestron enclosed tail rotor for increased safety and reduced noise."
+    }
+  ]
+},
+{
+  "key": "Bell 206",
+  "altNames": ["Bell 206"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Bell Helicopter"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Robinson R44, Airbus EC-120 Colibri"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to four passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for law enforcement, private transport, and training"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed, but can be fitted for light law enforcement roles"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 39 ft 8 in (12.1 m), Rotor diameter: 33 ft 4 in (10.16 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Bell 206"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single two-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "One turboshaft engine mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Narrow fuselage with a pointed nose and large windows for excellent visibility."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
+    }
+  ]
+},
+{
+  "key": "Bell 412",
+  "altNames": ["Bell 412"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Bell Helicopter"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 212, Sikorsky S-70"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot) with capacity for up to 13 passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Utility helicopter for law enforcement, search and rescue, and corporate transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "Can be fitted with door-mounted machine guns or rocket pods for military roles"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 56 ft 1 in (17.09 m), Rotor diameter: 46 ft (14.02 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Bell 412"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single four-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Large fuselage with sliding doors on both sides, designed for troop transport and cargo missions."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
+    }
+  ]
+},
+{
+  "key": "UH-72 Lakota",
+  "altNames": ["UH-72", "Lakota"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus Helicopters"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 206, Eurocopter EC-145"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot) with capacity for up to six passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for medical evacuation, law enforcement, and military operations"
+    },
+    {
+      "key": "Armament:",
+      "value": "Unarmed, but can be fitted for light support missions"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 42 ft 9 in (13.02 m), Rotor diameter: 36 ft 1 in (11 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "UH-72 Lakota, UH-72, Lakota"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single four-bladed main rotor."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with large sliding doors for easy troop or patient access."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor."
+    }
+  ]
+},
+{
+  "key": "AW-109 Power",
+  "altNames": [ "AW-109 Power"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "AgustaWestland"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "Italy"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 429, Airbus EC-135"
+    },
+    {
+      "key": "Crew:",
+      "value": "Two (pilot and co-pilot) with capacity for up to six passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for law enforcement, search and rescue, and corporate transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "Can be equipped with door-mounted guns or other weapons for military roles"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 42 ft 9 in (13.02 m), Rotor diameter: 36 ft 1 in (11 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "AW-109 Power"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single four-bladed main rotor."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Streamlined fuselage with large cabin space, sliding doors, and a sleek aerodynamic design."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor for anti-torque control."
+    }
+  ]
+},
+{
+  "key": "R-44 Raven II",
+  "altNames": ["R-44", "Raven II"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Robinson Helicopters"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 206, Airbus EC-120"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to three passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for private transport, training, and law enforcement"
+    },
+    {
+      "key": "Armament:",
+      "value": "Unarmed"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 38 ft 3 in (11.66 m), Rotor diameter: 33 ft (10.06 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Robinson R-44 Raven II, Raven II, R-44"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single two-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single piston engine mounted at the rear of the cabin."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Compact fuselage with a rounded nose and large windows for excellent visibility."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor mounted at the rear."
+    }
+  ]
+},
+{
+  "key": "VH-3 Sea King",
+  "altNames": ["Sea King", "VH-3"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Sikorsky Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Sikorsky S-61, Boeing CH-46 Sea Knight"
+    },
+    {
+      "key": "Crew:",
+      "value": "Four (pilot, co-pilot, two crew chiefs)"
+    },
+    {
+      "key": "Role:",
+      "value": "Presidential transport, search and rescue, and anti-submarine warfare"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed for VIP transport; military variants can be armed with torpedoes and depth charges"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 54 ft 9 in (16.69 m), Rotor diameter: 62 ft (18.9 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "VH-3 Sea King, Sea King, VH-3"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single five-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage near the rotor."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Large fuselage with a prominent cabin area, sliding doors, and a rear ramp for cargo or troop loading."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a five-bladed tail rotor mounted on the side."
+    }
+  ]
+},
+{
+  "key": "CH-53 Sea Stallion",
+  "altNames": ["CH-53", "Sea Stallion"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Sikorsky Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing CH-47 Chinook, Mil Mi-26"
+    },
+    {
+      "key": "Crew:",
+      "value": "Five (pilot, co-pilot, three crew chiefs)"
+    },
+    {
+      "key": "Role:",
+      "value": "Heavy-lift transport helicopter for troop transport, cargo, and equipment transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "Can be equipped with door-mounted machine guns for defense"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 99 ft (30.18 m), Rotor diameter: 72 ft 2 in (22 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "CH-53 Sea Stallion, CH-53, Sea Stallion"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single six-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage near the rotor mast."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Large, elongated fuselage with a prominent rear ramp for loading cargo and troops."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a four-bladed tail rotor mounted on the side."
+    }
+  ]
+},
+{
+  "key": "AS-350 Squirrel",
+  "altNames": ["AS-350", "Squirrel"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Airbus Helicopters"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "France"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Bell 206, Robinson R44"
+    },
+    {
+      "key": "Crew:",
+      "value": "One (pilot) with capacity for up to five passengers"
+    },
+    {
+      "key": "Role:",
+      "value": "Light utility helicopter for law enforcement, medical evacuation, and private transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "Typically unarmed, but can be fitted for light military operations"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 42 ft 4 in (12.94 m), Rotor diameter: 35 ft 1 in (10.69 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "AS-350 Squirrel, AS-350, Squirrel"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single three-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Single turboshaft engine mounted above the fuselage."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Compact fuselage with a pointed nose and large windows for excellent visibility."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a two-bladed tail rotor."
+    }
+  ]
+},
+{
+  "key": "VH-92 Patriot",
+  "altNames": ["VH-92", "Patriot", "Sikorsky"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Sikorsky Aircraft"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Sikorsky S-92, Sikorsky VH-3 Sea King"
+    },
+    {
+      "key": "Crew:",
+      "value": "Four (pilot, co-pilot, two crew chiefs)"
+    },
+    {
+      "key": "Role:",
+      "value": "Presidential transport, executive transport"
+    },
+    {
+      "key": "Armament:",
+      "value": "Unarmed for presidential transport"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 68 ft 4 in (20.83 m), Rotor diameter: 56 ft 4 in (17.17 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "Sikorsky, VH-92 Patriot, VH-92, Patriot"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "No fixed wings; single four-bladed main rotor on top."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Two turboshaft engines mounted above the fuselage near the rotor."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Large, streamlined fuselage with spacious interior designed for VIP and presidential transport."
+    },
+    {
+      "key": "Tail:",
+      "value": "Tail boom with a four-bladed tail rotor mounted on the side."
+    }
+  ]
+},
+{
+  "key": "E-3 Sentry",
+  "altNames": [],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 707, KC-135"
+    },
+    {
+      "key": "Crew:",
+      "value": "Four flight crew (pilot, co-pilot, navigator, flight engineer) plus mission crew of up to 19"
+    },
+    {
+      "key": "Role:",
+      "value": "Airborne early warning and control (AWACS)"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 145 ft 6 in (44.42 m), Wingspan: 145 ft 9 in (44.42 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "E-3 Sentry"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with a large wingspan."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four turbofan engines mounted under the wings."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Cylindrical fuselage with a large rotating radar dome mounted on top."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+},
+{
+  "key": "KC-135 Stratotanker",
+  "altNames": ["KC-135", "Stratotanker"],
+  "generalData": [
+    {
+      "key": "Manufacturer:",
+      "value": "Boeing"
+    },
+    {
+      "key": "Country of Origin:",
+      "value": "US"
+    },
+    {
+      "key": "Similar Aircraft:",
+      "value": "Boeing 707, Boeing KC-46 Pegasus"
+    },
+    {
+      "key": "Crew:",
+      "value": "Three (pilot, co-pilot, boom operator)"
+    },
+    {
+      "key": "Role:",
+      "value": "Aerial refueling tanker"
+    },
+    {
+      "key": "Armament:",
+      "value": "None"
+    },
+    {
+      "key": "Dimensions:",
+      "value": "Length: 136 ft 3 in (41.53 m), Wingspan: 130 ft 10 in (39.88 m)"
+    },
+    {
+      "key": "Names:",
+      "value": "KC-135 Stratotanker, KC-135, Stratotanker"
+    }
+  ],
+  "weftDescription": [
+    {
+      "key": "Wings:",
+      "value": "Low-mounted swept-back wings with a large fuel capacity."
+    },
+    {
+      "key": "Engine(s):",
+      "value": "Four turbofan engines mounted under the wings."
+    },
+    {
+      "key": "Fuselage:",
+      "value": "Cylindrical fuselage with a boom attached to the rear for aerial refueling operations."
+    },
+    {
+      "key": "Tail:",
+      "value": "Conventional tail with a single vertical stabilizer and low-mounted horizontal stabilizers."
+    }
+  ]
+}
+]

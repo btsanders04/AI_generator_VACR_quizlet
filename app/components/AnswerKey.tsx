@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import ImageCarousel from './ImageCarousel';
-import { getAllAircraftImages, getAircraftNames } from '../services/fetchImage';
+import { getAllAircraftImages, getAircraftNames } from '../services/aircraft.service';
 
 interface ImageData {
   [folder: string]: string[];
