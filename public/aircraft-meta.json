@@ -448,8 +448,8 @@
   ]
 },
 {
-  "key": "ATR 72",
-  "altNames": [],
+  "key": "ATR-72",
+  "altNames": [ATR 72],
   "generalData": [
     {
       "key": "Manufacturer:",
