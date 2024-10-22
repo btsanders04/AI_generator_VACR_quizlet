@@ -15,7 +15,6 @@ export default async function AircraftPage({ params }: {params: Promise<{name: s
 
 export async function generateMetadata({ params }: {params: Promise<{name: string}>}) {
   const name = (await params).name;
-  console.log("Params", name);
   const aircraft = getAircraftName(name);
   return {
     title: aircraft ? `Aircraft: ${aircraft}` : 'Aircraft Not Found'
