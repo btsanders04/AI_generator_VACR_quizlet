@@ -1,5 +1,5 @@
 const baseDir = '/pictures/NCR 24 VACR Training/Aircrafts NCR24';
-import aircraftDataJson from '../../public/alt-answers.json';
+import aircraftDataJson from '../../public/aircraft-meta.json';
 
 interface ImageData {
   [folder: string]: string[];
@@ -10,9 +10,11 @@ interface RandomImage {
   answers: string[];
 }
 
-interface AircraftNames {
+export interface AircraftData {
   key: string;
   altNames: string[];
+  generalData: Record<string, string>[],
+  weftDescription: Record<string, string>[],
 }
 
 // Define a type for the require.context function
@@ -44,7 +46,7 @@ function importAll(r: ReturnType<RequireContext>): ImageData {
 }
 
 const images: ImageData = importAll(require.context('../../public/pictures/NCR 24 VACR Training/Aircrafts NCR24', true, /\.jpg$/));
-const altAircraftAnswers = aircraftDataJson as AircraftNames[];
+const aircraftData = aircraftDataJson as AircraftData[];
 
 export function getRandomImage(): RandomImage {
   const folders = Object.keys(images);
@@ -61,7 +63,7 @@ export function getRandomImage(): RandomImage {
   
   return {
     url: url,
-    answers: [selectedFolder, ...(altAircraftAnswers.find(({key}) => key.toLowerCase() === (selectedFolder.toLowerCase()))?.altNames ?? [])]
+    answers: [selectedFolder, ...(aircraftData.find(({key}) => key.toLowerCase() === (selectedFolder.toLowerCase()))?.altNames ?? [])]
   };
 }
 
@@ -86,3 +88,8 @@ export function getAircraftImages(aircraftName: string): string[] {
   const allImages = getAllAircraftImages();
   return allImages[aircraftName] || [];
 }
+
+export function getAircraftData(aircraftName: string): AircraftData | undefined {
+  return aircraftData.find(({key}) => key === aircraftName);
+}
+

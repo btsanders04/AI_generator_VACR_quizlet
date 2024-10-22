@@ -1,5 +1,5 @@
 import AircraftInfo from '../../components/AircraftInfo';
-import { getAircraftNames } from '../../services/fetchImage';
+import { getAircraftNames } from '../../services/aircraft.service';
 
 function getAircraftName(aircraft: string): string | undefined {
   return getAircraftNames().find(name => name === aircraft);

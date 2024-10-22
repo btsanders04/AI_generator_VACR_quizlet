@@ -54,7 +54,7 @@
       "value": "Twin vertical stabilizers mounted outward on either side of the engine exhausts, with low-mounted horizontal stabilizers. The twin-tail configuration enhances maneuverability and control, contributing to the aircraft’s air superiority role. “Shark Tooth” on stabilizer."
     }
       ]
-    }
+    },
     {
   "key": "F-16 Fighting Falcon",
   "altNames": ["F-16", "Fighting Falcon", "F-16 Fighting Falcon"],
@@ -110,7 +110,7 @@
       "value": "Single vertical stabilizer with twin low-mounted horizontal stabilizers. The vertical stabilizer is large and canted slightly backwards while the horizontal stabilizers are broad and positioned towards the rear of the fuselage."
     }
   ]
-}
+},
 {
   "key": "F/A-18 Hornet",
   "altNames": ["F/A-18", "Hornet", "F/A-18 Hornet", "F-18", "F-18 Hornet"],
@@ -166,7 +166,7 @@
       "value": "Twin vertical stabilizers mounted outward on either side of the exhausts with two low-mounted horizontal stabilizers. The twin-tail configuration offers enhanced control and stability during air combat maneuvers."
     }
   ]
-}
+},
 {
   "key": "F-22 Raptor",
   "altNames": ["F-22", "Raptor", "F-22 Raptor"],

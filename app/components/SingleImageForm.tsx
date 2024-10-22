@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { getRandomImage } from '../services/fetchImage';
+import { getRandomImage } from '../services/aircraft.service';
 import Score from './Score';
 interface ImageData {
   url: string;
