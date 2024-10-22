@@ -1,38 +1,36 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { getAllAircraftImages } from '../services/fetchImage';
+import { getAircraftImages, getAllAircraftImages } from '../services/fetchImage';
+import ImageCarousel from './ImageCarousel';
 
 interface AircraftInfoProps {
   aircraft: string;
 }
 
 const AircraftInfo: React.FC<AircraftInfoProps> = ({ aircraft }) => {
-  const [imageUrl, setImageUrl] = React.useState<string | null>(null);
+  const [aircraftImages, setAircraftImages] = useState<string[]>([]);
 
-  React.useEffect(() => {
-    const loadImage = () => {
-      const allImages = getAllAircraftImages();
-      const aircraftImages = allImages[aircraft];
-      if (aircraftImages && aircraftImages.length > 0) {
-        const randomIndex = Math.floor(Math.random() * aircraftImages.length);
-        setImageUrl(aircraftImages[randomIndex]);
-      }
+  useEffect(() => {
+    const fetchAircraftImage = () => {
+      setAircraftImages(getAircraftImages(aircraft));
     };
 
-    loadImage();
+    fetchAircraftImage();
   }, [aircraft]);
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">{aircraft}</h1>
-      {imageUrl && (
-        <div className="mb-4">
-          <Image src={imageUrl} alt={aircraft} width={500} height={300} objectFit="cover" />
-        </div>
-      )}
-      {/* Add more information about the aircraft here if needed */}
+    <div className="flex flex-col items-center justify-center min-h-screen p-4">
+      <div className="max-w-2xl w-full bg-white rounded-lg shadow-md p-6">
+        <h1 className="text-3xl font-bold mb-6 text-center text-black">{aircraft}</h1>
+            <ImageCarousel
+                images={aircraftImages || []}
+              />
+        <p className="text-center text-gray-600">
+          This is the {aircraft}. Click the back button to return to the answer key.
+        </p>
+      </div>
     </div>
   );
 };

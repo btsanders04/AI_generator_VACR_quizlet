@@ -1,5 +1,6 @@
 const baseDir = '/pictures/NCR 24 VACR Training/Aircrafts NCR24';
 import aircraftDataJson from '../../public/alt-answers.json';
+
 interface ImageData {
   [folder: string]: string[];
 }
@@ -21,8 +22,6 @@ type RequireContext = (
   regExp: RegExp
 ) => {
   keys(): string[];
-
-  (id: string): never;
   <T>(id: string): T;
 };
 
@@ -45,7 +44,8 @@ function importAll(r: ReturnType<RequireContext>): ImageData {
 }
 
 const images: ImageData = importAll(require.context('../../public/pictures/NCR 24 VACR Training/Aircrafts NCR24', true, /\.jpg$/));
-const altAircraftAnswers = aircraftDataJson as AircraftNames[]
+const altAircraftAnswers = aircraftDataJson as AircraftNames[];
+
 export function getRandomImage(): RandomImage {
   const folders = Object.keys(images);
   const shuffledFolders = [...folders].sort(() => 0.5 - Math.random());
@@ -53,7 +53,6 @@ export function getRandomImage(): RandomImage {
   const files = images[selectedFolder];
   const randomFile = files[Math.floor(Math.random() * files.length)];
   
-  // Encode the URL components
   const encodedBaseDir = encodeURIComponent(baseDir);
   const encodedFolder = encodeURIComponent(selectedFolder);
   const encodedFile = encodeURIComponent(randomFile);
@@ -80,4 +79,10 @@ export function getAllAircraftImages(): ImageData {
 
 export function getAircraftNames(): string[] {
   return Object.keys(images);
+}
+
+// New function to get all images for a specific aircraft
+export function getAircraftImages(aircraftName: string): string[] {
+  const allImages = getAllAircraftImages();
+  return allImages[aircraftName] || [];
 }
