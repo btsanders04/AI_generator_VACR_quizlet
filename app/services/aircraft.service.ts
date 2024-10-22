@@ -95,6 +95,7 @@ export function getAircraftImages(aircraftName: string): string[] {
 }
 
 export function getAircraftData(aircraftName: string): AircraftData | undefined {
-  return aircraftData.find(({key}) => key === aircraftName);
+  console.log(aircraftName);
+  return aircraftData.find(({key}) => key.toLowerCase() === aircraftName.toLowerCase());
 }
 
