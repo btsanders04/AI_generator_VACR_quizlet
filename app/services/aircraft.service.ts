@@ -88,14 +88,25 @@ export function getAircraftNames(): string[] {
   return Object.keys(images);
 }
 
-// New function to get all images for a specific aircraft
+// New function to get first image for a specific aircraft
+export function getAircraftFirstImage(aircraftName: string): string {
+  const files = images[aircraftName];
+  if (!files || files.length === 0) return '';
+  
+  const firstFile = files[0];
+  const encodedBaseDir = encodeURIComponent(baseDir);
+  const encodedFolder = encodeURIComponent(aircraftName);
+  const encodedFile = encodeURIComponent(firstFile);
+  
+  return `${encodedBaseDir}/${encodedFolder}/${encodedFile}`.replace(/%2F/g, '/');
+}
+
+// Function to get all images for a specific aircraft
 export function getAircraftImages(aircraftName: string): string[] {
   const allImages = getAllAircraftImages();
   return allImages[aircraftName] || [];
 }
 
 export function getAircraftData(aircraftName: string): AircraftData | undefined {
-  console.log(aircraftName);
   return aircraftData.find(({key}) => key.toLowerCase() === aircraftName.toLowerCase());
 }
-
