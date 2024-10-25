@@ -28,3 +28,4 @@ export function generateStaticParams() {
     name: encodeURIComponent(name)
   }));
 }
+
