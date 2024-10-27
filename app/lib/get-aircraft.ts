@@ -15,7 +15,7 @@ const getBlobs = async (): Promise<ListBlobResultBlob[]> => {
 
 export const getAllAircraft = async (): Promise<Aircraft[]> => {
     const aircraft = await getBlobs();
-    return aircraftDataJson.map(aircraftData => ({
+    return aircraftDataJson.filter(ac => ac.hltag).map(aircraftData => ({
         ...aircraftData,
         imageUrls: aircraft
           .filter(blob => blob.pathname.startsWith(aircraftData.key as string))
