@@ -5,7 +5,7 @@ export async function GET(): Promise<NextResponse<ListBlobResultBlob[]>> {
   try {
     let allBlobs: ListBlobResultBlob[] = [];
     let currentCursor: string | undefined = undefined;
-    
+
     do {
       const result: ListBlobResult = await list({ cursor: currentCursor });
       allBlobs = [...allBlobs, ...result.blobs];

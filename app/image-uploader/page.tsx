@@ -16,43 +16,46 @@ export default function ImageUploader() {
   const [newFolderName, setNewFolderName] = useState('');
   const [isCreatingNewFolder, setIsCreatingNewFolder] = useState(false);
 
-  const onDrop = useCallback(async (acceptedFiles: File[]) => {
-    setUploading(true);
-    try {
-      for (const file of acceptedFiles) {
-        const formData = new FormData();
-        formData.append('file', file);
-        formData.append('folder', selectedFolder || 'uncategorized');
-        
-        await fetch('/api/upload', {
-          method: 'POST',
-          body: formData,
-        });
+  const onDrop = useCallback(
+    async (acceptedFiles: File[]) => {
+      setUploading(true);
+      try {
+        for (const file of acceptedFiles) {
+          const formData = new FormData();
+          formData.append('file', file);
+          formData.append('folder', selectedFolder || 'uncategorized');
+
+          await fetch('/api/upload', {
+            method: 'POST',
+            body: formData,
+          });
+        }
+        // Refresh the file list after upload
+        fetchFiles();
+      } catch (error) {
+        console.error('Upload error:', error);
       }
-      // Refresh the file list after upload
-      fetchFiles();
-    } catch (error) {
-      console.error('Upload error:', error);
-    }
-    setUploading(false);
-  }, [selectedFolder]);
+      setUploading(false);
+    },
+    [selectedFolder]
+  );
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept: {
       'image/jpeg': ['.jpg', '.jpeg'],
-      'image/png': ['.png']
-    }
+      'image/png': ['.png'],
+    },
   });
 
   const fetchFiles = async () => {
     try {
       const response = await fetch('/get-aircraft');
       const blobs = await response.json();
-      
+
       // Group files by folder
       const groupedFiles: { [key: string]: string[] } = {};
-      blobs.forEach((blob: { url: string, pathname: string }) => {
+      blobs.forEach((blob: { url: string; pathname: string }) => {
         const pathParts = blob.pathname.split('/');
         const folder = pathParts[0];
         if (!groupedFiles[folder]) {
@@ -62,10 +65,12 @@ export default function ImageUploader() {
       });
 
       // Convert to array structure
-      const fileStructure: FileStructure[] = Object.entries(groupedFiles).map(([folder, files]) => ({
-        folder,
-        files
-      }));
+      const fileStructure: FileStructure[] = Object.entries(groupedFiles).map(
+        ([folder, files]) => ({
+          folder,
+          files,
+        })
+      );
 
       setFiles(fileStructure);
     } catch (error) {
@@ -117,7 +122,7 @@ export default function ImageUploader() {
   return (
     <div className="container mx-auto p-8">
       <h1 className="text-3xl font-bold mb-8">Aircraft Image Uploader</h1>
-      
+
       {/* Folder Selection */}
       <div className="mb-6">
         <label htmlFor="folder" className="block text-sm font-medium text-gray-700 mb-2">
@@ -130,7 +135,7 @@ export default function ImageUploader() {
           className="block w-full px-3 py-2 border border-gray-300 text-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         >
           <option value="">Select a folder...</option>
-          {files.map((folder) => (
+          {files.map(folder => (
             <option key={folder.folder} value={folder.folder}>
               {folder.folder}
             </option>
@@ -149,7 +154,7 @@ export default function ImageUploader() {
               type="text"
               id="newFolder"
               value={newFolderName}
-              onChange={(e) => setNewFolderName(e.target.value)}
+              onChange={e => setNewFolderName(e.target.value)}
               className="block flex-1 px-3 py-2 border border-gray-300 text-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
               placeholder="Enter new folder name"
               autoFocus
@@ -163,7 +168,7 @@ export default function ImageUploader() {
           </div>
         </form>
       )}
-      
+
       {/* Drag & Drop Zone */}
       <div
         {...getRootProps()}
@@ -185,11 +190,11 @@ export default function ImageUploader() {
 
       {/* File List */}
       <div className="space-y-6">
-        {files.map((folder) => (
+        {files.map(folder => (
           <div key={folder.folder} className="border rounded-lg p-4 shadow-sm">
             <h2 className="text-xl font-semibold mb-4">{folder.folder}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {folder.files.map((url) => (
+              {folder.files.map(url => (
                 <div key={url} className="relative group">
                   <img
                     src={url}

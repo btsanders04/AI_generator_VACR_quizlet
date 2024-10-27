@@ -4,7 +4,7 @@ const nextConfig = {
     domains: [],
     unoptimized: true,
   },
-  webpack: (config) => {
+  webpack: config => {
     config.resolve.fallback = { fs: false, path: false };
     return config;
   },

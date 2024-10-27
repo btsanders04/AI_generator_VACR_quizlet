@@ -1,27 +1,10 @@
 [
   {
     "key": "A-10 Thunderbolt II",
-    "altNames": [
-      "A-10",
-      "Thunderbolt II",
-      "Thunderbolt"
-    ],
-    "tags": [
-      "Ground Attack",
-      "CAS",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      "devtest",
-      "Fixed-Wing",
-      "Attack"
-    ],
-    "accat": [
-      "Ground Attack",
-      "Close Air Support",
-      "Fighter Bomber"
-    ],
+    "altNames": ["A-10", "Thunderbolt II", "Thunderbolt"],
+    "tags": ["Ground Attack", "CAS", "USA", "Cold War"],
+    "hltag": ["devtest", "Fixed-Wing", "Attack"],
+    "accat": ["Ground Attack", "Close Air Support", "Fighter Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -93,10 +76,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin engines on rear fuselage",
-          "GAU-8/A Avenger cannon"
-        ]
+        "distinctiveFeatures": ["twin engines on rear fuselage", "GAU-8/A Avenger cannon"]
       },
       "tail": {
         "type": "T-tail",
@@ -115,23 +95,10 @@
   },
   {
     "key": "SU-25 Frogfoot",
-    "altNames": [
-      "SU-25",
-      "Frogfoot"
-    ],
-    "tags": [
-      "Ground Attack",
-      "CAS",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack"
-    ],
+    "altNames": ["SU-25", "Frogfoot"],
+    "tags": ["Ground Attack", "CAS", "Russia/USSR", "Cold War"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -203,10 +170,7 @@
       },
       "fuselage": {
         "shape": "armored",
-        "distinctiveFeatures": [
-          "large cockpit canopy",
-          "heavily armored"
-        ]
+        "distinctiveFeatures": ["large cockpit canopy", "heavily armored"]
       },
       "tail": {
         "type": "conventional",
@@ -225,25 +189,10 @@
   },
   {
     "key": "Su-17/20/22 Fitter",
-    "altNames": [
-      "Su-17",
-      "Su-20",
-      "Su-22",
-      "Fitter"
-    ],
-    "tags": [
-      "Ground Attack",
-      "Fighter Bomber",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack"
-    ],
+    "altNames": ["Su-17", "Su-20", "Su-22", "Fitter"],
+    "tags": ["Ground Attack", "Fighter Bomber", "Russia/USSR", "Cold War"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -315,10 +264,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "variable-sweep wings",
-          "rugged airframe"
-        ]
+        "distinctiveFeatures": ["variable-sweep wings", "rugged airframe"]
       },
       "tail": {
         "type": "conventional",
@@ -336,23 +282,10 @@
   },
   {
     "key": "AMX",
-    "altNames": [
-      "AMX International",
-      "International"
-    ],
-    "tags": [
-      "Ground Attack",
-      "CAS",
-      "Italy",
-      "Brazil"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack"
-    ],
+    "altNames": ["AMX International", "International"],
+    "tags": ["Ground Attack", "CAS", "Italy", "Brazil"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -424,10 +357,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "high-mounted tail",
-          "single-engine"
-        ]
+        "distinctiveFeatures": ["high-mounted tail", "single-engine"]
       },
       "tail": {
         "type": "conventional",
@@ -446,26 +376,10 @@
   },
   {
     "key": "AV-8 Harrier II",
-    "altNames": [
-      "AV-8",
-      "Harrier II",
-      "Harrier"
-    ],
-    "tags": [
-      "Ground Attack",
-      "VTOL/STOL",
-      "CAS",
-      "USA",
-      "UK"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack",
-      "VTOL/STOL"
-    ],
+    "altNames": ["AV-8", "Harrier II", "Harrier"],
+    "tags": ["Ground Attack", "VTOL/STOL", "CAS", "USA", "UK"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack", "VTOL/STOL"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -537,10 +451,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "VTOL capability",
-          "vectoring nozzles"
-        ]
+        "distinctiveFeatures": ["VTOL capability", "vectoring nozzles"]
       },
       "tail": {
         "type": "conventional",
@@ -559,22 +470,10 @@
   },
   {
     "key": "Sepecat Jaguar",
-    "altNames": [
-      "Jaguar"
-    ],
-    "tags": [
-      "Ground Attack",
-      "CAS",
-      "UK",
-      "France"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack"
-    ],
+    "altNames": ["Jaguar"],
+    "tags": ["Ground Attack", "CAS", "UK", "France"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -646,10 +545,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "high-mounted tail",
-          "twin engines"
-        ]
+        "distinctiveFeatures": ["high-mounted tail", "twin engines"]
       },
       "tail": {
         "type": "conventional",
@@ -668,22 +564,10 @@
   },
   {
     "key": "Q-5 Fantan ",
-    "altNames": [
-      "Q-5",
-      "Fantan "
-    ],
-    "tags": [
-      "Ground Attack",
-      "CAS",
-      "China"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack"
-    ],
+    "altNames": ["Q-5", "Fantan "],
+    "tags": ["Ground Attack", "CAS", "China"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -755,10 +639,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "nose-mounted intake",
-          "delta wing"
-        ]
+        "distinctiveFeatures": ["nose-mounted intake", "delta wing"]
       },
       "tail": {
         "type": "conventional",
@@ -777,23 +658,10 @@
   },
   {
     "key": "Su-24 Fencer",
-    "altNames": [
-      "Su-24",
-      "Fencer"
-    ],
-    "tags": [
-      "Ground Attack",
-      "Fighter Bomber",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack",
-      "Bomber"
-    ],
+    "altNames": ["Su-24", "Fencer"],
+    "tags": ["Ground Attack", "Fighter Bomber", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -865,10 +733,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "side-by-side seating",
-          "variable-sweep wings"
-        ]
+        "distinctiveFeatures": ["side-by-side seating", "variable-sweep wings"]
       },
       "tail": {
         "type": "conventional",
@@ -886,24 +751,10 @@
   },
   {
     "key": "Tornado IDS",
-    "altNames": [
-      "Tornado"
-    ],
-    "tags": [
-      "Ground Attack",
-      "Fighter Bomber",
-      "UK",
-      "Germany",
-      "Italy"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack",
-      "Bomber"
-    ],
+    "altNames": ["Tornado"],
+    "tags": ["Ground Attack", "Fighter Bomber", "UK", "Germany", "Italy"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -975,10 +826,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "variable-sweep wings",
-          "twin engines"
-        ]
+        "distinctiveFeatures": ["variable-sweep wings", "twin engines"]
       },
       "tail": {
         "type": "conventional",
@@ -997,22 +845,10 @@
   },
   {
     "key": "A-37 Dragon Fly",
-    "altNames": [
-      "A-37",
-      "Dragon Fly"
-    ],
-    "tags": [
-      "Light Attack",
-      "CAS",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Light Attack"
-    ],
+    "altNames": ["A-37", "Dragon Fly"],
+    "tags": ["Light Attack", "CAS", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Light Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1084,10 +920,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "compact airframe"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "compact airframe"]
       },
       "tail": {
         "type": "conventional",
@@ -1107,18 +940,9 @@
   {
     "key": "A-29 Super Tucano",
     "altNames": [],
-    "tags": [
-      "Light Attack",
-      "CAS",
-      "Brazil"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Light Attack"
-    ],
+    "tags": ["Light Attack", "CAS", "Brazil"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Light Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1190,10 +1014,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "high-mounted wing",
-          "tandem seating"
-        ]
+        "distinctiveFeatures": ["high-mounted wing", "tandem seating"]
       },
       "tail": {
         "type": "conventional",
@@ -1212,21 +1033,10 @@
   },
   {
     "key": "Alpha Jet",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Trainer-Combat",
-      "France",
-      "Germany"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer-Combat"
-    ],
+    "altNames": [""],
+    "tags": ["Trainer-Combat", "France", "Germany"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Trainer-Combat"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1298,10 +1108,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "high-mounted wing"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "high-mounted wing"]
       },
       "tail": {
         "type": "conventional",
@@ -1320,20 +1127,10 @@
   },
   {
     "key": "SF-260W",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Trainer-Combat",
-      "Italy"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer-Combat"
-    ],
+    "altNames": [""],
+    "tags": ["Trainer-Combat", "Italy"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Trainer-Combat"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1405,10 +1202,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "low-wing monoplane"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "low-wing monoplane"]
       },
       "tail": {
         "type": "conventional",
@@ -1427,25 +1221,10 @@
   },
   {
     "key": "F-14 Tomcat",
-    "altNames": [
-      "F-14",
-      "Tomcat"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "Multirole",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["F-14", "Tomcat"],
+    "tags": ["Air Superiority", "Interceptor", "Multirole", "USA", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1517,10 +1296,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin tail fins",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["twin tail fins", "bubble canopy"]
       },
       "tail": {
         "type": "twin",
@@ -1539,23 +1315,10 @@
   },
   {
     "key": "F-15 Eagle",
-    "altNames": [
-      "F-15, Eagle"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter"
-    ],
+    "altNames": ["F-15, Eagle"],
+    "tags": ["Air Superiority", "Interceptor", "USA", "Cold War"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Fighter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1627,10 +1390,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin tail fins",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["twin tail fins", "bubble canopy"]
       },
       "tail": {
         "type": "twin",
@@ -1649,25 +1409,10 @@
   },
   {
     "key": "F-16 Fighting Falcon",
-    "altNames": [
-      "F-16, Fighting Falcon"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Multirole",
-      "USA",
-      "Cold War",
-      "Modern"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["F-16, Fighting Falcon"],
+    "tags": ["Air Superiority", "Multirole", "USA", "Cold War", "Modern"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1739,10 +1484,7 @@
       },
       "fuselage": {
         "shape": "blended wing-body",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "blended wing-body design"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "blended wing-body design"]
       },
       "tail": {
         "type": "conventional",
@@ -1761,26 +1503,10 @@
   },
   {
     "key": "F/A-18 Hornet",
-    "altNames": [
-      "F/A-18",
-      "Hornet",
-      "F-18 Hornet",
-      "F-18"
-    ],
-    "tags": [
-      "Multirole",
-      "Air Superiority",
-      "USA",
-      "Carrier-Based"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["F/A-18", "Hornet", "F-18 Hornet", "F-18"],
+    "tags": ["Multirole", "Air Superiority", "USA", "Carrier-Based"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1852,10 +1578,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin vertical stabilizers",
-          "leading-edge wing extensions"
-        ]
+        "distinctiveFeatures": ["twin vertical stabilizers", "leading-edge wing extensions"]
       },
       "tail": {
         "type": "twin",
@@ -1874,23 +1597,10 @@
   },
   {
     "key": "F-22 Raptor",
-    "altNames": [
-      "F-22",
-      "Raptor"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Stealth",
-      "USA",
-      "Modern"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter"
-    ],
+    "altNames": ["F-22", "Raptor"],
+    "tags": ["Air Superiority", "Stealth", "USA", "Modern"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Fighter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -1962,10 +1672,7 @@
       },
       "fuselage": {
         "shape": "stealth-optimized",
-        "distinctiveFeatures": [
-          "internal weapons bays",
-          "thrust-vectoring nozzles"
-        ]
+        "distinctiveFeatures": ["internal weapons bays", "thrust-vectoring nozzles"]
       },
       "tail": {
         "type": "twin",
@@ -1984,25 +1691,10 @@
   },
   {
     "key": "F-35 Lightning II",
-    "altNames": [
-      "F-35",
-      "Lightning II",
-      "Lighting"
-    ],
-    "tags": [
-      "Multirole",
-      "Stealth",
-      "USA",
-      "Modern"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["F-35", "Lightning II", "Lighting"],
+    "tags": ["Multirole", "Stealth", "USA", "Modern"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2074,10 +1766,7 @@
       },
       "fuselage": {
         "shape": "stealth-optimized",
-        "distinctiveFeatures": [
-          "internal weapons bays",
-          "stealth design"
-        ]
+        "distinctiveFeatures": ["internal weapons bays", "stealth design"]
       },
       "tail": {
         "type": "twin",
@@ -2096,23 +1785,10 @@
   },
   {
     "key": "J-10 Jian",
-    "altNames": [
-      "J-10",
-      "Jian"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Multirole",
-      "China"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["J-10", "Jian"],
+    "tags": ["Air Superiority", "Multirole", "China"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2184,10 +1860,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "canards",
-          "delta wing"
-        ]
+        "distinctiveFeatures": ["canards", "delta wing"]
       },
       "tail": {
         "type": "conventional",
@@ -2206,23 +1879,10 @@
   },
   {
     "key": "JF-17 Thunder",
-    "altNames": [
-      "JF-17",
-      "Thunder"
-    ],
-    "tags": [
-      "Multirole",
-      "Pakistan",
-      "China"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["JF-17", "Thunder"],
+    "tags": ["Multirole", "Pakistan", "China"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2294,10 +1954,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "sharp nose",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["sharp nose", "bubble canopy"]
       },
       "tail": {
         "type": "conventional",
@@ -2316,23 +1973,10 @@
   },
   {
     "key": "MiG-29 Fulcrum",
-    "altNames": [
-      "MiG-29",
-      "Fulcrum"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Multirole",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["MiG-29", "Fulcrum"],
+    "tags": ["Air Superiority", "Multirole", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2404,10 +2048,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin tail fins",
-          "large air intakes"
-        ]
+        "distinctiveFeatures": ["twin tail fins", "large air intakes"]
       },
       "tail": {
         "type": "twin",
@@ -2426,22 +2067,10 @@
   },
   {
     "key": "Mirage 5",
-    "altNames": [
-      "Mirage III"
-    ],
-    "tags": [
-      "Air Superiority",
-      "France",
-      "Multirole"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["Mirage III"],
+    "tags": ["Air Superiority", "France", "Multirole"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2513,10 +2142,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "pointed nose",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["pointed nose", "bubble canopy"]
       },
       "tail": {
         "type": "conventional",
@@ -2535,22 +2161,10 @@
   },
   {
     "key": "Mirage F1",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Air Superiority",
-      "France",
-      "Multirole"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": [""],
+    "tags": ["Air Superiority", "France", "Multirole"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2622,10 +2236,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "high-mounted swept wings",
-          "slender fuselage"
-        ]
+        "distinctiveFeatures": ["high-mounted swept wings", "slender fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -2644,22 +2255,10 @@
   },
   {
     "key": "Mirage 2000",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Air Superiority",
-      "France",
-      "Multirole"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": [""],
+    "tags": ["Air Superiority", "France", "Multirole"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2731,10 +2330,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "delta wing design",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["delta wing design", "bubble canopy"]
       },
       "tail": {
         "type": "conventional",
@@ -2753,22 +2349,10 @@
   },
   {
     "key": "Su-27 Flanker",
-    "altNames": [
-      "Su-27, Flanker"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Russia/USSR",
-      "Multirole"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["Su-27, Flanker"],
+    "tags": ["Air Superiority", "Russia/USSR", "Multirole"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2840,10 +2424,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin vertical stabilizers",
-          "large wingspan"
-        ]
+        "distinctiveFeatures": ["twin vertical stabilizers", "large wingspan"]
       },
       "tail": {
         "type": "twin",
@@ -2862,22 +2443,10 @@
   },
   {
     "key": "JAS 39 Gripen",
-    "altNames": [
-      "JAS 39, Gripen"
-    ],
-    "tags": [
-      "Multirole",
-      "Sweden",
-      "Air Superiority"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["JAS 39, Gripen"],
+    "tags": ["Multirole", "Sweden", "Air Superiority"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -2949,10 +2518,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "delta wing design",
-          "canards for maneuverability"
-        ]
+        "distinctiveFeatures": ["delta wing design", "canards for maneuverability"]
       },
       "tail": {
         "type": "conventional",
@@ -2971,26 +2537,10 @@
   },
   {
     "key": "Eurofighter Typhoon",
-    "altNames": [
-      "Eurofighter",
-      "Typhoon"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Multirole",
-      "UK",
-      "Germany",
-      "Italy",
-      "Spain"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["Eurofighter", "Typhoon"],
+    "tags": ["Air Superiority", "Multirole", "UK", "Germany", "Italy", "Spain"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3062,10 +2612,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "canards",
-          "delta wing"
-        ]
+        "distinctiveFeatures": ["canards", "delta wing"]
       },
       "tail": {
         "type": "twin",
@@ -3084,22 +2631,10 @@
   },
   {
     "key": "MiG-15 Fagot",
-    "altNames": [
-      "MiG-15",
-      "Fagot"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter"
-    ],
+    "altNames": ["MiG-15", "Fagot"],
+    "tags": ["Air Superiority", "Interceptor", "Russia/USSR"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Fighter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3171,10 +2706,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "swept-back wings"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "swept-back wings"]
       },
       "tail": {
         "type": "conventional",
@@ -3193,21 +2725,10 @@
   },
   {
     "key": "MiG-17 Fresco",
-    "altNames": [
-      "MiG-17, Fresco"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter"
-    ],
+    "altNames": ["MiG-17, Fresco"],
+    "tags": ["Air Superiority", "Interceptor", "Russia/USSR"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Fighter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3279,10 +2800,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "swept-wing design",
-          "elongated fuselage"
-        ]
+        "distinctiveFeatures": ["swept-wing design", "elongated fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -3301,22 +2819,10 @@
   },
   {
     "key": "MiG-19 Farmer",
-    "altNames": [
-      "MiG-19",
-      "Farmer"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter"
-    ],
+    "altNames": ["MiG-19", "Farmer"],
+    "tags": ["Air Superiority", "Interceptor", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3388,10 +2894,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin-engine configuration",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["twin-engine configuration", "bubble canopy"]
       },
       "tail": {
         "type": "conventional",
@@ -3410,22 +2913,10 @@
   },
   {
     "key": "MiG-21 Fishbed",
-    "altNames": [
-      "MiG-21",
-      "Fishbed"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter"
-    ],
+    "altNames": ["MiG-21", "Fishbed"],
+    "tags": ["Air Superiority", "Interceptor", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3497,10 +2988,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "sharp nose",
-          "prominent air intake"
-        ]
+        "distinctiveFeatures": ["sharp nose", "prominent air intake"]
       },
       "tail": {
         "type": "conventional",
@@ -3519,22 +3007,10 @@
   },
   {
     "key": "MiG-25 Foxbat",
-    "altNames": [
-      "MiG-25",
-      "Foxbat"
-    ],
-    "tags": [
-      "Interceptor",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Reconnaissance"
-    ],
+    "altNames": ["MiG-25", "Foxbat"],
+    "tags": ["Interceptor", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Reconnaissance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3606,10 +3082,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "large air intakes",
-          "twin vertical stabilizers"
-        ]
+        "distinctiveFeatures": ["large air intakes", "twin vertical stabilizers"]
       },
       "tail": {
         "type": "twin",
@@ -3628,23 +3101,10 @@
   },
   {
     "key": "MiG-27 Flogger",
-    "altNames": [
-      "MiG-27",
-      "Flogger"
-    ],
-    "tags": [
-      "Ground Attack",
-      "Fighter Bomber",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Attack",
-      "Fighter-Bomber"
-    ],
+    "altNames": ["MiG-27", "Flogger"],
+    "tags": ["Ground Attack", "Fighter Bomber", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Attack", "Fighter-Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3716,10 +3176,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "reinforced nose for ground attack",
-          "tail buoy"
-        ]
+        "distinctiveFeatures": ["reinforced nose for ground attack", "tail buoy"]
       },
       "tail": {
         "type": "conventional",
@@ -3738,23 +3195,10 @@
   },
   {
     "key": "MiG-31 Foxhound",
-    "altNames": [
-      "MiG-31",
-      "Foxhound"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Interceptor",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Interceptor"
-    ],
+    "altNames": ["MiG-31", "Foxhound"],
+    "tags": ["Air Superiority", "Interceptor", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Interceptor"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3826,10 +3270,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin-engine configuration",
-          "twin vertical stabilizers"
-        ]
+        "distinctiveFeatures": ["twin-engine configuration", "twin vertical stabilizers"]
       },
       "tail": {
         "type": "twin",
@@ -3848,24 +3289,10 @@
   },
   {
     "key": "Su-57 Felon",
-    "altNames": [
-      "Su-57",
-      "Felon"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Multirole",
-      "Stealth",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["Su-57", "Felon"],
+    "tags": ["Air Superiority", "Multirole", "Stealth", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -3937,10 +3364,7 @@
       },
       "fuselage": {
         "shape": "sleek",
-        "distinctiveFeatures": [
-          "stealth design",
-          "internal weapon bays"
-        ]
+        "distinctiveFeatures": ["stealth design", "internal weapon bays"]
       },
       "tail": {
         "type": "twin",
@@ -3959,23 +3383,10 @@
   },
   {
     "key": "J-20 Fagin",
-    "altNames": [
-      "J-20",
-      "Fagin"
-    ],
-    "tags": [
-      "Air Superiority",
-      "Stealth",
-      "China"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Fighter",
-      "Multirole"
-    ],
+    "altNames": ["J-20", "Fagin"],
+    "tags": ["Air Superiority", "Stealth", "China"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Fighter", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4047,11 +3458,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "stealth design",
-          "long fuselage",
-          "canard foreplanes"
-        ]
+        "distinctiveFeatures": ["stealth design", "long fuselage", "canard foreplanes"]
       },
       "tail": {
         "type": "twin",
@@ -4070,23 +3477,10 @@
   },
   {
     "key": "B-1B Lancer",
-    "altNames": [
-      "B-1B",
-      "Lancer",
-      "B1"
-    ],
-    "tags": [
-      "Bomber",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Bomber"
-    ],
+    "altNames": ["B-1B", "Lancer", "B1"],
+    "tags": ["Bomber", "USA", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4158,10 +3552,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "large bomb bays",
-          "variable-sweep wing configuration"
-        ]
+        "distinctiveFeatures": ["large bomb bays", "variable-sweep wing configuration"]
       },
       "tail": {
         "type": "conventional",
@@ -4180,24 +3571,10 @@
   },
   {
     "key": "B-2 Spirit",
-    "altNames": [
-      "B-2",
-      "Spirit"
-    ],
-    "tags": [
-      "Bomber",
-      "Stealth",
-      "USA",
-      "Modern"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Bomber",
-      "Stealth"
-    ],
+    "altNames": ["B-2", "Spirit"],
+    "tags": ["Bomber", "Stealth", "USA", "Modern"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Bomber", "Stealth"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4269,10 +3646,7 @@
       },
       "fuselage": {
         "shape": "flying wing",
-        "distinctiveFeatures": [
-          "no vertical stabilizers",
-          "stealth optimized"
-        ]
+        "distinctiveFeatures": ["no vertical stabilizers", "stealth optimized"]
       },
       "tail": {
         "type": "none",
@@ -4291,22 +3665,10 @@
   },
   {
     "key": "B-52 Stratofortress",
-    "altNames": [
-      "B-52",
-      "Stratofortress"
-    ],
-    "tags": [
-      "Bomber",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Bomber"
-    ],
+    "altNames": ["B-52", "Stratofortress"],
+    "tags": ["Bomber", "USA", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4378,10 +3740,7 @@
       },
       "fuselage": {
         "shape": "long cylindrical",
-        "distinctiveFeatures": [
-          "large bomb bays",
-          "tandem cockpit"
-        ]
+        "distinctiveFeatures": ["large bomb bays", "tandem cockpit"]
       },
       "tail": {
         "type": "conventional",
@@ -4400,22 +3759,10 @@
   },
   {
     "key": "Tu-95 Bear",
-    "altNames": [
-      "Tu-95",
-      "Bear"
-    ],
-    "tags": [
-      "Bomber",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Bomber"
-    ],
+    "altNames": ["Tu-95", "Bear"],
+    "tags": ["Bomber", "Russia/USSR", "Cold War"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4487,10 +3834,7 @@
       },
       "fuselage": {
         "shape": "long cylindrical",
-        "distinctiveFeatures": [
-          "tandem cockpit",
-          "tail gunner position"
-        ]
+        "distinctiveFeatures": ["tandem cockpit", "tail gunner position"]
       },
       "tail": {
         "type": "conventional",
@@ -4509,22 +3853,10 @@
   },
   {
     "key": "Tu-160 Blackjack",
-    "altNames": [
-      "Tu-160",
-      "Blackjack"
-    ],
-    "tags": [
-      "Bomber",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Bomber"
-    ],
+    "altNames": ["Tu-160", "Blackjack"],
+    "tags": ["Bomber", "Russia/USSR", "Cold War"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4619,22 +3951,10 @@
   },
   {
     "key": "Tu-22M Backfire",
-    "altNames": [
-      "Tu-22M",
-      "Backfire"
-    ],
-    "tags": [
-      "Bomber",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Bomber"
-    ],
+    "altNames": ["Tu-22M", "Backfire"],
+    "tags": ["Bomber", "Russia/USSR", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Bomber"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4706,10 +4026,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "large internal bomb bays",
-          "twin-engine design"
-        ]
+        "distinctiveFeatures": ["large internal bomb bays", "twin-engine design"]
       },
       "tail": {
         "type": "conventional",
@@ -4728,22 +4045,10 @@
   },
   {
     "key": "An-124 Condor",
-    "altNames": [
-      "An-124",
-      "Condor"
-    ],
-    "tags": [
-      "Transport",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["An-124", "Condor"],
+    "tags": ["Transport", "Russia/USSR", "Cold War"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4815,10 +4120,7 @@
       },
       "fuselage": {
         "shape": "bulky",
-        "distinctiveFeatures": [
-          "large cargo hold",
-          "nose section can be raised for loading"
-        ]
+        "distinctiveFeatures": ["large cargo hold", "nose section can be raised for loading"]
       },
       "tail": {
         "type": "conventional",
@@ -4837,22 +4139,10 @@
   },
   {
     "key": "C-5 Galaxy",
-    "altNames": [
-      "C-5",
-      "Galaxy"
-    ],
-    "tags": [
-      "Transport",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["C-5", "Galaxy"],
+    "tags": ["Transport", "USA", "Cold War"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -4924,11 +4214,7 @@
       },
       "fuselage": {
         "shape": "bulky",
-        "distinctiveFeatures": [
-          "large cargo hold",
-          "tail makes a capital 'T' shape",
-          "no winglets"
-        ]
+        "distinctiveFeatures": ["large cargo hold", "tail makes a capital 'T' shape", "no winglets"]
       },
       "tail": {
         "type": "conventional",
@@ -4947,21 +4233,10 @@
   },
   {
     "key": "An-12 Cub",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Transport",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": [""],
+    "tags": ["Transport", "Russia/USSR", "Cold War"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5033,10 +4308,7 @@
       },
       "fuselage": {
         "shape": "cylindrical",
-        "distinctiveFeatures": [
-          "large rear cargo door",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["large rear cargo door", "high-mounted wings"]
       },
       "tail": {
         "type": "conventional",
@@ -5055,24 +4327,10 @@
   },
   {
     "key": "C-17 Globemaster III",
-    "altNames": [
-      "C-17",
-      "Globemaster III",
-      "C-17 Globemaster",
-      "Globemaster"
-    ],
-    "tags": [
-      "Transport",
-      "USA",
-      "Modern"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["C-17", "Globemaster III", "C-17 Globemaster", "Globemaster"],
+    "tags": ["Transport", "USA", "Modern"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5144,10 +4402,7 @@
       },
       "fuselage": {
         "shape": "bulky",
-        "distinctiveFeatures": [
-          "large rear cargo ramp",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["large rear cargo ramp", "high-mounted wings"]
       },
       "tail": {
         "type": "conventional",
@@ -5166,26 +4421,10 @@
   },
   {
     "key": "C-130 Hercules",
-    "altNames": [
-      "C-130",
-      "Hercules",
-      "C-130J",
-      "Super Hercules"
-    ],
-    "tags": [
-      "Transport",
-      "USA",
-      "Cold War",
-      "Modern"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["C-130", "Hercules", "C-130J", "Super Hercules"],
+    "tags": ["Transport", "USA", "Cold War", "Modern"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5257,10 +4496,7 @@
       },
       "fuselage": {
         "shape": "cylindrical",
-        "distinctiveFeatures": [
-          "large rear cargo door",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["large rear cargo door", "high-mounted wings"]
       },
       "tail": {
         "type": "conventional",
@@ -5279,22 +4515,10 @@
   },
   {
     "key": "C-160 Transall",
-    "altNames": [
-      "C-160",
-      "Transall"
-    ],
-    "tags": [
-      "Transport",
-      "Germany",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["C-160", "Transall"],
+    "tags": ["Transport", "Germany", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5366,10 +4590,7 @@
       },
       "fuselage": {
         "shape": "cylindrical",
-        "distinctiveFeatures": [
-          "rear cargo door",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["rear cargo door", "high-mounted wings"]
       },
       "tail": {
         "type": "conventional",
@@ -5388,22 +4609,10 @@
   },
   {
     "key": "IL-76 Candid",
-    "altNames": [
-      "IL-76",
-      "Candid"
-    ],
-    "tags": [
-      "Transport",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["IL-76", "Candid"],
+    "tags": ["Transport", "Russia/USSR", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5475,10 +4684,7 @@
       },
       "fuselage": {
         "shape": "cylindrical",
-        "distinctiveFeatures": [
-          "large rear cargo door",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["large rear cargo door", "high-mounted wings"]
       },
       "tail": {
         "type": "conventional",
@@ -5497,22 +4703,10 @@
   },
   {
     "key": "An-72 Coaler",
-    "altNames": [
-      "An-72",
-      "Coaler"
-    ],
-    "tags": [
-      "Transport",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["An-72", "Coaler"],
+    "tags": ["Transport", "Russia/USSR", "Cold War"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5584,10 +4778,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "upward tilt for STOL",
-          "raised rear cargo ramp"
-        ]
+        "distinctiveFeatures": ["upward tilt for STOL", "raised rear cargo ramp"]
       },
       "tail": {
         "type": "T-tail",
@@ -5606,22 +4797,10 @@
   },
   {
     "key": "C-212 Aviocar",
-    "altNames": [
-      "C-212",
-      "Aviocar"
-    ],
-    "tags": [
-      "Transport",
-      "Light Cargo",
-      "Spain"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["C-212", "Aviocar"],
+    "tags": ["Transport", "Light Cargo", "Spain"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5693,10 +4872,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "large cargo door",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["large cargo door", "high-mounted wings"]
       },
       "tail": {
         "type": "conventional",
@@ -5715,21 +4891,10 @@
   },
   {
     "key": "C-23 Sherpa",
-    "altNames": [
-      "C-23, Sherpa"
-    ],
-    "tags": [
-      "Transport",
-      "Light Cargo",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["C-23, Sherpa"],
+    "tags": ["Transport", "Light Cargo", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5801,10 +4966,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "rear loading ramp",
-          "high-mounted wings"
-        ]
+        "distinctiveFeatures": ["rear loading ramp", "high-mounted wings"]
       },
       "tail": {
         "type": "twin",
@@ -5823,22 +4985,10 @@
   },
   {
     "key": "AN-26 Curl",
-    "altNames": [
-      "AN-26",
-      "Curl"
-    ],
-    "tags": [
-      "Transport",
-      "Cargo",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["AN-26", "Curl"],
+    "tags": ["Transport", "Cargo", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -5910,10 +5060,7 @@
       },
       "fuselage": {
         "shape": "cylindrical",
-        "distinctiveFeatures": [
-          "rugged fuselage",
-          "rear cargo door"
-        ]
+        "distinctiveFeatures": ["rugged fuselage", "rear cargo door"]
       },
       "tail": {
         "type": "conventional",
@@ -5932,22 +5079,10 @@
   },
   {
     "key": "AN-32 Cline",
-    "altNames": [
-      "AN-32",
-      "Cline"
-    ],
-    "tags": [
-      "Transport",
-      "Cargo",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["AN-32", "Cline"],
+    "tags": ["Transport", "Cargo", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6041,22 +5176,10 @@
   },
   {
     "key": "AH-1 Cobra",
-    "altNames": [
-      "AH-1",
-      "Cobra"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter"
-    ],
+    "altNames": ["AH-1", "Cobra"],
+    "tags": ["Attack Helicopter", "USA", "Cold War"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Attack Helicopter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6128,10 +5251,7 @@
       },
       "fuselage": {
         "shape": "narrow",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "nose-mounted weapons"
-        ]
+        "distinctiveFeatures": ["tandem seating", "nose-mounted weapons"]
       },
       "tail": {
         "type": "conventional",
@@ -6150,22 +5270,10 @@
   },
   {
     "key": "AH-64 Apache",
-    "altNames": [
-      "AH-64",
-      "Apache"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "USA",
-      "Modern"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter"
-    ],
+    "altNames": ["AH-64", "Apache"],
+    "tags": ["Attack Helicopter", "USA", "Modern"],
+    "hltag": ["devtest"],
+    "accat": ["Rotor-Wing", "Attack Helicopter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6237,10 +5345,7 @@
       },
       "fuselage": {
         "shape": "armored",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "large, four-blade rotor system"
-        ]
+        "distinctiveFeatures": ["tandem seating", "large, four-blade rotor system"]
       },
       "tail": {
         "type": "conventional",
@@ -6259,27 +5364,10 @@
   },
   {
     "key": "Ka-50/52 Hokum A/B",
-    "altNames": [
-      "Ka-50 Hokum A",
-      "Ka-52 Hokum B",
-      "Ka-50A",
-      "Ka-50",
-      "Ka-52",
-      "Ka-52B",
-      "Hokum"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "Russia/USSR",
-      "Modern"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter"
-    ],
+    "altNames": ["Ka-50 Hokum A", "Ka-52 Hokum B", "Ka-50A", "Ka-50", "Ka-52", "Ka-52B", "Hokum"],
+    "tags": ["Attack Helicopter", "Russia/USSR", "Modern"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Attack Helicopter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6351,10 +5439,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "heavily armored fuselage"
-        ]
+        "distinctiveFeatures": ["tandem seating", "heavily armored fuselage"]
       },
       "tail": {
         "type": "none (coaxial)",
@@ -6373,24 +5458,10 @@
   },
   {
     "key": "Mi-24 Hind",
-    "altNames": [
-      "Mi-24",
-      "Hind"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "Transport",
-      "Russia/USSR",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter",
-      "Transport"
-    ],
+    "altNames": ["Mi-24", "Hind"],
+    "tags": ["Attack Helicopter", "Transport", "Russia/USSR", "Cold War"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Attack Helicopter", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6462,10 +5533,7 @@
       },
       "fuselage": {
         "shape": "large, armored",
-        "distinctiveFeatures": [
-          "tandem cockpit",
-          "troop-carrying capacity"
-        ]
+        "distinctiveFeatures": ["tandem cockpit", "troop-carrying capacity"]
       },
       "tail": {
         "type": "conventional",
@@ -6484,22 +5552,10 @@
   },
   {
     "key": "Mi-28 Havoc",
-    "altNames": [
-      "Mi-28",
-      "Havoc"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "Russia/USSR",
-      "Modern"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter"
-    ],
+    "altNames": ["Mi-28", "Havoc"],
+    "tags": ["Attack Helicopter", "Russia/USSR", "Modern"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Attack Helicopter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6571,10 +5627,7 @@
       },
       "fuselage": {
         "shape": "armored, streamlined",
-        "distinctiveFeatures": [
-          "tandem cockpit",
-          "chin-mounted cannon"
-        ]
+        "distinctiveFeatures": ["tandem cockpit", "chin-mounted cannon"]
       },
       "tail": {
         "type": "conventional",
@@ -6593,21 +5646,10 @@
   },
   {
     "key": "A129 Mangusta",
-    "altNames": [
-      "A129",
-      "Mangusta"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "Italy"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter"
-    ],
+    "altNames": ["A129", "Mangusta"],
+    "tags": ["Attack Helicopter", "Italy"],
+    "hltag": ["devtest"],
+    "accat": ["Rotor-Wing", "Attack Helicopter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6679,10 +5721,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "tandem cockpit",
-          "narrow airframe"
-        ]
+        "distinctiveFeatures": ["tandem cockpit", "narrow airframe"]
       },
       "tail": {
         "type": "conventional",
@@ -6701,23 +5740,10 @@
   },
   {
     "key": "Ec-665 Tiger",
-    "altNames": [
-      "Ec-665",
-      "Tiger"
-    ],
-    "tags": [
-      "Attack Helicopter",
-      "France",
-      "Germany",
-      "Modern"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Attack Helicopter"
-    ],
+    "altNames": ["Ec-665", "Tiger"],
+    "tags": ["Attack Helicopter", "France", "Germany", "Modern"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Attack Helicopter"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6789,10 +5815,7 @@
       },
       "fuselage": {
         "shape": "narrow, streamlined",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "four-blade rotor system"
-        ]
+        "distinctiveFeatures": ["tandem seating", "four-blade rotor system"]
       },
       "tail": {
         "type": "conventional",
@@ -6811,22 +5834,10 @@
   },
   {
     "key": "CH-47 Chinook",
-    "altNames": [
-      "CH-47",
-      "Chinook"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Heavy-Lift",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Heavy-Lift"
-    ],
+    "altNames": ["CH-47", "Chinook"],
+    "tags": ["Utility Helicopter", "Heavy-Lift", "USA"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Heavy-Lift"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -6898,10 +5909,7 @@
       },
       "fuselage": {
         "shape": "long, cylindrical",
-        "distinctiveFeatures": [
-          "tandem rotors",
-          "rear loading ramp"
-        ]
+        "distinctiveFeatures": ["tandem rotors", "rear loading ramp"]
       },
       "tail": {
         "type": "no tail rotor",
@@ -6920,22 +5928,10 @@
   },
   {
     "key": "CH-53 Sea Stallion",
-    "altNames": [
-      "CH-53",
-      "Sea Stallion"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Heavy-Lift",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Heavy-Lift"
-    ],
+    "altNames": ["CH-53", "Sea Stallion"],
+    "tags": ["Utility Helicopter", "Heavy-Lift", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Heavy-Lift"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7007,10 +6003,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "rear loading ramp",
-          "large cargo hold"
-        ]
+        "distinctiveFeatures": ["rear loading ramp", "large cargo hold"]
       },
       "tail": {
         "type": "conventional",
@@ -7030,23 +6023,10 @@
   },
   {
     "key": "UH-60 Black Hawk",
-    "altNames": [
-      "UH-60",
-      "Black Hawk"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "USA",
-      "Modern"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["UH-60", "Black Hawk"],
+    "tags": ["Utility Helicopter", "USA", "Modern"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7118,10 +6098,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "four-blade rotor",
-          "rear loading ramp"
-        ]
+        "distinctiveFeatures": ["four-blade rotor", "rear loading ramp"]
       },
       "tail": {
         "type": "conventional",
@@ -7141,21 +6118,10 @@
   },
   {
     "key": "UH-72 Lakota",
-    "altNames": [
-      "UH-72",
-      "Lakota"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["UH-72", "Lakota"],
+    "tags": ["Utility Helicopter", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7227,10 +6193,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "small cabin",
-          "twin engines"
-        ]
+        "distinctiveFeatures": ["small cabin", "twin engines"]
       },
       "tail": {
         "type": "conventional",
@@ -7250,23 +6213,10 @@
   },
   {
     "key": "Mi-8 Hip",
-    "altNames": [
-      "Mi-8",
-      "Hip"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Transport",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility",
-      "Transport"
-    ],
+    "altNames": ["Mi-8", "Hip"],
+    "tags": ["Utility Helicopter", "Transport", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7338,10 +6288,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "rear loading ramp",
-          "five-blade rotor"
-        ]
+        "distinctiveFeatures": ["rear loading ramp", "five-blade rotor"]
       },
       "tail": {
         "type": "conventional",
@@ -7361,22 +6308,10 @@
   },
   {
     "key": "Mi-26 Halo",
-    "altNames": [
-      "Mi-26",
-      "Halo"
-    ],
-    "tags": [
-      "Heavy-Lift",
-      "Utility Helicopter",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Heavy-Lift"
-    ],
+    "altNames": ["Mi-26", "Halo"],
+    "tags": ["Heavy-Lift", "Utility Helicopter", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Heavy-Lift"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7448,10 +6383,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "eight-blade rotor",
-          "large fuselage"
-        ]
+        "distinctiveFeatures": ["eight-blade rotor", "large fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -7471,22 +6403,10 @@
   },
   {
     "key": "NH-90",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Transport",
-      "Germany",
-      "France"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Utility Helicopter", "Transport", "Germany", "France"],
+    "hltag": ["devtest"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7558,10 +6478,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "medium-sized cabin",
-          "four-blade rotor"
-        ]
+        "distinctiveFeatures": ["medium-sized cabin", "four-blade rotor"]
       },
       "tail": {
         "type": "conventional",
@@ -7581,24 +6498,10 @@
   },
   {
     "key": "SA-316/SA-319 Alouette III",
-    "altNames": [
-      "SA-319 Alouette III",
-      "SA-316 Alouette III",
-      "SA-319",
-      "SA-316",
-      "Alouette III"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "France"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["SA-319 Alouette III", "SA-316 Alouette III", "SA-319", "SA-316", "Alouette III"],
+    "tags": ["Utility Helicopter", "France"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7670,10 +6573,7 @@
       },
       "fuselage": {
         "shape": "slender",
-        "distinctiveFeatures": [
-          "glass cockpit",
-          "three-blade rotor"
-        ]
+        "distinctiveFeatures": ["glass cockpit", "three-blade rotor"]
       },
       "tail": {
         "type": "conventional",
@@ -7693,25 +6593,10 @@
   },
   {
     "key": "AS332/AS532 Super Puma/Cougar",
-    "altNames": [
-      "AS332",
-      "AS532",
-      "AS332 Super Puma",
-      "Super Puma",
-      "AS532 Cougar",
-      "Cougar"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "France"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["AS332", "AS532", "AS332 Super Puma", "Super Puma", "AS532 Cougar", "Cougar"],
+    "tags": ["Utility Helicopter", "France"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7783,10 +6668,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "high-mounted tail boom",
-          "large cabin"
-        ]
+        "distinctiveFeatures": ["high-mounted tail boom", "large cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -7806,21 +6688,10 @@
   },
   {
     "key": "SA-330 Puma",
-    "altNames": [
-      "SA-330",
-      "Puma"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "France"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["SA-330", "Puma"],
+    "tags": ["Utility Helicopter", "France"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -7892,10 +6763,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "high-mounted tail boom",
-          "large cabin"
-        ]
+        "distinctiveFeatures": ["high-mounted tail boom", "large cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -7915,22 +6783,10 @@
   },
   {
     "key": "SH-3 Sea King",
-    "altNames": [
-      "SH-3",
-      "Sea King"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Naval",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["SH-3", "Sea King"],
+    "tags": ["Utility Helicopter", "Naval", "USA"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8002,10 +6858,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "boat-shaped hull",
-          "large cabin"
-        ]
+        "distinctiveFeatures": ["boat-shaped hull", "large cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -8025,22 +6878,10 @@
   },
   {
     "key": "VH-3 Sea King",
-    "altNames": [
-      "VH-3",
-      "Sea King"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "VIP Transport",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["VH-3", "Sea King"],
+    "tags": ["Utility Helicopter", "VIP Transport", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8112,10 +6953,7 @@
       },
       "fuselage": {
         "shape": "boat-shaped",
-        "distinctiveFeatures": [
-          "VIP interior modifications",
-          "large cabin"
-        ]
+        "distinctiveFeatures": ["VIP interior modifications", "large cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -8135,22 +6973,10 @@
   },
   {
     "key": "VH-92 Patriot",
-    "altNames": [
-      "VH-92",
-      "Patiot"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "VIP Transport",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["VH-92", "Patiot"],
+    "tags": ["Utility Helicopter", "VIP Transport", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8222,10 +7048,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "sleek fuselage",
-          "VIP transport"
-        ]
+        "distinctiveFeatures": ["sleek fuselage", "VIP transport"]
       },
       "tail": {
         "type": "conventional",
@@ -8245,22 +7068,10 @@
   },
   {
     "key": "KA-27 Helix",
-    "altNames": [
-      "KA-27",
-      "Helix"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Naval",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["KA-27", "Helix"],
+    "tags": ["Utility Helicopter", "Naval", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8332,10 +7143,7 @@
       },
       "fuselage": {
         "shape": "boat-shaped",
-        "distinctiveFeatures": [
-          "coaxial rotor system",
-          "small cabin for equipment or crew"
-        ]
+        "distinctiveFeatures": ["coaxial rotor system", "small cabin for equipment or crew"]
       },
       "tail": {
         "type": "conventional",
@@ -8355,19 +7163,9 @@
   },
   {
     "key": "CH-46 Sea Knight",
-    "altNames": [
-      "CH-46",
-      "Sea Knight"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Transport",
-      "USA"
-    ],
-    "hltag": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["CH-46", "Sea Knight"],
+    "tags": ["Utility Helicopter", "Transport", "USA"],
+    "hltag": ["Rotor-Wing", "Utility"],
     "accat": [],
     "generalData": [
       {
@@ -8440,10 +7238,7 @@
       },
       "fuselage": {
         "shape": "medium-sized",
-        "distinctiveFeatures": [
-          "twin-rotor design",
-          "rear cargo ramp"
-        ]
+        "distinctiveFeatures": ["twin-rotor design", "rear cargo ramp"]
       },
       "tail": {
         "type": "none",
@@ -8463,22 +7258,10 @@
   },
   {
     "key": "SH-60 Seahawk",
-    "altNames": [
-      "SH-60",
-      "Seahawk"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Naval",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["SH-60", "Seahawk"],
+    "tags": ["Utility Helicopter", "Naval", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8550,10 +7333,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "four-blade rotor",
-          "naval adaptations for shipboard operations"
-        ]
+        "distinctiveFeatures": ["four-blade rotor", "naval adaptations for shipboard operations"]
       },
       "tail": {
         "type": "conventional",
@@ -8573,23 +7353,9 @@
   },
   {
     "key": "UH-1 Iroquois (Huey)",
-    "altNames": [
-      "UH-1 Iroquois",
-      "UH-1 Huey",
-      "UH-1",
-      "Iroquois",
-      "Huey"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Transport",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": ["UH-1 Iroquois", "UH-1 Huey", "UH-1", "Iroquois", "Huey"],
+    "tags": ["Utility Helicopter", "Transport", "USA", "Cold War"],
+    "hltag": ["Rotor-Wing", "Utility"],
     "accat": [],
     "generalData": [
       {
@@ -8662,10 +7428,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "large cabin",
-          "skids for landing"
-        ]
+        "distinctiveFeatures": ["large cabin", "skids for landing"]
       },
       "tail": {
         "type": "conventional",
@@ -8685,22 +7448,10 @@
   },
   {
     "key": "BO-105",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Utility",
-      "Germany"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Recon Helicopter", "Light Utility", "Germany"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8772,10 +7523,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "rigid rotor system",
-          "light utility fuselage"
-        ]
+        "distinctiveFeatures": ["rigid rotor system", "light utility fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -8795,24 +7543,10 @@
   },
   {
     "key": "MD-500 Defender",
-    "altNames": [
-      "MD-500",
-      "Defender 500",
-      "MD Defender 500 "
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Attack",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Attack"
-    ],
+    "altNames": ["MD-500", "Defender 500", "MD Defender 500 "],
+    "tags": ["Recon Helicopter", "Attack", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Recon", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8884,10 +7618,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "light utility fuselage"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "light utility fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -8907,22 +7638,10 @@
   },
   {
     "key": "OH-58 Kiowa",
-    "altNames": [
-      "OH-58",
-      "Kiowa"
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "USA",
-      "Cold War"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon"
-    ],
+    "altNames": ["OH-58", "Kiowa"],
+    "tags": ["Recon Helicopter", "USA", "Cold War"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -8994,10 +7713,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "mast-mounted sight",
-          "compact cabin"
-        ]
+        "distinctiveFeatures": ["mast-mounted sight", "compact cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -9017,23 +7733,10 @@
   },
   {
     "key": "OH-6A Cayuse",
-    "altNames": [
-      "OH-6A",
-      "Cayuse"
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Utility",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": ["OH-6A", "Cayuse"],
+    "tags": ["Recon Helicopter", "Light Utility", "USA"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9105,10 +7808,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "egg-shaped fuselage",
-          "bubble canopy"
-        ]
+        "distinctiveFeatures": ["egg-shaped fuselage", "bubble canopy"]
       },
       "tail": {
         "type": "conventional",
@@ -9128,20 +7828,10 @@
   },
   {
     "key": "Z-9 Harbin",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "China"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon"
-    ],
+    "altNames": [""],
+    "tags": ["Recon Helicopter", "China"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9213,10 +7903,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "fenestron tail rotor",
-          "medium-sized fuselage"
-        ]
+        "distinctiveFeatures": ["fenestron tail rotor", "medium-sized fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -9236,23 +7923,10 @@
   },
   {
     "key": "AS-350 Squirrel",
-    "altNames": [
-      "AS-350",
-      "Squirrel"
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Utility",
-      "France"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": ["AS-350", "Squirrel"],
+    "tags": ["Recon Helicopter", "Light Utility", "France"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9324,10 +7998,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "light utility fuselage"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "light utility fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -9347,22 +8018,10 @@
   },
   {
     "key": "AW-109 Power",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Utility",
-      "Italy"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Recon Helicopter", "Utility", "Italy"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9434,10 +8093,7 @@
       },
       "fuselage": {
         "shape": "sleek",
-        "distinctiveFeatures": [
-          "streamlined fuselage",
-          "retractable landing gear"
-        ]
+        "distinctiveFeatures": ["streamlined fuselage", "retractable landing gear"]
       },
       "tail": {
         "type": "conventional",
@@ -9457,22 +8113,10 @@
   },
   {
     "key": "Bell 206",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Utility",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Recon Helicopter", "Light Utility", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9544,10 +8188,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "light utility fuselage"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "light utility fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -9567,21 +8208,10 @@
   },
   {
     "key": "Bell 412",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Transport",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Utility Helicopter", "Transport", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9653,10 +8283,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "four-blade rotor",
-          "medium utility cabin"
-        ]
+        "distinctiveFeatures": ["four-blade rotor", "medium utility cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -9676,22 +8303,10 @@
   },
   {
     "key": "EC-120",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Utility",
-      "France"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Recon Helicopter", "Light Utility", "France"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9763,10 +8378,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "fenestron tail rotor"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "fenestron tail rotor"]
       },
       "tail": {
         "type": "conventional",
@@ -9786,22 +8398,10 @@
   },
   {
     "key": "EC-135",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Transport",
-      "France",
-      "Germany"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Utility Helicopter", "Transport", "France", "Germany"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9896,23 +8496,10 @@
   },
   {
     "key": "HH-65 Dolphin",
-    "altNames": [
-      "HH-65",
-      "Dolphin"
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Search and Rescue",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility",
-      "SAR"
-    ],
+    "altNames": ["HH-65", "Dolphin"],
+    "tags": ["Utility Helicopter", "Search and Rescue", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility", "SAR"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -9984,10 +8571,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "fenestron tail rotor",
-          "sleek design"
-        ]
+        "distinctiveFeatures": ["fenestron tail rotor", "sleek design"]
       },
       "tail": {
         "type": "conventional",
@@ -10007,25 +8591,10 @@
   },
   {
     "key": "Robinson R-44 Raven",
-    "altNames": [
-      "Robinson R-44 Raven",
-      "R-44",
-      "Raven",
-      "Raven II"
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Utility",
-      "Civil"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility",
-      "Recon"
-    ],
+    "altNames": ["Robinson R-44 Raven", "R-44", "Raven", "Raven II"],
+    "tags": ["Recon Helicopter", "Utility", "Civil"],
+    "hltag": ["NCR"],
+    "accat": ["Rotor-Wing", "Utility", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10097,10 +8666,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "bubble canopy",
-          "light utility fuselage"
-        ]
+        "distinctiveFeatures": ["bubble canopy", "light utility fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -10120,23 +8686,10 @@
   },
   {
     "key": "AH-6 Little Bird",
-    "altNames": [
-      "AH-6",
-      "Little Bird"
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Attack",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Recon",
-      "Attack"
-    ],
+    "altNames": ["AH-6", "Little Bird"],
+    "tags": ["Recon Helicopter", "Light Attack", "USA"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Recon", "Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10208,10 +8761,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "highly maneuverable",
-          "small size"
-        ]
+        "distinctiveFeatures": ["highly maneuverable", "small size"]
       },
       "tail": {
         "type": "conventional",
@@ -10231,23 +8781,10 @@
   },
   {
     "key": "MI-2 Hoplite",
-    "altNames": [
-      "MI-2",
-      "Hoplite"
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Utility",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility",
-      "Recon"
-    ],
+    "altNames": ["MI-2", "Hoplite"],
+    "tags": ["Recon Helicopter", "Utility", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10319,10 +8856,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "light utility design",
-          "two-blade rotor system"
-        ]
+        "distinctiveFeatures": ["light utility design", "two-blade rotor system"]
       },
       "tail": {
         "type": "conventional",
@@ -10342,23 +8876,10 @@
   },
   {
     "key": "Gazelle",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Recon Helicopter",
-      "Light Utility",
-      "France",
-      "UK"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility",
-      "Recon"
-    ],
+    "altNames": [""],
+    "tags": ["Recon Helicopter", "Light Utility", "France", "UK"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10430,10 +8951,7 @@
       },
       "fuselage": {
         "shape": "slim",
-        "distinctiveFeatures": [
-          "fenestron tail rotor",
-          "light utility design"
-        ]
+        "distinctiveFeatures": ["fenestron tail rotor", "light utility design"]
       },
       "tail": {
         "type": "conventional",
@@ -10453,22 +8971,10 @@
   },
   {
     "key": "Bell 407",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Utility Helicopter",
-      "Recon",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing",
-      "Utility",
-      "Recon"
-    ],
+    "altNames": [""],
+    "tags": ["Utility Helicopter", "Recon", "USA"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing", "Utility", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10540,10 +9046,7 @@
       },
       "fuselage": {
         "shape": "spacious",
-        "distinctiveFeatures": [
-          "four-blade main rotor",
-          "advanced avionics"
-        ]
+        "distinctiveFeatures": ["four-blade main rotor", "advanced avionics"]
       },
       "tail": {
         "type": "conventional",
@@ -10563,23 +9066,10 @@
   },
   {
     "key": "MQ-1 Predator",
-    "altNames": [
-      "MQ-1",
-      "Predator"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": ["MQ-1", "Predator"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10651,10 +9141,7 @@
       },
       "fuselage": {
         "shape": "long and slender",
-        "distinctiveFeatures": [
-          "bulbous nose",
-          "sensor housing"
-        ]
+        "distinctiveFeatures": ["bulbous nose", "sensor housing"]
       },
       "tail": {
         "type": "V-tail",
@@ -10674,22 +9161,10 @@
   },
   {
     "key": "MQ-5B Hunter",
-    "altNames": [
-      "MQ-5B",
-      "Hunter"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": ["MQ-5B", "Hunter"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10761,9 +9236,7 @@
       },
       "fuselage": {
         "shape": "central fuselage pod",
-        "distinctiveFeatures": [
-          "twin-boom design"
-        ]
+        "distinctiveFeatures": ["twin-boom design"]
       },
       "tail": {
         "type": "V-tail",
@@ -10783,24 +9256,10 @@
   },
   {
     "key": "MQ-9 Reaper",
-    "altNames": [
-      "MQ-9",
-      "Reaper"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Surveillance",
-      "Attack",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Attack",
-      "Surveillance"
-    ],
+    "altNames": ["MQ-9", "Reaper"],
+    "tags": ["Unmanned Aircraft", "Surveillance", "Attack", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Attack", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10872,10 +9331,7 @@
       },
       "fuselage": {
         "shape": "long and slender",
-        "distinctiveFeatures": [
-          "sensor housing",
-          "external hardpoints"
-        ]
+        "distinctiveFeatures": ["sensor housing", "external hardpoints"]
       },
       "tail": {
         "type": "V-tail",
@@ -10895,25 +9351,10 @@
   },
   {
     "key": "MQ-8 Fire Scout",
-    "altNames": [
-      "MQ-8",
-      "Fire Scout"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "Rotor-Wing",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Rotor-Wing UAV",
-      "Surveillance",
-      "Recon"
-    ],
+    "altNames": ["MQ-8", "Fire Scout"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "Rotor-Wing", "USA"],
+    "hltag": [""],
+    "accat": ["Rotor-Wing UAV", "Surveillance", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -10985,10 +9426,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "unmanned helicopter",
-          "sensors on nose"
-        ]
+        "distinctiveFeatures": ["unmanned helicopter", "sensors on nose"]
       },
       "tail": {
         "type": "conventional",
@@ -11008,23 +9446,10 @@
   },
   {
     "key": "RQ-2 Pioneer",
-    "altNames": [
-      "RQ-2",
-      "Pioneer"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": ["RQ-2", "Pioneer"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11096,10 +9521,7 @@
       },
       "fuselage": {
         "shape": "twin-boom",
-        "distinctiveFeatures": [
-          "central pod",
-          "long nose housing sensors"
-        ]
+        "distinctiveFeatures": ["central pod", "long nose housing sensors"]
       },
       "tail": {
         "type": "twin-boom",
@@ -11119,23 +9541,10 @@
   },
   {
     "key": "RQ-4 Global Hawk",
-    "altNames": [
-      "RQ-4",
-      "Global Hawk"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": ["RQ-4", "Global Hawk"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11207,10 +9616,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "long fuselage",
-          "bulbous nose"
-        ]
+        "distinctiveFeatures": ["long fuselage", "bulbous nose"]
       },
       "tail": {
         "type": "V-tail",
@@ -11230,23 +9636,10 @@
   },
   {
     "key": "RQ-7 Shadow",
-    "altNames": [
-      "RQ-7",
-      "Shadow"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": ["RQ-7", "Shadow"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11318,10 +9711,7 @@
       },
       "fuselage": {
         "shape": "twin-boom",
-        "distinctiveFeatures": [
-          "central pod",
-          "inverted V-tail"
-        ]
+        "distinctiveFeatures": ["central pod", "inverted V-tail"]
       },
       "tail": {
         "type": "inverted V-tail",
@@ -11341,25 +9731,10 @@
   },
   {
     "key": "RQ-170 Sentinel",
-    "altNames": [
-      "RQ-170",
-      "Sentinel"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Stealth",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Stealth UAV",
-      "Surveillance",
-      "Recon"
-    ],
+    "altNames": ["RQ-170", "Sentinel"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Stealth", "Surveillance", "USA"],
+    "hltag": [""],
+    "accat": ["Stealth UAV", "Surveillance", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11431,10 +9806,7 @@
       },
       "fuselage": {
         "shape": "wing",
-        "distinctiveFeatures": [
-          "stealth optimized",
-          "no tail"
-        ]
+        "distinctiveFeatures": ["stealth optimized", "no tail"]
       },
       "tail": {
         "type": "none",
@@ -11454,23 +9826,10 @@
   },
   {
     "key": "RQ-11B Raven",
-    "altNames": [
-      "RQ-11B",
-      "Raven"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": ["RQ-11B", "Raven"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11542,10 +9901,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "hand-launched capability",
-          "lightweight design"
-        ]
+        "distinctiveFeatures": ["hand-launched capability", "lightweight design"]
       },
       "tail": {
         "type": "V-tail",
@@ -11564,22 +9920,10 @@
   },
   {
     "key": "ScanEagle",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance"
-    ],
+    "altNames": [""],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Surveillance"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11651,10 +9995,7 @@
       },
       "fuselage": {
         "shape": "slim",
-        "distinctiveFeatures": [
-          "long endurance",
-          "lightweight structure"
-        ]
+        "distinctiveFeatures": ["long endurance", "lightweight structure"]
       },
       "tail": {
         "type": "conventional",
@@ -11673,24 +10014,10 @@
   },
   {
     "key": "Shmel-1 Yak-061",
-    "altNames": [
-      "Shmel-1",
-      "Yak-061"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance",
-      "Recon"
-    ],
+    "altNames": ["Shmel-1", "Yak-061"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Surveillance", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11762,10 +10089,7 @@
       },
       "fuselage": {
         "shape": "twin-boom",
-        "distinctiveFeatures": [
-          "central pod for sensors",
-          "twin-boom design"
-        ]
+        "distinctiveFeatures": ["central pod for sensors", "twin-boom design"]
       },
       "tail": {
         "type": "twin-boom",
@@ -11784,24 +10108,10 @@
   },
   {
     "key": "Mirach 100 Meteor",
-    "altNames": [
-      "Mirach 100",
-      "Meteor"
-    ],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "Italy"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance",
-      "Recon"
-    ],
+    "altNames": ["Mirach 100", "Meteor"],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "Italy"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing UAV", "Surveillance", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11873,10 +10183,7 @@
       },
       "fuselage": {
         "shape": "slim",
-        "distinctiveFeatures": [
-          "target drone",
-          "pointed nose"
-        ]
+        "distinctiveFeatures": ["target drone", "pointed nose"]
       },
       "tail": {
         "type": "V-tail",
@@ -11896,20 +10203,9 @@
   {
     "key": "Orlan-10",
     "altNames": [],
-    "tags": [
-      "Unmanned Aircraft",
-      "Reconnaissance",
-      "Surveillance",
-      "Russia"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing UAV",
-      "Surveillance",
-      "Recon"
-    ],
+    "tags": ["Unmanned Aircraft", "Reconnaissance", "Surveillance", "Russia"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing UAV", "Surveillance", "Recon"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -11981,10 +10277,7 @@
       },
       "fuselage": {
         "shape": "lightweight",
-        "distinctiveFeatures": [
-          "high-mounted wing",
-          "pusher propeller"
-        ]
+        "distinctiveFeatures": ["high-mounted wing", "pusher propeller"]
       },
       "tail": {
         "type": "conventional",
@@ -12003,19 +10296,10 @@
   },
   {
     "key": "Airbus A300",
-    "altNames": [
-      "A300"
-    ],
+    "altNames": ["A300"],
     "tags": [],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Airliner",
-      "Passenger",
-      "Cargo",
-      "Europe"
-    ],
+    "hltag": ["NCR"],
+    "accat": ["Airliner", "Passenger", "Cargo", "Europe"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12087,10 +10371,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "wide fuselage",
-          "two-deck layout"
-        ]
+        "distinctiveFeatures": ["wide fuselage", "two-deck layout"]
       },
       "tail": {
         "type": "conventional",
@@ -12109,19 +10390,10 @@
   },
   {
     "key": "Airbus A320",
-    "altNames": [
-      "A320"
-    ],
+    "altNames": ["A320"],
     "tags": [],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12193,9 +10465,7 @@
       },
       "fuselage": {
         "shape": "narrow-body",
-        "distinctiveFeatures": [
-          "fly-by-wire control system"
-        ]
+        "distinctiveFeatures": ["fly-by-wire control system"]
       },
       "tail": {
         "type": "conventional",
@@ -12214,22 +10484,10 @@
   },
   {
     "key": "Airbus A330",
-    "altNames": [
-      "A330"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "Europe"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["A330"],
+    "tags": ["Airliner", "Passenger", "Europe"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12301,10 +10559,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "long-range",
-          "spacious cabin"
-        ]
+        "distinctiveFeatures": ["long-range", "spacious cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -12323,23 +10578,10 @@
   },
   {
     "key": "Airbus A340",
-    "altNames": [
-      "A340"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "Europe"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["A340"],
+    "tags": ["Airliner", "Passenger", "Europe"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12411,10 +10653,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "four engines",
-          "high aspect ratio wing"
-        ]
+        "distinctiveFeatures": ["four engines", "high aspect ratio wing"]
       },
       "tail": {
         "type": "conventional",
@@ -12433,23 +10672,10 @@
   },
   {
     "key": "Boeing 737",
-    "altNames": [
-      "B737"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["B737"],
+    "tags": ["Airliner", "Passenger", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12521,10 +10747,7 @@
       },
       "fuselage": {
         "shape": "narrow-body",
-        "distinctiveFeatures": [
-          "reliable airliner",
-          "wide use in commercial aviation"
-        ]
+        "distinctiveFeatures": ["reliable airliner", "wide use in commercial aviation"]
       },
       "tail": {
         "type": "conventional",
@@ -12543,25 +10766,10 @@
   },
   {
     "key": "Boeing 747",
-    "altNames": [
-      "B747",
-      "Airforce One"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "Cargo",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["B747", "Airforce One"],
+    "tags": ["Airliner", "Passenger", "Cargo", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12633,10 +10841,7 @@
       },
       "fuselage": {
         "shape": "humpbacked",
-        "distinctiveFeatures": [
-          "double-deck",
-          "four-engine design"
-        ]
+        "distinctiveFeatures": ["double-deck", "four-engine design"]
       },
       "tail": {
         "type": "conventional",
@@ -12655,22 +10860,10 @@
   },
   {
     "key": "Boeing 757",
-    "altNames": [
-      "B757"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["B757"],
+    "tags": ["Airliner", "Passenger", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12742,10 +10935,7 @@
       },
       "fuselage": {
         "shape": "narrow-body",
-        "distinctiveFeatures": [
-          "high-aspect-ratio wings",
-          "winglets for efficiency"
-        ]
+        "distinctiveFeatures": ["high-aspect-ratio wings", "winglets for efficiency"]
       },
       "tail": {
         "type": "conventional",
@@ -12764,22 +10954,10 @@
   },
   {
     "key": "Boeing 767",
-    "altNames": [
-      "B767"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["B767"],
+    "tags": ["Airliner", "Passenger", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12851,10 +11029,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "two-deck layout",
-          "twin-engine design"
-        ]
+        "distinctiveFeatures": ["two-deck layout", "twin-engine design"]
       },
       "tail": {
         "type": "conventional",
@@ -12873,24 +11048,10 @@
   },
   {
     "key": "Boeing 777",
-    "altNames": [
-      "B777"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "Cargo",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["B777"],
+    "tags": ["Airliner", "Passenger", "Cargo", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -12962,10 +11123,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "twin-engine",
-          "long-range airliner"
-        ]
+        "distinctiveFeatures": ["twin-engine", "long-range airliner"]
       },
       "tail": {
         "type": "conventional",
@@ -12984,22 +11142,10 @@
   },
   {
     "key": "Boeing 787",
-    "altNames": [
-      "B787"
-    ],
-    "tags": [
-      "Airliner",
-      "Passenger",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Airliner"
-    ],
+    "altNames": ["B787"],
+    "tags": ["Airliner", "Passenger", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Airliner"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13071,10 +11217,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "composite materials",
-          "fuel efficiency"
-        ]
+        "distinctiveFeatures": ["composite materials", "fuel efficiency"]
       },
       "tail": {
         "type": "conventional",
@@ -13093,21 +11236,10 @@
   },
   {
     "key": "Cessna 500 Citation",
-    "altNames": [
-      "Cessna 500",
-      "Citation"
-    ],
-    "tags": [
-      "Business Jet",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Business Jet"
-    ],
+    "altNames": ["Cessna 500", "Citation"],
+    "tags": ["Business Jet", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Business Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13179,10 +11311,7 @@
       },
       "fuselage": {
         "shape": "sleek",
-        "distinctiveFeatures": [
-          "T-tail",
-          "spacious cabin"
-        ]
+        "distinctiveFeatures": ["T-tail", "spacious cabin"]
       },
       "tail": {
         "type": "T-tail",
@@ -13201,20 +11330,10 @@
   },
   {
     "key": "Dassault Falcon 50",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Business Jet",
-      "France"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Business Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Business Jet", "France"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Business Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13286,10 +11405,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "tri-jet configuration",
-          "luxurious cabin"
-        ]
+        "distinctiveFeatures": ["tri-jet configuration", "luxurious cabin"]
       },
       "tail": {
         "type": "T-tail",
@@ -13308,20 +11424,10 @@
   },
   {
     "key": "Gulf Stream",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Business Jet",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Business Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Business Jet", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Business Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13393,10 +11499,7 @@
       },
       "fuselage": {
         "shape": "long and streamlined",
-        "distinctiveFeatures": [
-          "spacious cabin",
-          "high cruising speed"
-        ]
+        "distinctiveFeatures": ["spacious cabin", "high cruising speed"]
       },
       "tail": {
         "type": "conventional",
@@ -13415,20 +11518,10 @@
   },
   {
     "key": "Hawker 800",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Business Jet",
-      "UK"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Business Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Business Jet", "UK"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Business Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13500,10 +11593,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "spacious cabin",
-          "comfortable interior"
-        ]
+        "distinctiveFeatures": ["spacious cabin", "comfortable interior"]
       },
       "tail": {
         "type": "conventional",
@@ -13522,21 +11612,10 @@
   },
   {
     "key": "Lear Jet",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Business Jet",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Business Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Business Jet", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Business Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13608,10 +11687,7 @@
       },
       "fuselage": {
         "shape": "sleek",
-        "distinctiveFeatures": [
-          "compact",
-          "high-speed performance"
-        ]
+        "distinctiveFeatures": ["compact", "high-speed performance"]
       },
       "tail": {
         "type": "conventional",
@@ -13630,23 +11706,10 @@
   },
   {
     "key": "Challenger",
-    "altNames": [
-      "Bombardier Aerospace"
-    ],
-    "tags": [
-      "Regional Jet",
-      "Passenger",
-      "Canada"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": ["Bombardier Aerospace"],
+    "tags": ["Regional Jet", "Passenger", "Canada"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13718,10 +11781,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "spacious cabin",
-          "streamlined fuselage"
-        ]
+        "distinctiveFeatures": ["spacious cabin", "streamlined fuselage"]
       },
       "tail": {
         "type": "T-tail",
@@ -13740,22 +11800,10 @@
   },
   {
     "key": "CRJ-100",
-    "altNames": [
-      "CRJ"
-    ],
-    "tags": [
-      "Regional Jet",
-      "Passenger",
-      "Canada"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": ["CRJ"],
+    "tags": ["Regional Jet", "Passenger", "Canada"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13827,10 +11875,7 @@
       },
       "fuselage": {
         "shape": "slender",
-        "distinctiveFeatures": [
-          "T-tail",
-          "compact design"
-        ]
+        "distinctiveFeatures": ["T-tail", "compact design"]
       },
       "tail": {
         "type": "T-tail",
@@ -13849,22 +11894,10 @@
   },
   {
     "key": "MD-80",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Regional Jet",
-      "Passenger",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Regional Jet", "Passenger", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -13936,10 +11969,7 @@
       },
       "fuselage": {
         "shape": "narrow-body",
-        "distinctiveFeatures": [
-          "spacious cabin",
-          "T-tail configuration"
-        ]
+        "distinctiveFeatures": ["spacious cabin", "T-tail configuration"]
       },
       "tail": {
         "type": "T-tail",
@@ -13958,22 +11988,10 @@
   },
   {
     "key": "ERJ-145",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Regional Jet",
-      "Passenger",
-      "Brazil"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Regional Jet", "Passenger", "Brazil"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14045,10 +12063,7 @@
       },
       "fuselage": {
         "shape": "slender",
-        "distinctiveFeatures": [
-          "compact design",
-          "T-tail"
-        ]
+        "distinctiveFeatures": ["compact design", "T-tail"]
       },
       "tail": {
         "type": "T-tail",
@@ -14067,23 +12082,10 @@
   },
   {
     "key": "ERJ-170",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Regional Jet",
-      "Passenger",
-      "Brazil"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Regional Jet", "Passenger", "Brazil"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14155,10 +12157,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "spacious cabin",
-          "modern avionics"
-        ]
+        "distinctiveFeatures": ["spacious cabin", "modern avionics"]
       },
       "tail": {
         "type": "conventional",
@@ -14177,22 +12176,10 @@
   },
   {
     "key": "E-3 Sentry",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Military Special Mission",
-      "AWACS",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Military Special Mission"
-    ],
+    "altNames": [""],
+    "tags": ["Military Special Mission", "AWACS", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Military Special Mission"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14264,9 +12251,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "rotating radar dome on top"
-        ]
+        "distinctiveFeatures": ["rotating radar dome on top"]
       },
       "tail": {
         "type": "conventional",
@@ -14285,23 +12270,10 @@
   },
   {
     "key": "E-2 Hawkeye",
-    "altNames": [
-      "E-2",
-      "Hawkeye"
-    ],
-    "tags": [
-      "Military Special Mission",
-      "AWACS",
-      "USA",
-      "Carrier-Based"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Military Special Mission"
-    ],
+    "altNames": ["E-2", "Hawkeye"],
+    "tags": ["Military Special Mission", "AWACS", "USA", "Carrier-Based"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Military Special Mission"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14373,10 +12345,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "radar dome on top",
-          "twin tail fins"
-        ]
+        "distinctiveFeatures": ["radar dome on top", "twin tail fins"]
       },
       "tail": {
         "type": "twin",
@@ -14395,23 +12364,10 @@
   },
   {
     "key": "KC-135 Stratotanker",
-    "altNames": [
-      "KC-135",
-      "Stratotanker"
-    ],
-    "tags": [
-      "Military Special Mission",
-      "Tanker",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Military Special Mission"
-    ],
+    "altNames": ["KC-135", "Stratotanker"],
+    "tags": ["Military Special Mission", "Tanker", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Military Special Mission"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14483,9 +12439,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "refueling boom under fuselage"
-        ]
+        "distinctiveFeatures": ["refueling boom under fuselage"]
       },
       "tail": {
         "type": "conventional",
@@ -14504,19 +12458,10 @@
   },
   {
     "key": "KC-10 Extender",
-    "altNames": [
-      "KC-10"
-    ],
-    "tags": [
-      "Military Special Mission",
-      "Tanker",
-      "USA"
-    ],
+    "altNames": ["KC-10"],
+    "tags": ["Military Special Mission", "Tanker", "USA"],
     "hltag": [],
-    "accat": [
-      "Fixed-Wing",
-      "Military Special Mission"
-    ],
+    "accat": ["Fixed-Wing", "Military Special Mission"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14588,10 +12533,7 @@
       },
       "fuselage": {
         "shape": "wide-body",
-        "distinctiveFeatures": [
-          "aerial refueling boom",
-          "tail-mounted engine"
-        ]
+        "distinctiveFeatures": ["aerial refueling boom", "tail-mounted engine"]
       },
       "tail": {
         "type": "conventional",
@@ -14610,22 +12552,10 @@
   },
   {
     "key": "T-38 Talon",
-    "altNames": [
-      "T-38",
-      "Talon"
-    ],
-    "tags": [
-      "Trainer Aircraft",
-      "Supersonic",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer"
-    ],
+    "altNames": ["T-38", "Talon"],
+    "tags": ["Trainer Aircraft", "Supersonic", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Trainer"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14697,10 +12627,7 @@
       },
       "fuselage": {
         "shape": "slender",
-        "distinctiveFeatures": [
-          "tandem cockpit",
-          "high-speed training design"
-        ]
+        "distinctiveFeatures": ["tandem cockpit", "high-speed training design"]
       },
       "tail": {
         "type": "T-tail",
@@ -14719,23 +12646,10 @@
   },
   {
     "key": "L-39 Albatross",
-    "altNames": [
-      "L-39",
-      "Albatross"
-    ],
-    "tags": [
-      "Trainer Aircraft",
-      "Light Attack",
-      "Czech Republic"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer",
-      "Light Attack"
-    ],
+    "altNames": ["L-39", "Albatross"],
+    "tags": ["Trainer Aircraft", "Light Attack", "Czech Republic"],
+    "hltag": ["devtest"],
+    "accat": ["Fixed-Wing", "Trainer", "Light Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14807,10 +12721,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "light attack capability"
-        ]
+        "distinctiveFeatures": ["tandem seating", "light attack capability"]
       },
       "tail": {
         "type": "conventional",
@@ -14829,21 +12740,10 @@
   },
   {
     "key": "CM-170 Magister",
-    "altNames": [
-      "CM-170",
-      "Magister"
-    ],
-    "tags": [
-      "Trainer Aircraft",
-      "France"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer"
-    ],
+    "altNames": ["CM-170", "Magister"],
+    "tags": ["Trainer Aircraft", "France"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Trainer"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -14915,10 +12815,7 @@
       },
       "fuselage": {
         "shape": "slim",
-        "distinctiveFeatures": [
-          "canard configuration",
-          "twin-engine jet"
-        ]
+        "distinctiveFeatures": ["canard configuration", "twin-engine jet"]
       },
       "tail": {
         "type": "conventional",
@@ -14937,22 +12834,10 @@
   },
   {
     "key": "MB-339AN",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Trainer Aircraft",
-      "Light Attack",
-      "Italy"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer",
-      "Light Attack"
-    ],
+    "altNames": [""],
+    "tags": ["Trainer Aircraft", "Light Attack", "Italy"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Trainer", "Light Attack"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15024,10 +12909,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "trainer/attack configuration"
-        ]
+        "distinctiveFeatures": ["tandem seating", "trainer/attack configuration"]
       },
       "tail": {
         "type": "conventional",
@@ -15046,20 +12928,10 @@
   },
   {
     "key": "PC-7",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Trainer Aircraft",
-      "Switzerland"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Trainer"
-    ],
+    "altNames": [""],
+    "tags": ["Trainer Aircraft", "Switzerland"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Trainer"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15131,10 +13003,7 @@
       },
       "fuselage": {
         "shape": "slim",
-        "distinctiveFeatures": [
-          "tandem seating",
-          "trainer/light attack"
-        ]
+        "distinctiveFeatures": ["tandem seating", "trainer/light attack"]
       },
       "tail": {
         "type": "conventional",
@@ -15153,23 +13022,10 @@
   },
   {
     "key": "MV-22 Osprey",
-    "altNames": [
-      "MV-22",
-      "Osprey",
-      "V-22"
-    ],
-    "tags": [
-      "Tiltrotor",
-      "Multirole",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Tiltrotor",
-      "Multirole"
-    ],
+    "altNames": ["MV-22", "Osprey", "V-22"],
+    "tags": ["Tiltrotor", "Multirole", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Tiltrotor", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15241,10 +13097,7 @@
       },
       "fuselage": {
         "shape": "boxy",
-        "distinctiveFeatures": [
-          "tiltrotor design",
-          "large cabin"
-        ]
+        "distinctiveFeatures": ["tiltrotor design", "large cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -15264,22 +13117,10 @@
   },
   {
     "key": "V-282 Valor",
-    "altNames": [
-      "V-282",
-      "Valor"
-    ],
-    "tags": [
-      "Tiltrotor",
-      "Multirole",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Tiltrotor",
-      "Multirole"
-    ],
+    "altNames": ["V-282", "Valor"],
+    "tags": ["Tiltrotor", "Multirole", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Tiltrotor", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15351,10 +13192,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "tiltrotor design",
-          "high-mounted rotors"
-        ]
+        "distinctiveFeatures": ["tiltrotor design", "high-mounted rotors"]
       },
       "tail": {
         "type": "twin",
@@ -15373,21 +13211,10 @@
   },
   {
     "key": "AW 609",
-    "altNames": [
-      "AW 609"
-    ],
-    "tags": [
-      "Tiltrotor",
-      "Multirole",
-      "Italy"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Tiltrotor",
-      "Multirole"
-    ],
+    "altNames": ["AW 609"],
+    "tags": ["Tiltrotor", "Multirole", "Italy"],
+    "hltag": ["devtest"],
+    "accat": ["Tiltrotor", "Multirole"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15459,10 +13286,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "tiltrotor design",
-          "VTOL capabilities"
-        ]
+        "distinctiveFeatures": ["tiltrotor design", "VTOL capabilities"]
       },
       "tail": {
         "type": "conventional",
@@ -15481,21 +13305,10 @@
   },
   {
     "key": "NASA X-24",
-    "altNames": [
-      "X-24"
-    ],
-    "tags": [
-      "Experimental Aircraft",
-      "Lifting Body",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Experimental",
-      "Prototype"
-    ],
+    "altNames": ["X-24"],
+    "tags": ["Experimental Aircraft", "Lifting Body", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Experimental", "Prototype"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15567,10 +13380,7 @@
       },
       "fuselage": {
         "shape": "lifting body",
-        "distinctiveFeatures": [
-          "lifting body design",
-          "no wings"
-        ]
+        "distinctiveFeatures": ["lifting body design", "no wings"]
       },
       "tail": {
         "type": "twin",
@@ -15589,21 +13399,10 @@
   },
   {
     "key": "M2-F3",
-    "altNames": [
-      "M2-F3"
-    ],
-    "tags": [
-      "Experimental Aircraft",
-      "Lifting Body",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Experimental",
-      "Lifting Body"
-    ],
+    "altNames": ["M2-F3"],
+    "tags": ["Experimental Aircraft", "Lifting Body", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Experimental", "Lifting Body"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15675,10 +13474,7 @@
       },
       "fuselage": {
         "shape": "lifting body",
-        "distinctiveFeatures": [
-          "twin vertical stabilizers",
-          "lifting body design"
-        ]
+        "distinctiveFeatures": ["twin vertical stabilizers", "lifting body design"]
       },
       "tail": {
         "type": "twin",
@@ -15697,21 +13493,10 @@
   },
   {
     "key": "Grumman X-29",
-    "altNames": [
-      "X-29"
-    ],
-    "tags": [
-      "Experimental Aircraft",
-      "Forward-Swept Wings",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Experimental",
-      "Prototype"
-    ],
+    "altNames": ["X-29"],
+    "tags": ["Experimental Aircraft", "Forward-Swept Wings", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Experimental", "Prototype"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15783,10 +13568,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "forward-swept wings",
-          "canards"
-        ]
+        "distinctiveFeatures": ["forward-swept wings", "canards"]
       },
       "tail": {
         "type": "conventional",
@@ -15805,21 +13587,10 @@
   },
   {
     "key": "Boeing X-48",
-    "altNames": [
-      "X-48"
-    ],
-    "tags": [
-      "Experimental Aircraft",
-      "Blended-Wing Body",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Experimental",
-      "Prototype"
-    ],
+    "altNames": ["X-48"],
+    "tags": ["Experimental Aircraft", "Blended-Wing Body", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Experimental", "Prototype"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15891,9 +13662,7 @@
       },
       "fuselage": {
         "shape": "blended wing body",
-        "distinctiveFeatures": [
-          "blended wing body"
-        ]
+        "distinctiveFeatures": ["blended wing body"]
       },
       "tail": {
         "type": "none",
@@ -15912,21 +13681,10 @@
   },
   {
     "key": "Bell X-5",
-    "altNames": [
-      "X-5"
-    ],
-    "tags": [
-      "Experimental Aircraft",
-      "Variable-Sweep Wings",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Experimental",
-      "Prototype"
-    ],
+    "altNames": ["X-5"],
+    "tags": ["Experimental Aircraft", "Variable-Sweep Wings", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Experimental", "Prototype"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -15998,9 +13756,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "variable-sweep wings"
-        ]
+        "distinctiveFeatures": ["variable-sweep wings"]
       },
       "tail": {
         "type": "conventional",
@@ -16019,21 +13775,10 @@
   },
   {
     "key": "Bell XV-3",
-    "altNames": [
-      "XV-3"
-    ],
-    "tags": [
-      "Experimental Aircraft",
-      "Tiltrotor",
-      "USA"
-    ],
-    "hltag": [
-      "devtest"
-    ],
-    "accat": [
-      "Experimental",
-      "Prototype"
-    ],
+    "altNames": ["XV-3"],
+    "tags": ["Experimental Aircraft", "Tiltrotor", "USA"],
+    "hltag": ["devtest"],
+    "accat": ["Experimental", "Prototype"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16105,10 +13850,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "tiltrotor design",
-          "VTOL capabilities"
-        ]
+        "distinctiveFeatures": ["tiltrotor design", "VTOL capabilities"]
       },
       "tail": {
         "type": "conventional",
@@ -16127,22 +13869,10 @@
   },
   {
     "key": "Beechcraft Baron",
-    "altNames": [
-      "Beech Baron"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Beech Baron"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16214,10 +13944,7 @@
       },
       "fuselage": {
         "shape": "spacious",
-        "distinctiveFeatures": [
-          "light transport",
-          "business use"
-        ]
+        "distinctiveFeatures": ["light transport", "business use"]
       },
       "tail": {
         "type": "conventional",
@@ -16236,21 +13963,10 @@
   },
   {
     "key": "Beechcraft Bonanza",
-    "altNames": [
-      "Beech Bonanza"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Beech Bonanza"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16322,10 +14038,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "single-engine",
-          "V-tail in some models"
-        ]
+        "distinctiveFeatures": ["single-engine", "V-tail in some models"]
       },
       "tail": {
         "type": "conventional",
@@ -16344,23 +14057,10 @@
   },
   {
     "key": "Cessna 172 Skyhawk",
-    "altNames": [
-      "Cessna 172",
-      "Skyhawk"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Cessna 172", "Skyhawk"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16432,10 +14132,7 @@
       },
       "fuselage": {
         "shape": "small",
-        "distinctiveFeatures": [
-          "high-wing",
-          "single-engine"
-        ]
+        "distinctiveFeatures": ["high-wing", "single-engine"]
       },
       "tail": {
         "type": "conventional",
@@ -16454,21 +14151,10 @@
   },
   {
     "key": "Cessna 310",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16540,10 +14226,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin-engine",
-          "utility design"
-        ]
+        "distinctiveFeatures": ["twin-engine", "utility design"]
       },
       "tail": {
         "type": "conventional",
@@ -16563,23 +14246,10 @@
   },
   {
     "key": "Cessna 421 Golden Eagle",
-    "altNames": [
-      "Cessna 421",
-      "Golden Eagle"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Cessna 421", "Golden Eagle"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16651,10 +14321,7 @@
       },
       "fuselage": {
         "shape": "spacious",
-        "distinctiveFeatures": [
-          "high-wing design",
-          "spacious cabin"
-        ]
+        "distinctiveFeatures": ["high-wing design", "spacious cabin"]
       },
       "tail": {
         "type": "conventional",
@@ -16674,22 +14341,10 @@
   },
   {
     "key": "Beechcraft King Air",
-    "altNames": [
-      "Beech King Air"
-    ],
-    "tags": [
-      "Transport",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": ["Beech King Air"],
+    "tags": ["Transport", "Propeller", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16761,10 +14416,7 @@
       },
       "fuselage": {
         "shape": "slim",
-        "distinctiveFeatures": [
-          "twin-turboprop",
-          "utility design"
-        ]
+        "distinctiveFeatures": ["twin-turboprop", "utility design"]
       },
       "tail": {
         "type": "conventional",
@@ -16784,21 +14436,10 @@
   },
   {
     "key": "Dash 8",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Transport",
-      "Regional",
-      "Canada"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport"
-    ],
+    "altNames": [""],
+    "tags": ["Transport", "Regional", "Canada"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16870,10 +14511,7 @@
       },
       "fuselage": {
         "shape": "wide",
-        "distinctiveFeatures": [
-          "regional airliner",
-          "high-wing"
-        ]
+        "distinctiveFeatures": ["regional airliner", "high-wing"]
       },
       "tail": {
         "type": "conventional",
@@ -16893,22 +14531,10 @@
   },
   {
     "key": "Mooney M-22 Mustang",
-    "altNames": [
-      "Mooney Mustang",
-      "M-22"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Mooney Mustang", "M-22"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -16980,10 +14606,7 @@
       },
       "fuselage": {
         "shape": "compact",
-        "distinctiveFeatures": [
-          "light utility",
-          "T-tail configuration"
-        ]
+        "distinctiveFeatures": ["light utility", "T-tail configuration"]
       },
       "tail": {
         "type": "T-tail",
@@ -17003,23 +14626,10 @@
   },
   {
     "key": "Piper PA-18 Cub",
-    "altNames": [
-      "Piper Cub",
-      "PA-18"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Piper Cub", "PA-18"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17091,10 +14701,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "high-wing",
-          "light aircraft"
-        ]
+        "distinctiveFeatures": ["high-wing", "light aircraft"]
       },
       "tail": {
         "type": "conventional",
@@ -17113,23 +14720,10 @@
   },
   {
     "key": "Piper PA-28 Cherokee",
-    "altNames": [
-      "Piper Cherokee",
-      "PA-28"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR",
-      "devtest"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["Piper Cherokee", "PA-28"],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR", "devtest"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17201,10 +14795,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "low-wing",
-          "trainer"
-        ]
+        "distinctiveFeatures": ["low-wing", "trainer"]
       },
       "tail": {
         "type": "conventional",
@@ -17223,21 +14814,10 @@
   },
   {
     "key": "SR-22",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "USA"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": [""],
+    "tags": ["Civil Utility", "Propeller", "USA"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17309,10 +14889,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "sleek design",
-          "modern avionics"
-        ]
+        "distinctiveFeatures": ["sleek design", "modern avionics"]
       },
       "tail": {
         "type": "conventional",
@@ -17331,22 +14908,10 @@
   },
   {
     "key": "Saab 340",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Regional",
-      "Passenger",
-      "Sweden"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Regional", "Passenger", "Sweden"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17418,10 +14983,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "twin-engine",
-          "regional transport"
-        ]
+        "distinctiveFeatures": ["twin-engine", "regional transport"]
       },
       "tail": {
         "type": "conventional",
@@ -17440,23 +15002,10 @@
   },
   {
     "key": "ATR-72",
-    "altNames": [
-      ""
-    ],
-    "tags": [
-      "Regional",
-      "Passenger",
-      "France",
-      "Italy"
-    ],
-    "hltag": [
-      "NCR"
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Transport",
-      "Regional Jet"
-    ],
+    "altNames": [""],
+    "tags": ["Regional", "Passenger", "France", "Italy"],
+    "hltag": ["NCR"],
+    "accat": ["Fixed-Wing", "Transport", "Regional Jet"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17528,10 +15077,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "high-wing",
-          "twin-engine"
-        ]
+        "distinctiveFeatures": ["high-wing", "twin-engine"]
       },
       "tail": {
         "type": "conventional",
@@ -17550,22 +15096,10 @@
   },
   {
     "key": "An-2 Colt",
-    "altNames": [
-      "An-2",
-      "Colt"
-    ],
-    "tags": [
-      "Civil Utility",
-      "Propeller",
-      "Russia/USSR"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Utility"
-    ],
+    "altNames": ["An-2", "Colt"],
+    "tags": ["Civil Utility", "Propeller", "Russia/USSR"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17637,10 +15171,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "biplane",
-          "STOL"
-        ]
+        "distinctiveFeatures": ["biplane", "STOL"]
       },
       "tail": {
         "type": "conventional",
@@ -17659,23 +15190,10 @@
   },
   {
     "key": "O-2 Skymaster",
-    "altNames": [
-      "O-2",
-      "Skymaster"
-    ],
-    "tags": [
-      "Reconnaissance",
-      "Utility",
-      "USA"
-    ],
-    "hltag": [
-      ""
-    ],
-    "accat": [
-      "Fixed-Wing",
-      "Recon",
-      "Utility"
-    ],
+    "altNames": ["O-2", "Skymaster"],
+    "tags": ["Reconnaissance", "Utility", "USA"],
+    "hltag": [""],
+    "accat": ["Fixed-Wing", "Recon", "Utility"],
     "generalData": [
       {
         "key": "Manufacturer",
@@ -17747,10 +15265,7 @@
       },
       "fuselage": {
         "shape": "streamlined",
-        "distinctiveFeatures": [
-          "push-pull engine",
-          "twin boom"
-        ]
+        "distinctiveFeatures": ["push-pull engine", "twin boom"]
       },
       "tail": {
         "type": "twin-boom",

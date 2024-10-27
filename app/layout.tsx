@@ -9,17 +9,11 @@ export const metadata = {
   description: 'Train your aircraft recognition skills',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NextAuthProvider>
-          {children}
-        </NextAuthProvider>
+        <NextAuthProvider>{children}</NextAuthProvider>
       </body>
     </html>
   );

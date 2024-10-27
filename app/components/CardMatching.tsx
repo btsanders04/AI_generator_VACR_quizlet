@@ -25,24 +25,26 @@ export default function CardMatching() {
   const initializeGame = async () => {
     try {
       const allAircraft = await getAllAircraft();
-      
+
       // Select 8 random aircraft names
-      const selectedNames = [...allAircraft.map(ac => ac.key)].sort(() => Math.random() - 0.5).slice(0, 1);
-      
+      const selectedNames = [...allAircraft.map(ac => ac.key)]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 1);
+
       // Get corresponding aircraft data
-      const selectedAircraft = selectedNames.map(name => 
-        allAircraft.find(aircraft => aircraft.key === name)
-      ).filter((aircraft): aircraft is Aircraft => aircraft !== undefined);
-      
+      const selectedAircraft = selectedNames
+        .map(name => allAircraft.find(aircraft => aircraft.key === name))
+        .filter((aircraft): aircraft is Aircraft => aircraft !== undefined);
+
       // Create pairs of cards
       const cardPairs = [...selectedAircraft, ...selectedAircraft].map((aircraft, index) => ({
         id: index,
         aircraft,
         imageUrl: aircraft.imageUrls[0],
         isFlipped: false,
-        isMatched: false
+        isMatched: false,
       }));
-      
+
       // Shuffle the cards
       setCards(cardPairs.sort(() => Math.random() - 0.5));
     } catch (error) {
@@ -53,17 +55,15 @@ export default function CardMatching() {
   const handleCardClick = (id: number) => {
     // Prevent clicking if two cards are already flipped
     if (flippedCards.length === 2) return;
-    
+
     // Prevent clicking already matched or flipped cards
     const clickedCard = cards.find(card => card.id === id);
     if (!clickedCard || clickedCard.isMatched || clickedCard.isFlipped) return;
 
     // Flip the card
-    const updatedCards = cards.map(card =>
-      card.id === id ? { ...card, isFlipped: true } : card
-    );
+    const updatedCards = cards.map(card => (card.id === id ? { ...card, isFlipped: true } : card));
     setCards(updatedCards);
-    
+
     // Add to flipped cards
     const newFlippedCards = [...flippedCards, id];
     setFlippedCards(newFlippedCards);
@@ -77,22 +77,24 @@ export default function CardMatching() {
       if (firstCard && secondCard && firstCard.aircraft.key === secondCard.aircraft.key) {
         // Match found
         setTimeout(() => {
-          setCards(cards.map(card =>
-            card.id === firstId || card.id === secondId
-              ? { ...card, isMatched: true, isFlipped: true }
-              : card
-          ));
+          setCards(
+            cards.map(card =>
+              card.id === firstId || card.id === secondId
+                ? { ...card, isMatched: true, isFlipped: true }
+                : card
+            )
+          );
           setMatchedPairs(prev => prev + 1);
           setFlippedCards([]);
         }, 1000);
       } else {
         // No match
         setTimeout(() => {
-          setCards(cards.map(card =>
-            card.id === firstId || card.id === secondId
-              ? { ...card, isFlipped: false }
-              : card
-          ));
+          setCards(
+            cards.map(card =>
+              card.id === firstId || card.id === secondId ? { ...card, isFlipped: false } : card
+            )
+          );
           setFlippedCards([]);
         }, 1000);
       }
@@ -110,16 +112,20 @@ export default function CardMatching() {
           >
             <div className="relative w-full h-full transform-style-3d transition-transform duration-500">
               {/* Card Front (Hidden) */}
-              <div className={`absolute w-full h-full bg-blue-500 rounded-lg flex items-center justify-center backface-hidden ${
-                card.isFlipped  ? 'hidden' : ''
-              }`}>
+              <div
+                className={`absolute w-full h-full bg-blue-500 rounded-lg flex items-center justify-center backface-hidden ${
+                  card.isFlipped ? 'hidden' : ''
+                }`}
+              >
                 <span className="text-white text-2xl">?</span>
               </div>
-              
+
               {/* Card Back (Aircraft) */}
-              <div className={`absolute w-full h-full bg-white rounded-lg p-4 backface-hidden ${
-                !card.isFlipped ? 'hidden' : ''
-              }`}>
+              <div
+                className={`absolute w-full h-full bg-white rounded-lg p-4 backface-hidden ${
+                  !card.isFlipped ? 'hidden' : ''
+                }`}
+              >
                 <div className="text-center h-full flex flex-col">
                   <div className="relative flex-grow mb-2">
                     <Image
@@ -136,10 +142,12 @@ export default function CardMatching() {
           </div>
         ))}
       </div>
-      
+
       {matchedPairs === 8 && (
         <div className="mt-8 text-center">
-          <h2 className="text-2xl font-bold text-green-600">Congratulations! Yo&#39;ve matched all pairs!</h2>
+          <h2 className="text-2xl font-bold text-green-600">
+            Congratulations! Yo&#39;ve matched all pairs!
+          </h2>
           <button
             className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
             onClick={initializeGame}

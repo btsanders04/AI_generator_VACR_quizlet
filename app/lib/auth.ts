@@ -1,28 +1,27 @@
-import { DefaultSession, NextAuthOptions } from "next-auth";
-import GithubProvider from "next-auth/providers/github";
-import { get } from '@vercel/edge-config'
+import { DefaultSession, NextAuthOptions } from 'next-auth';
+import GithubProvider from 'next-auth/providers/github';
+import { get } from '@vercel/edge-config';
 
-declare module "next-auth" {
-    interface Session extends DefaultSession {
-      user: {
-        id: string;
-        role?: string;
-      } & DefaultSession["user"]
-    }
+declare module 'next-auth' {
+  interface Session extends DefaultSession {
+    user: {
+      id: string;
+      role?: string;
+    } & DefaultSession['user'];
   }
+}
 
 async function isUserAdmin(user: string): Promise<boolean> {
-try {
-    const adminUsers = await get('adminUsers') as string[]
+  try {
+    const adminUsers = (await get('adminUsers')) as string[];
     const isAdmin = adminUsers.includes(user);
     return isAdmin;
-} catch (error) {
-    console.error('Failed to fetch admin users from Edge Config:', error)
-    return false
-}
+  } catch (error) {
+    console.error('Failed to fetch admin users from Edge Config:', error);
+    return false;
+  }
 }
 
-  
 export const authOptions: NextAuthOptions = {
   providers: [
     GithubProvider({
@@ -32,9 +31,9 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async jwt({ token, profile }) {
-      const isAdmin = await isUserAdmin(profile?.email ?? '')
+      const isAdmin = await isUserAdmin(profile?.email ?? '');
       if (isAdmin) {
-        token.role = "admin";
+        token.role = 'admin';
       }
       console.log('TOKEN', token);
       return token;
@@ -42,12 +41,11 @@ export const authOptions: NextAuthOptions = {
     async session({ session, token }) {
       if (session.user) {
         session.user.role = token.role as string;
-        
       }
       console.log('SESSIONS', session);
       return session;
-    }
-  }
+    },
+  },
 };
 
 // Add this export to make it a proper module

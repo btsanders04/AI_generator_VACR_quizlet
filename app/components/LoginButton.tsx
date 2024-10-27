@@ -6,9 +6,12 @@ import { Github } from 'lucide-react';
 export default function LoginButton() {
   const { data: session, status } = useSession();
 
-  if (status === "loading") {
+  if (status === 'loading') {
     return (
-      <button className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-md" disabled>
+      <button
+        className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-md"
+        disabled
+      >
         Loading...
       </button>
     );
@@ -20,13 +23,11 @@ export default function LoginButton() {
         {session.user?.image && (
           <img
             src={session.user.image}
-            alt={session.user.name || "User"}
+            alt={session.user.name || 'User'}
             className="w-8 h-8 rounded-full"
           />
         )}
-        <span className="text-sm text-gray-600">
-          {session.user?.name}
-        </span>
+        <span className="text-sm text-gray-600">{session.user?.name}</span>
         <button
           onClick={() => signOut()}
           className="px-4 py-2 text-sm font-medium text-white bg-red-500 rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"

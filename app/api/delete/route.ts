@@ -4,12 +4,9 @@ import { del } from '@vercel/blob';
 export async function DELETE(request: NextRequest) {
   try {
     const { url } = await request.json();
-    
+
     if (!url) {
-      return NextResponse.json(
-        { error: 'No URL provided' },
-        { status: 400 }
-      );
+      return NextResponse.json({ error: 'No URL provided' }, { status: 400 });
     }
 
     // Delete from Vercel Blob
@@ -18,9 +15,6 @@ export async function DELETE(request: NextRequest) {
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Delete error:', error);
-    return NextResponse.json(
-      { error: 'Delete failed' },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: 'Delete failed' }, { status: 500 });
   }
 }

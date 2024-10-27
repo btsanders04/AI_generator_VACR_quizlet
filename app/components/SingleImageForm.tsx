@@ -6,7 +6,6 @@ import Score from './Score';
 import { getRandomAircraftImage } from '@/app/lib/get-aircraft';
 import { AircraftImageData } from '@/app/types/aircraft';
 
-
 export default function SingleImageForm() {
   const [currentImage, setCurrentImage] = useState<AircraftImageData | null>(null);
   const [inputValue, setInputValue] = useState('');
@@ -32,7 +31,9 @@ export default function SingleImageForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (currentImage) {
-      const correct =  !!currentImage.answers.find(value => inputValue.toLowerCase().trim() === value.toLowerCase().trim())
+      const correct = !!currentImage.answers.find(
+        value => inputValue.toLowerCase().trim() === value.toLowerCase().trim()
+      );
       setIsCorrect(correct);
       if (correct) {
         setCorrectGuesses(prev => prev + 1);
@@ -50,7 +51,7 @@ export default function SingleImageForm() {
     }
     setShowAnswer(true);
     handleNext();
-  }
+  };
 
   const handleNext = () => {
     setLoading(true);
@@ -80,20 +81,20 @@ export default function SingleImageForm() {
   return (
     <div className="flex flex-col items-center gap-4 text-black p-4 max-w-md mx-auto">
       <div className="w-full">
-        <Image 
-          src={currentImage.url} 
-          alt="Random aircraft" 
-          width={400} 
-          height={300} 
+        <Image
+          src={currentImage.url}
+          alt="Random aircraft"
+          width={400}
+          height={300}
           layout="responsive"
         />
       </div>
-      
+
       <form onSubmit={handleSubmit} className="w-full flex flex-col items-center gap-2">
         <input
           type="text"
           value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
+          onChange={e => setInputValue(e.target.value)}
           className="w-full border border-gray-300 rounded px-2 py-1 text-black"
           placeholder="Enter aircraft name"
         />
@@ -105,7 +106,7 @@ export default function SingleImageForm() {
                 ? 'bg-blue-500 text-white hover:bg-blue-600'
                 : 'bg-gray-300 text-gray-500 cursor-not-allowed'
             }`}
-            disabled={!inputValue.trim() || isLoading} 
+            disabled={!inputValue.trim() || isLoading}
           >
             Submit
           </button>
@@ -128,13 +129,12 @@ export default function SingleImageForm() {
         </div>
       </form>
 
-      <Score
-        correctGuesses={correctGuesses}
-        incorrectGuesses={incorrectGuesses}
-      />
+      <Score correctGuesses={correctGuesses} incorrectGuesses={incorrectGuesses} />
 
       {isCorrect !== null && !showAnswer && (
-        <div className={`mt-4 p-2 rounded w-full text-center ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+        <div
+          className={`mt-4 p-2 rounded w-full text-center ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
+        >
           {isCorrect ? 'Correct!' : 'Incorrect. Try again!'}
         </div>
       )}
