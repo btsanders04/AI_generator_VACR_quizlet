@@ -1,5 +1,6 @@
 import { DefaultSession, NextAuthOptions } from "next-auth";
 import GithubProvider from "next-auth/providers/github";
+import { get } from '@vercel/edge-config'
 
 declare module "next-auth" {
     interface Session extends DefaultSession {
@@ -9,6 +10,17 @@ declare module "next-auth" {
       } & DefaultSession["user"]
     }
   }
+
+async function isUserAdmin(user: string): Promise<boolean> {
+try {
+    const adminUsers = await get('adminUsers') as string[]
+    return adminUsers.includes(user)
+} catch (error) {
+    console.error('Failed to fetch admin users from Edge Config:', error)
+    return false
+}
+}
+
   
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -19,7 +31,8 @@ export const authOptions: NextAuthOptions = {
   ],
   callbacks: {
     async jwt({ token, account }) {
-      if (account) {
+      const isAdmin = await isUserAdmin(account?.userId ?? '')
+      if (isAdmin) {
         token.role = "admin";
       }
       return token;
