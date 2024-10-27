@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Aircraft } from '../types/aircraft';
+import { Aircraft } from '@/app/types/aircraft';
 import ImageCarousel from './ImageCarousel';
-import { getAllAircraft } from '../lib/get-aircraft';
+import { getAllAircraft } from '@/app/lib/get-aircraft';
 
 export default function AnswerKey() {
   const router = useRouter();
