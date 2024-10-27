@@ -13,6 +13,8 @@ export default function ImageUploader() {
   const [files, setFiles] = useState<FileStructure[]>([]);
   const [uploading, setUploading] = useState(false);
   const [selectedFolder, setSelectedFolder] = useState('');
+  const [newFolderName, setNewFolderName] = useState('');
+  const [isCreatingNewFolder, setIsCreatingNewFolder] = useState(false);
 
   const onDrop = useCallback(async (acceptedFiles: File[]) => {
     setUploading(true);
@@ -87,6 +89,26 @@ export default function ImageUploader() {
     }
   };
 
+  const handleFolderChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const value = e.target.value;
+    if (value === 'new') {
+      setIsCreatingNewFolder(true);
+      setNewFolderName('');
+    } else {
+      setIsCreatingNewFolder(false);
+      setSelectedFolder(value);
+    }
+  };
+
+  const handleCreateFolder = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (newFolderName.trim()) {
+      setSelectedFolder(newFolderName.trim());
+      setIsCreatingNewFolder(false);
+      setNewFolderName('');
+    }
+  };
+
   // Fetch files on component mount
   useEffect(() => {
     fetchFiles();
@@ -103,9 +125,9 @@ export default function ImageUploader() {
         </label>
         <select
           id="folder"
-          value={selectedFolder}
-          onChange={(e) => setSelectedFolder(e.target.value)}
-          className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+          value={isCreatingNewFolder ? 'new' : selectedFolder}
+          onChange={handleFolderChange}
+          className="block w-full px-3 py-2 border border-gray-300 text-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
         >
           <option value="">Select a folder...</option>
           {files.map((folder) => (
@@ -117,19 +139,29 @@ export default function ImageUploader() {
         </select>
       </div>
 
-      {selectedFolder === 'new' && (
-        <div className="mb-6">
+      {isCreatingNewFolder && (
+        <form onSubmit={handleCreateFolder} className="mb-6">
           <label htmlFor="newFolder" className="block text-sm font-medium text-gray-700 mb-2">
             New Folder Name
           </label>
-          <input
-            type="text"
-            id="newFolder"
-            className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Enter new folder name"
-            onChange={(e) => setSelectedFolder(e.target.value)}
-          />
-        </div>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              id="newFolder"
+              value={newFolderName}
+              onChange={(e) => setNewFolderName(e.target.value)}
+              className="block flex-1 px-3 py-2 border border-gray-300 text-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              placeholder="Enter new folder name"
+              autoFocus
+            />
+            <button
+              type="submit"
+              className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              Create
+            </button>
+          </div>
+        </form>
       )}
       
       {/* Drag & Drop Zone */}
