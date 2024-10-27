@@ -26,6 +26,14 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-2">Card Matching Game</h2>
           <p>Test your memory by matching pairs of aircraft cards</p>
         </Link>
+        <Link 
+          href="/image-uploader" 
+          className="p-6 border-2 border-blue-500 rounded-lg hover:bg-blue-50 transition-colors"
+        >
+          <h2 className="text-2xl font-bold mb-2 text-blue-600">Image Management</h2>
+          <p>Upload and organize aircraft images</p>
+          <span className="inline-block mt-2 text-sm text-blue-600 font-medium">Administrative Tool</span>
+        </Link>
       </div>
     </main>
   );
