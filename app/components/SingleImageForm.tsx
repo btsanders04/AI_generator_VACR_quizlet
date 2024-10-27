@@ -2,15 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { getRandomImage } from '../services/aircraft.service';
 import Score from './Score';
-interface ImageData {
-  url: string;
-  answers: string[];
-}
+import { getRandomAircraftImage } from '../lib/get-aircraft';
+import { AircraftImageData } from '../types/aircraft';
+
 
 export default function SingleImageForm() {
-  const [currentImage, setCurrentImage] = useState<ImageData | null>(null);
+  const [currentImage, setCurrentImage] = useState<AircraftImageData | null>(null);
   const [inputValue, setInputValue] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -20,7 +18,7 @@ export default function SingleImageForm() {
 
   const fetchRandomImage = async () => {
     try {
-      const response = getRandomImage();
+      const response = await getRandomAircraftImage();
       setCurrentImage(response);
     } catch (error) {
       console.error('Error fetching random image:', error);

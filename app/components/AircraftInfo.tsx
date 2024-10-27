@@ -1,20 +1,26 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { getAircraftImages, getAircraftData, AircraftData } from '../services/aircraft.service';
 import ImageCarousel from './ImageCarousel';
-
+import { getAircraft } from '../lib/get-aircraft';
+import { Aircraft } from '../types/aircraft'
 interface AircraftInfoProps {
   aircraft: string;
 }
 
 const AircraftInfo: React.FC<AircraftInfoProps> = ({ aircraft }) => {
-  const [aircraftImages, setAircraftImages] = useState<string[]>([]);
-  const [aircraftData, setAircraftData] = useState<AircraftData|undefined>(undefined);
+  const [aircraftData, setAircraftData] = useState<Aircraft | undefined>(undefined);
 
   useEffect(() => {
-    setAircraftImages(getAircraftImages(aircraft));
-    setAircraftData(getAircraftData(aircraft));
+    const loadAircraft = async () => {
+      try {
+        const ac = await getAircraft(aircraft);
+        setAircraftData(ac);
+      } catch (error) {
+        console.error('Error loading aircraft data:', error);
+      }
+    };    
+    loadAircraft();
   }, [aircraft]);
 
   return (
@@ -22,7 +28,7 @@ const AircraftInfo: React.FC<AircraftInfoProps> = ({ aircraft }) => {
       <div className="max-w-2xl w-full bg-white rounded-lg shadow-md p-6">
         <h1 className="text-3xl font-bold mb-6 text-center text-black">{aircraft}</h1>
             <ImageCarousel
-                images={aircraftImages || []}
+                images={aircraftData?.imageUrls || []}
               />
         
         <h2 className="text-1xl text-center font-bold text-left text-black">General Data</h2>

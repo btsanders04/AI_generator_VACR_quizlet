@@ -4,21 +4,22 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 interface ImageCarouselProps {
   images: string[];
-
 }
 
 const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
+  const urls = images.filter(img => !!img);
   const [currentIndex, setCurrentIndex] = useState(0);
-
-  const goToPrevious = (e: { preventDefault: () => void; }) => {
+  const goToPrevious = (e: React.MouseEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? images.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
 
-  const goToNext = (e: { preventDefault: () => void; }) => {
+  const goToNext = (e: React.MouseEvent) => {
     e.preventDefault();
+    e.stopPropagation();
     const isLastSlide = currentIndex === images.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
@@ -27,12 +28,15 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
   return (
     <div className="relative w-full max-w-2xl mx-auto">
       <div className="relative h-96 mb-6">
-        <Image
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex + 1}`}
-          layout="fill"
-          objectFit="contain"
-        />
+        <div className="relative w-full h-full">
+          <Image
+            src={urls[currentIndex]}
+            alt={`Slide ${currentIndex + 1}`}
+            fill
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+        </div>
       </div>
       <button
         onClick={goToPrevious}

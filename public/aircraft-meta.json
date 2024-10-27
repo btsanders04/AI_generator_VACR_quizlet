@@ -118,8 +118,8 @@
       ]
 	},
     {
-	"key": "F/A-18 Hornet",
-	"altNames": ["F-18 Hornet", "F/A-18", "F-18, Hornet"], 
+	"key": "F-18 Hornet",
+	"altNames": ["F/A-18 Hornet","F/A-18", "F-18, Hornet"], 
 	"tags": ["Plane", "Jet Plane", "Twin Engines", "Jet", "Fighter Jet", "Air Superiority", "Interceptor", "Air-to-Air", "Air-to-Ground", "Dual-Role Fighter", "Multi-Role Fighter", "High Maneuverability", "Supersonic", "Carrier-Based", "All-Weather Fighter", "Tactical Fighter", "BVR", "Combat-Ready", "Aerobatics", "Modern Warfare"],
 	"hltag": ["NCR"],
 	"generalData": [
@@ -526,8 +526,8 @@
       ]
 	},
     {
-	"key": "Beechcraft Baron",
-	"altNames": ["Beech Baron"],
+	"key": "Beech Baron",
+	"altNames": ["Beechcraft Baron"],
 	"tags": ["Plane", "Piston Engine", "Light Aircraft", "Twin Engines", "Private Aircraft", "General Aviation", "Utility Aircraft", "Transport", "Training Aircraft"],
 	"hltag": ["NCR"],
 	"generalData": [
@@ -585,8 +585,8 @@
       ]
 	},
     {
-	"key": "Beechcraft Bonanza",
-	"altNames": ["Beech Bonanza"],
+	"key":"Beech Bonanza" ,
+	"altNames": ["Beechcraft Bonanza"],
 	"tags": ["Plane", "Piston Engine", "Single Engine", "Light Aircraft", "Private Aircraft", "General Aviation", "Utility Aircraft", "Transport", "Training Aircraft", "Recreational Aircraft"],
 	"hltag": ["NCR"],
 	"generalData": [
@@ -936,8 +936,8 @@
       ]
 	},
     {
-	"key": "Beechcraft King Air",
-	"altNames": ["Beech King Air"], 
+	"key":"Beech King Air",
+	"altNames": ["Beechcraft King Air"], 
 	"tags": ["Plane", "Twin Engines", "Turboprop", "Utility Aircraft", "Business Aircraft", "Private Aircraft", "General Aviation", "Executive Transport", "Reconnaissance", "Light Cargo"],
 	"hltag": ["NCR"],
 	"generalData": [
@@ -1172,8 +1172,8 @@
       ]
 	},
     {
-	"key": "Cessna 172 Skyhawk",
-	"altNames": ["Cessna 172", "Skyhawk"],
+	"key": "Cessna 172",
+	"altNames": ["Skyhawk","Cessna 172 Skyhawk"],
 	"tags": ["Plane", "Piston Engine", "Single Engine", "General Aviation", "Trainer Aircraft", "Light Aircraft", "Private Transport", "Flight Training"],
 	"hltag": ["NCR"],
 	"generalData": [
@@ -1349,7 +1349,7 @@
       ]
 	},
     {
-	"key": "Airbus A320",
+	"key": "AirBus A320",
 	"altNames": ["Airbus 320", "A320"], 
 	"tags": ["Plane", "Jet", "Twin Engines", "Narrow-Body", "Commercial Aircraft", "Passenger Transport", "Short-Haul", "Medium-Haul"],
 	"hltag": ["NCR"],
@@ -1408,7 +1408,7 @@
       ]
 	},
     {
-	"key": "Airbus A330",
+	"key": "AirBus A330",
 	"altNames": ["Airbus 330", "A330"], 
 	"tags": ["Plane", "Jet", "Twin Engines", "Wide-Body", "Commercial Aircraft", "Passenger Transport", "Long-Haul", "Cargo Transport"],
 	"hltag": ["NCR"],
@@ -1467,7 +1467,7 @@
       ]
 	},
     {
-	"key": "Airbus A340",
+	"key": "AirBus A340",
 	"altNames": ["Airbus 340", "A340"], 
 	"tags": ["Plane", "Jet", "Four Engines", "Wide-Body", "Commercial Aircraft", "Passenger Transport", "Long-Haul", "Cargo Transport"],
 	"hltag": ["NCR"],
@@ -2883,8 +2883,8 @@
       ]
 	},
     {
-	"key": "Bell 206 Jet Ranger",
-	"altNames": ["Bell 206", "Jet Ranger"],
+	"key": "Bell 206",
+	"altNames": ["Jet Ranger", "Bell 206 Jet Ranger"],
 	"tags": ["Helicopter", "Single Engine", "Light Utility", "Private Transport", "Law Enforcement", "Training"],
 	"hltag": ["NCR"],
 	"generalData": [
@@ -3355,7 +3355,7 @@
       ]
 	},
     {
-	"key": "VH-92 ",
+	"key": "VH-92",
 	"altNames": ["VH-92 Patriot", "Patriot", "Sikorsky"],
 	"tags": ["Helicopter", "Twin Engines", "VIP Transport", "Presidential Transport", "Executive Transport", "Utility", "Military"],
 	"hltag": ["NCR"],
