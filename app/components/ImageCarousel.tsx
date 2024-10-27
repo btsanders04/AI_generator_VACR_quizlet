@@ -6,7 +6,7 @@ interface ImageCarouselProps {
   images: string[];
 }
 
-const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
+const ImageCarousel = ({ images }: ImageCarouselProps) => {
   const urls = images.filter(img => !!img);
   const [currentIndex, setCurrentIndex] = useState(0);
   const goToPrevious = (e: React.MouseEvent) => {
