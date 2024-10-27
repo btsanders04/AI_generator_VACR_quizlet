@@ -1,9 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Aircraft } from '../types/aircraft';
+import { Aircraft } from '@/app/types/aircraft';
 import Image from 'next/image';
-import { getAllAircraft } from '../lib/get-aircraft';
+import { getAllAircraft } from '@/app/lib/get-aircraft';
 
 interface Card {
   id: number;

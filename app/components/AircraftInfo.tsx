@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState } from 'react';
 import ImageCarousel from './ImageCarousel';
-import { getAircraft } from '../lib/get-aircraft';
-import { Aircraft } from '../types/aircraft'
+import { getAircraft } from '@/app/lib/get-aircraft';
+import { Aircraft } from '@/app/types/aircraft'
 interface AircraftInfoProps {
   aircraft: string;
 }

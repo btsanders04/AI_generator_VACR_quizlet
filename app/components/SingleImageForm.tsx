@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Score from './Score';
-import { getRandomAircraftImage } from '../lib/get-aircraft';
-import { AircraftImageData } from '../types/aircraft';
+import { getRandomAircraftImage } from '@/app/lib/get-aircraft';
+import { AircraftImageData } from '@/app/types/aircraft';
 
 
 export default function SingleImageForm() {
