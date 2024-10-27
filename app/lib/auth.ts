@@ -14,7 +14,8 @@ declare module "next-auth" {
 async function isUserAdmin(user: string): Promise<boolean> {
 try {
     const adminUsers = await get('adminUsers') as string[]
-    return adminUsers.includes(user)
+    const isAdmin = adminUsers.includes(user);
+    return isAdmin;
 } catch (error) {
     console.error('Failed to fetch admin users from Edge Config:', error)
     return false
@@ -30,17 +31,20 @@ export const authOptions: NextAuthOptions = {
     }),
   ],
   callbacks: {
-    async jwt({ token, account }) {
-      const isAdmin = await isUserAdmin(account?.userId ?? '')
+    async jwt({ token, profile }) {
+      const isAdmin = await isUserAdmin(profile?.email ?? '')
       if (isAdmin) {
         token.role = "admin";
       }
+      console.log('TOKEN', token);
       return token;
     },
     async session({ session, token }) {
       if (session.user) {
         session.user.role = token.role as string;
+        
       }
+      console.log('SESSIONS', session);
       return session;
     }
   }
