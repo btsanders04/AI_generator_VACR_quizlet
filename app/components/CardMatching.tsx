@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Aircraft } from '../types/aircraft';
 import Image from 'next/image';
-import { getAircraftNames, getAircraftFirstImage } from '../services/aircraft.service';
+import { getAllAircraft } from '../lib/get-aircraft';
 
 interface Card {
   id: number;
@@ -24,23 +24,21 @@ export default function CardMatching() {
 
   const initializeGame = async () => {
     try {
-      const response = await fetch('/aircraft-meta.json');
-      const aircraftData: Aircraft[] = await response.json();
-      const aircraftNames = getAircraftNames();
+      const allAircraft = await getAllAircraft();
       
       // Select 8 random aircraft names
-      const selectedNames = [...aircraftNames].sort(() => Math.random() - 0.5).slice(0, 8);
+      const selectedNames = [...allAircraft.map(ac => ac.key)].sort(() => Math.random() - 0.5).slice(0, 1);
       
       // Get corresponding aircraft data
       const selectedAircraft = selectedNames.map(name => 
-        aircraftData.find(aircraft => aircraft.key === name)
+        allAircraft.find(aircraft => aircraft.key === name)
       ).filter((aircraft): aircraft is Aircraft => aircraft !== undefined);
       
       // Create pairs of cards
       const cardPairs = [...selectedAircraft, ...selectedAircraft].map((aircraft, index) => ({
         id: index,
         aircraft,
-        imageUrl: getAircraftFirstImage(aircraft.key),
+        imageUrl: aircraft.imageUrls[0],
         isFlipped: false,
         isMatched: false
       }));

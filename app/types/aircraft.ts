@@ -9,5 +9,10 @@ export interface Aircraft {
     key: string;
     value: string;
   }[];
-  imagePath?: string;
+  imageUrls: string[];
+}
+
+export interface AircraftImageData {
+  url: string;
+  answers: string[];
 }
