@@ -10,37 +10,6 @@ export interface Aircraft {
     value: string;
   }[];
   imageurls: string[];
-  "I.S.A.B.E.L": {
-    wings: {
-      type: string;
-      placement: string;
-      shape: string;
-      slant: string;
-      canards: boolean;
-    };
-    engine: {
-      type: string;
-      number: number;
-      location: string;
-    };
-    fuselage: {
-      shape: string;
-      distinctiveFeatures: string[];
-    };
-    tail: {
-      type: string;
-      numberOfFins: number;
-    };
-    dimensions: {
-      length: number;
-      wingspan: number;
-      height: number;
-    };
-    roleData: {
-      primaryRole: string;
-      secondaryRole: string | null;
-    };
-  };
 }
 
 export interface AircraftImageData {
