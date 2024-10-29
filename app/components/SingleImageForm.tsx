@@ -3,8 +3,13 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Score from './Score';
-import { getRandomAircraftImage } from '@/app/lib/get-aircraft';
-import { AircraftImageData } from '@/app/types/aircraft';
+import { getRandomAircraftImage } from '../lib/get-aircraft';
+import { AircraftImageData } from '../types/aircraft';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Card, CardContent } from '@/components/ui/card';
+import { Alert, AlertDescription } from '@/components/ui/alert';
+import { CheckCircle, XCircle, Info } from 'lucide-react';
 
 export default function SingleImageForm() {
   const [currentImage, setCurrentImage] = useState<AircraftImageData | null>(null);
@@ -79,70 +84,81 @@ export default function SingleImageForm() {
   }
 
   return (
-    <div className="flex flex-col items-center gap-4 text-black p-4 max-w-md mx-auto">
-      <div className="w-full">
-        <Image
-          src={currentImage.url}
-          alt="Random aircraft"
-          width={400}
-          height={300}
-          layout="responsive"
-        />
-      </div>
-
-      <form onSubmit={handleSubmit} className="w-full flex flex-col items-center gap-2">
-        <input
-          type="text"
-          value={inputValue}
-          onChange={e => setInputValue(e.target.value)}
-          className="w-full border border-gray-300 rounded px-2 py-1 text-black"
-          placeholder="Enter aircraft name"
-        />
-        <div className="flex gap-2 w-full">
-          <button
-            type="submit"
-            className={`flex-1 px-4 py-2 rounded ${
-              inputValue.trim()
-                ? 'bg-blue-500 text-white hover:bg-blue-600'
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-            }`}
-            disabled={!inputValue.trim() || isLoading}
-          >
-            Submit
-          </button>
-          <button
-            type="button"
-            onClick={handleSkip}
-            disabled={isLoading}
-            className="flex-1 px-4 py-2 rounded bg-green-500 text-white hover:bg-green-600"
-          >
-            Skip
-          </button>
-          <button
-            type="button"
-            onClick={handleReset}
-            disabled={isLoading}
-            className="flex-1 px-4 py-2 rounded bg-red-500 text-white hover:bg-red-600"
-          >
-            Reset
-          </button>
+    <Card className="w-full max-w-md mx-auto">
+      <CardContent className="flex flex-col items-center gap-4 p-6">
+        <div className="w-full">
+          <Image
+            src={currentImage.url}
+            alt="Random aircraft"
+            width={400}
+            height={300}
+            layout="responsive"
+            className="rounded-lg"
+          />
         </div>
-      </form>
 
-      <Score correctGuesses={correctGuesses} incorrectGuesses={incorrectGuesses} />
+        <form onSubmit={handleSubmit} className="w-full flex flex-col items-center gap-4">
+          <Input
+            type="text"
+            value={inputValue}
+            onChange={e => setInputValue(e.target.value)}
+            className="w-full"
+            placeholder="Enter aircraft name"
+          />
+          <div className="flex gap-2 w-full">
+            <Button
+              type="submit"
+              variant="default"
+              disabled={!inputValue.trim() || isLoading}
+              className="flex-1"
+            >
+              Submit
+            </Button>
+            <Button
+              type="button"
+              onClick={handleSkip}
+              disabled={isLoading}
+              variant="secondary"
+              className="flex-1"
+            >
+              Skip
+            </Button>
+            <Button
+              type="button"
+              onClick={handleReset}
+              disabled={isLoading}
+              variant="destructive"
+              className="flex-1"
+            >
+              Reset
+            </Button>
+          </div>
+        </form>
 
-      {isCorrect !== null && !showAnswer && (
-        <div
-          className={`mt-4 p-2 rounded w-full text-center ${isCorrect ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}
-        >
-          {isCorrect ? 'Correct!' : 'Incorrect. Try again!'}
-        </div>
-      )}
-      {showAnswer && (
-        <div className="mt-4 p-2 rounded w-full text-center bg-blue-100 text-blue-800">
-          The correct answer was one of : {currentImage.answers.join(', ')}
-        </div>
-      )}
-    </div>
+        <Score correctGuesses={correctGuesses} incorrectGuesses={incorrectGuesses} />
+
+        {isCorrect !== null && !showAnswer && (
+          <Alert variant={isCorrect ? 'default' : 'destructive'} className="w-full">
+            <div className="flex items-center gap-2">
+              {isCorrect ? <CheckCircle className="h-4 w-4" /> : <XCircle className="h-4 w-4" />}
+              <AlertDescription>
+                {isCorrect ? 'Correct!' : 'Incorrect. Try again!'}
+              </AlertDescription>
+            </div>
+          </Alert>
+        )}
+
+        {showAnswer && (
+          <Alert className="w-full">
+            <div className="flex items-center gap-2">
+              <Info className="h-4 w-4" />
+              <AlertDescription>
+                The correct answer was one of: {currentImage.answers.join(', ')}
+              </AlertDescription>
+            </div>
+          </Alert>
+        )}
+      </CardContent>
+    </Card>
   );
 }

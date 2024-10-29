@@ -11,8 +11,18 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} min-h-screen bg-background text-foreground`}>
+        <div
+          className="fixed inset-0 -z-10"
+          style={{
+            backgroundImage: 'url(https://i.ibb.co/rGv24R0/NCR-Study-Guide.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            opacity: 0.7,
+          }}
+        />
         <NextAuthProvider>{children}</NextAuthProvider>
       </body>
     </html>
