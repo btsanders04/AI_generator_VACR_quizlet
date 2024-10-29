@@ -1,6 +1,5 @@
 import SingleImageForm from '../components/SingleImageForm';
 import { Button } from '@/components/ui/button';
-import { Card, CardHeader, CardContent } from '@/components/ui/card';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
