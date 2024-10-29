@@ -5,16 +5,16 @@ import { useRouter } from 'next/navigation';
 import { Aircraft } from '@/app/types/aircraft';
 import ImageCarousel from './ImageCarousel';
 import { getAllAircraft } from '@/app/lib/get-aircraft';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function AnswerKey() {
   const router = useRouter();
   const [aircraft, setAircraft] = useState<Aircraft[]>([]);
 
   useEffect(() => {
-    const loadAircraft = async () => {
+    const loadAircraft = () => {
       try {
-        const allAircraft = await getAllAircraft();
-
+        const allAircraft = getAllAircraft();
         setAircraft(allAircraft);
       } catch (error) {
         console.error('Error loading aircraft data:', error);
@@ -29,16 +29,23 @@ export default function AnswerKey() {
   };
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
       {aircraft.map(ac => (
-        <div
+        <Card 
           key={ac.key}
           onClick={() => handleAircraftClick(ac.key)}
-          className="border rounded-lg p-4 cursor-pointer hover:shadow-lg transition-shadow"
+          className="object-containing"
         >
-          <h2 className="text-xl font-semibold mb-4">{ac.key}</h2>
-          <ImageCarousel images={ac.imageUrls || []} />
-        </div>
+          <CardHeader>
+            <CardTitle>
+              {ac.key}
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+           
+            <ImageCarousel images={ac.imageurls || []} />
+          </CardContent>
+        </Card>
       ))}
     </div>
   );
