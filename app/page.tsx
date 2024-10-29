@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import LoginButton from './components/LoginButton';
-import AdminSection from './components/AdminSection';
+import AdminImageUploader from './components/AdminImageUploader';
+import AdminAirCraftEditor from './components/AdminAircraftEditor';
 
 export default async function Home() {
   return (
@@ -31,7 +32,8 @@ export default async function Home() {
           <h2 className="text-2xl font-bold mb-2">Card Matching Game</h2>
           <p>Test your memory by matching pairs of aircraft cards</p>
         </Link>
-        <AdminSection />
+        <AdminImageUploader />
+        <AdminAirCraftEditor />
       </div>
     </main>
   );

@@ -4,7 +4,7 @@
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 
-export default function AdminSection() {
+export default function AdminAirCraftEditor() {
   const { data: session } = useSession();
   const isAdmin = session?.user?.role === 'admin';
 
@@ -12,11 +12,11 @@ export default function AdminSection() {
 
   return (
     <Link
-      href="/image-uploader"
+      href="/aircraft-modifier"
       className="p-6 border-2 border-blue-500 rounded-lg hover:bg-blue-50 transition-colors"
     >
-      <h2 className="text-2xl font-bold mb-2 text-blue-600">Image Management</h2>
-      <p>Upload and organize aircraft images</p>
+      <h2 className="text-2xl font-bold mb-2 text-blue-600">Aircraft Editor</h2>
+      <p>Edit Aircraft Data</p>
       <span className="inline-block mt-2 text-sm text-blue-600 font-medium">
         Administrative Tool
       </span>

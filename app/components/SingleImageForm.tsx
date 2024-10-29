@@ -1,12 +1,20 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Score from './Score';
-import { getRandomAircraftImage } from '@/app/lib/get-aircraft';
-import { AircraftImageData } from '@/app/types/aircraft';
+import { Aircraft } from '@/app/types/aircraft';
 
-export default function SingleImageForm() {
+interface SingleImageFormProps {
+  aircraft: Aircraft[];
+}
+
+interface AircraftImageData {
+  url: string;
+  answers: string[];
+}
+
+export default function SingleImageForm({aircraft}: SingleImageFormProps) {
   const [currentImage, setCurrentImage] = useState<AircraftImageData | null>(null);
   const [inputValue, setInputValue] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
@@ -15,18 +23,14 @@ export default function SingleImageForm() {
   const [incorrectGuesses, setIncorrectGuesses] = useState(0);
   const [isLoading, setLoading] = useState<boolean>(false);
 
-  const fetchRandomImage = async () => {
-    try {
-      const response = await getRandomAircraftImage();
-      setCurrentImage(response);
-    } catch (error) {
-      console.error('Error fetching random image:', error);
-    }
-  };
 
-  useEffect(() => {
-    fetchRandomImage();
-  }, []);
+  const fetchRandomImage = () => {
+    const randomIndex = Math.floor(Math.random() * aircraft.length);
+    const selected =  aircraft[randomIndex];
+    const randomIndexImgs = Math.floor(Math.random() * selected.imageUrls.length);
+    const imgData = {url: selected.imageUrls[randomIndexImgs], answers: [selected.key, ...selected.altNames] };
+    setCurrentImage(imgData);
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

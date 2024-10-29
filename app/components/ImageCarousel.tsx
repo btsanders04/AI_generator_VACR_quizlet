@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
@@ -7,7 +9,6 @@ interface ImageCarouselProps {
 }
 
 const ImageCarousel = ({ images }: ImageCarouselProps) => {
-  const urls = images.filter(img => !!img);
   const [currentIndex, setCurrentIndex] = useState(0);
   const goToPrevious = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -30,7 +31,7 @@ const ImageCarousel = ({ images }: ImageCarouselProps) => {
       <div className="relative h-96 mb-6">
         <div className="relative w-full h-full">
           <Image
-            src={urls[currentIndex]}
+            src="https://i.ibb.co/pnLxj86/003A4207.jpg"
             alt={`Slide ${currentIndex + 1}`}
             fill
             className="object-contain"

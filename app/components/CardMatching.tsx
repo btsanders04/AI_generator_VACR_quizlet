@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Aircraft } from '@/app/types/aircraft';
 import Image from 'next/image';
-import { getAllAircraft } from '@/app/lib/get-aircraft';
+import { getAllAircraft } from '@/app/lib/db-functions';
 
 interface Card {
   id: number;

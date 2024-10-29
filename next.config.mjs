@@ -10,6 +10,18 @@ const nextConfig = {
   },
   basePath: process.env.GITHUB_ACTIONS && '/nextjs-app',
   assetPrefix: process.env.GITHUB_ACTIONS && '/nextjs-app/',
+  reactStrictMode: true,
+  // Enable development features
+  devIndicators: {
+    buildActivity: true,
+    buildActivityPosition: 'bottom-right',
+  },
+  // Ensure React DevTools can connect
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true,
+    reactRemoveProperties: process.env.NODE_ENV === 'production',
+  }
 };
 
 export default nextConfig;
