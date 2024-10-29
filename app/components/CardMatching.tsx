@@ -42,7 +42,7 @@ export default function CardMatching() {
       const cardPairs = [...selectedAircraft, ...selectedAircraft].map((aircraft, index) => ({
         id: index,
         aircraft,
-        imageUrl: aircraft.imageUrls[0],
+        imageUrl: aircraft.imageurls[0],
         isFlipped: false,
         isMatched: false,
       }));

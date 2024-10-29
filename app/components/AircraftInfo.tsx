@@ -2,8 +2,11 @@
 
 import React, { useEffect, useState } from 'react';
 import ImageCarousel from './ImageCarousel';
-import { getAircraft } from '@/app/lib/get-aircraft';
-import { Aircraft } from '@/app/types/aircraft';
+import { getAircraft } from '../lib/get-aircraft';
+import { Aircraft } from '../types/aircraft';
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+
 interface AircraftInfoProps {
   aircraft: string;
 }
@@ -25,33 +28,49 @@ const AircraftInfo = ({ aircraft }: AircraftInfoProps) => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
-      <div className="max-w-2xl w-full bg-white rounded-lg shadow-md p-6">
-        <h1 className="text-3xl font-bold mb-6 text-center text-black">{aircraft}</h1>
-        <ImageCarousel images={aircraftData?.imageUrls || []} />
+      <Card className="max-w-2xl w-full">
+        <CardHeader>
+          <CardTitle className="text-center">{aircraft}</CardTitle>
+        </CardHeader>
+        
+        <CardContent className="space-y-6">
+          <ImageCarousel images={aircraftData?.imageurls || []} />
 
-        <h2 className="text-1xl text-center font-bold text-left text-black">General Data</h2>
-        <div className="text-gray-600">
-          {aircraftData?.generalData.map(item => (
-            <p
-              key={`general-${item.key}`}
-              className="flex items-center gap-2 p-3 bg-gray-100  group transition-colors duration-200"
-            >
-              {item.key}: {item.value}
-            </p>
-          ))}
-        </div>
-        <h2 className="text-1xl text-center  font-bold text-left text-black">Weft Description</h2>
-        <div className=" text-gray-600">
-          {aircraftData?.weftDescription.map(item => (
-            <p
-              key={`weft-${item.key}`}
-              className="flex items-center gap-2 p-3 bg-gray-100 group  transition-colors duration-200"
-            >
-              {item.key}: {item.value}
-            </p>
-          ))}
-        </div>
-      </div>
+          <div className="space-y-4">
+            <h2 className="text-xl font-semibold text-center">General Data</h2>
+            <div className="grid gap-2">
+              {aircraftData?.generalData.map(item => (
+                <div
+                  key={`general-${item.key}`}
+                  className="flex items-center justify-between p-2 rounded-lg bg-secondary/20"
+                >
+                  <Badge variant="outline" className="font-semibold">
+                    {item.key}
+                  </Badge>
+                  <span className="text-muted-foreground text-right">{item.value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="text-xl font-semibold text-center">Weft Description</h2>
+            <div className="grid gap-2">
+              {aircraftData?.weftDescription.map(item => (
+                <div
+                  key={`weft-${item.key}`}
+                  className="flex items-center justify-between p-2 rounded-lg bg-secondary/20"
+                >
+                  <Badge variant="outline" className="font-semibold">
+                    {item.key}
+                  </Badge>
+                  <span className="text-muted-foreground text-right">{item.value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        </CardContent>
+      </Card>
     </div>
   );
 };

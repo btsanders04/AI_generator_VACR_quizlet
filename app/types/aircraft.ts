@@ -9,7 +9,7 @@ export interface Aircraft {
     key: string;
     value: string;
   }[];
-  imageUrls: string[];
+  imageurls: string[];
 }
 
 export interface AircraftImageData {
