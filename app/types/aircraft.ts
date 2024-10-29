@@ -10,7 +10,7 @@ export interface Aircraft {
     value: string;
   }[];
   imageurls: string[];
-  I_S_A_B_E_L: {
+  "I.S.A.B.E.L": {
     wings: {
       type: string;
       placement: string;
