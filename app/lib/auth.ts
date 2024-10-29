@@ -35,14 +35,12 @@ export const authOptions: NextAuthOptions = {
       if (isAdmin) {
         token.role = 'admin';
       }
-      console.log('TOKEN', token);
       return token;
     },
     async session({ session, token }) {
       if (session.user) {
         session.user.role = token.role as string;
       }
-      console.log('SESSIONS', session);
       return session;
     },
   },

@@ -3,6 +3,8 @@
 
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
+import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
+import { Badge } from '@/components/ui/badge';
 
 export default function AdminSection() {
   const { data: session } = useSession();
@@ -11,15 +13,18 @@ export default function AdminSection() {
   if (!isAdmin) return null;
 
   return (
-    <Link
-      href="/image-uploader"
-      className="p-6 border-2 border-blue-500 rounded-lg hover:bg-blue-50 transition-colors"
-    >
-      <h2 className="text-2xl font-bold mb-2 text-blue-600">Image Management</h2>
-      <p>Upload and organize aircraft images</p>
-      <span className="inline-block mt-2 text-sm text-blue-600 font-medium">
-        Administrative Tool
-      </span>
+    <Link href="/image-uploader" className="block">
+      <Card className="h-full hover:bg-muted/50 transition-colors border-primary">
+        <CardHeader>
+          <CardTitle className="text-primary">Image Management</CardTitle>
+          <CardDescription>Upload and organize aircraft images</CardDescription>
+        </CardHeader>
+        <CardFooter>
+          <Badge variant="outline" className="text-primary border-primary">
+            Administrative Tool
+          </Badge>
+        </CardFooter>
+      </Card>
     </Link>
   );
 }

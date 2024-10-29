@@ -1,14 +1,26 @@
 import SingleImageForm from '../components/SingleImageForm';
+import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { ArrowLeft } from 'lucide-react';
 
 export default function SingleImageFormPage() {
   return (
-    <div className="container mx-auto p-4">
-      <Link href="/" className="inline-block mb-4 text-blue-600 hover:text-blue-800 underline">
-        ← Back to Home
-      </Link>
-      <h1 className="text-2xl font-bold mb-4">VACR Practice Quiz</h1>
-      <SingleImageForm />
+    <div className="container relative mx-auto min-h-screen p-4">
+      <div className="relative">
+        <Button variant="ghost" asChild className="mb-4">
+          <Link href="/" className="flex items-center gap-2">
+            <ArrowLeft className="h-4 w-4" />
+            Back to Home
+          </Link>
+        </Button>
+
+        <div className="flex flex-col items-center p-8">
+          <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight mb-8 text-center">
+            VACR Practice Quiz
+          </h1>
+          <SingleImageForm />
+        </div>
+      </div>
     </div>
   );
 }
