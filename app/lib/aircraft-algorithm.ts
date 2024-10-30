@@ -1,4 +1,3 @@
-import { Target } from 'lucide-react';
 import { Aircraft, Isabel } from '../types/aircraft';
 import { getAircraft, getAircraftExcluding } from './get-aircraft';
 
@@ -55,6 +54,6 @@ const baselineComparison = (target1: Isabel, target2: Isabel): number => {
 };
 
 const distinctiveFeatures = (target: Isabel): number => {
-  let score = Math.min(target.fuselage.distinctiveFeatures.length * 2, 6);
+  const score = Math.min(target.fuselage.distinctiveFeatures.length * 2, 6);
   return score;
 };
