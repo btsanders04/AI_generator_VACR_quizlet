@@ -46,7 +46,7 @@ export default function AnswerKey() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 p-4 flex-grow">
         {filteredAircraft.map(ac => (
-         <AircraftImageCard aircraft={ac} onClick={handleAircraftClick}></AircraftImageCard>
+         <AircraftImageCard key={ac.key} aircraft={ac} onClick={handleAircraftClick}></AircraftImageCard>
         ))}
       </div>
     </div>
