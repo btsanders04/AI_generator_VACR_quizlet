@@ -3,9 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Aircraft } from '@/app/types/aircraft';
-import ImageCarousel from './ImageCarousel';
 import { getAllAircraft } from '@/app/lib/get-aircraft';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SelectHLTag } from './HLTagFilter';
 import AircraftImageCard from './AircraftImageCard';
 
