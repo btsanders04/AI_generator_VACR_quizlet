@@ -51,6 +51,16 @@ export default async function Home() {
               </CardHeader>
             </Card>
           </Link>
+
+          <Link href="/isabel-comparison" className="block">
+            <Card className="h-full hover:bg-muted/50 transition-colors">
+              <CardHeader>
+                <CardTitle>Aircraft Comparison</CardTitle>
+                <CardDescription>Intelligent Rank Analysis of Aircraft</CardDescription>
+              </CardHeader>
+            </Card>
+          </Link>
+
           <AdminSection />
         </div>
       </div>
