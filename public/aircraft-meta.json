@@ -70,7 +70,7 @@
         "value": "Twin vertical stabilizers with a horizontal stabilizer connecting them, mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -173,7 +173,7 @@
         "value": "Twin vertical stabilizers positioned wide apart, with a horizontal stabilizer connecting them."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -276,7 +276,7 @@
         "value": "Conventional tail with single vertical fin"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable",
         "placement": "mid-mounted",
@@ -378,7 +378,7 @@
         "value": "Single vertical stabilizer with a T-tail configuration."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -481,7 +481,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -584,7 +584,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -687,7 +687,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -790,7 +790,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout and a horizontal stabilizer at the rear."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable",
         "placement": "mid-mounted",
@@ -892,7 +892,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable",
         "placement": "mid-mounted",
@@ -995,7 +995,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -1098,7 +1098,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -1201,7 +1201,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -1304,7 +1304,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -1407,7 +1407,7 @@
         "value": "Twin vertical stabilizers mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -1518,7 +1518,7 @@
         "value": "Twin vertical stabilizers mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -1621,7 +1621,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -1733,7 +1733,7 @@
         "value": "Twin vertical stabilizers canted outward at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -1836,7 +1836,7 @@
         "value": "Twin vertical stabilizers canted outward and thrust-vectoring nozzles at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -1939,7 +1939,7 @@
         "value": "Twin vertical stabilizers canted outward, mounted toward the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -2042,7 +2042,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -2145,7 +2145,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -2248,7 +2248,7 @@
         "value": "Twin vertical stabilizers mounted widely apart at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -2351,7 +2351,7 @@
         "value": "Single vertical stabilizer with no horizontal stabilizer due to the delta wing design."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -2454,7 +2454,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -2557,7 +2557,7 @@
         "value": "Single vertical stabilizer with no horizontal stabilizers due to the delta wing design."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -2660,7 +2660,7 @@
         "value": "Twin vertical stabilizers mounted widely apart at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -2763,7 +2763,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -2866,7 +2866,7 @@
         "value": "Twin vertical stabilizers canted outward at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -2969,7 +2969,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -3072,7 +3072,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -3175,7 +3175,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -3278,7 +3278,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -3381,7 +3381,7 @@
         "value": "Twin vertical stabilizers mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -3484,7 +3484,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable-sweep",
         "placement": "mid-mounted",
@@ -3587,7 +3587,7 @@
         "value": "Twin vertical stabilizers mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -3690,7 +3690,7 @@
         "value": "Twin vertical stabilizers with outward canted configuration to reduce radar signature and improve stability."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -3793,7 +3793,7 @@
         "value": "Twin vertical stabilizers with outward canted configuration to reduce radar cross-section."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -3896,7 +3896,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable-sweep",
         "placement": "mid-mounted",
@@ -3999,7 +3999,7 @@
         "value": "No vertical stabilizers; the flying wing design eliminates a traditional tail."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "blended wing",
@@ -4102,7 +4102,7 @@
         "value": "Single vertical stabilizer mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -4205,7 +4205,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -4308,7 +4308,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable",
         "placement": "low-mounted",
@@ -4415,7 +4415,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable",
         "placement": "low-mounted",
@@ -4518,7 +4518,7 @@
         "value": "Single vertical stabilizer mounted at the rear with a large horizontal stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -4621,7 +4621,7 @@
         "value": "Single vertical stabilizer mounted at the rear with a large horizontal stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -4724,7 +4724,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -4833,7 +4833,7 @@
         "value": "Single vertical stabilizer with a large horizontal stabilizer at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -4936,7 +4936,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5039,7 +5039,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5142,7 +5142,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5245,7 +5245,7 @@
         "value": "Single vertical stabilizer with a T-tail configuration."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5348,7 +5348,7 @@
         "value": "Single vertical stabilizer with a conventional tail layout."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5451,7 +5451,7 @@
         "value": "Twin vertical stabilizers mounted at the rear of the fuselage with a horizontal stabilizer connecting them."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5554,7 +5554,7 @@
         "value": "Conventional tail configuration with a large vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5657,7 +5657,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -5763,7 +5763,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -5866,7 +5866,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the side at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -5978,7 +5978,7 @@
         "value": "No tail rotor due to the coaxial rotor configuration; features a small vertical stabilizer at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -6081,7 +6081,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side of the rear fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -6184,7 +6184,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -6287,7 +6287,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -6390,7 +6390,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "top-mounted",
@@ -6493,7 +6493,7 @@
         "value": "No tail rotor due to the tandem rotor configuration."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotor wing",
         "placement": "tandem-mounted",
@@ -6596,7 +6596,7 @@
         "value": "Single vertical stabilizer with a large tail rotor mounted on the right side of the rear fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -6700,7 +6700,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -6804,7 +6804,7 @@
         "value": "Single vertical stabilizer with a conventional tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -6908,7 +6908,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the right side of the rear fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7012,7 +7012,7 @@
         "value": "Single vertical stabilizer with a large tail rotor mounted on the left side of the rear fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7116,7 +7116,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7227,7 +7227,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7339,7 +7339,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side of the tail boom."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7443,7 +7443,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side of the tail boom."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7547,7 +7547,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7651,7 +7651,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7755,7 +7755,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side of the rear fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7859,7 +7859,7 @@
         "value": "No tail rotor due to the coaxial rotor configuration; features a small vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -7963,7 +7963,7 @@
         "value": "No tail rotor due to the tandem rotor configuration."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8067,7 +8067,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side, with a folding tail for shipboard storage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8171,7 +8171,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the left side at the rear."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8275,7 +8275,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8379,7 +8379,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8483,7 +8483,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8587,7 +8587,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8691,7 +8691,7 @@
         "value": "Single vertical stabilizer with a fenestron (enclosed) tail rotor."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8795,7 +8795,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -8899,7 +8899,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9003,7 +9003,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9107,7 +9107,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9211,7 +9211,7 @@
         "value": "Single vertical stabilizer with a fenestron (enclosed) tail rotor."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9315,7 +9315,7 @@
         "value": "Single vertical stabilizer with a fenestron tail rotor (enclosed within the tail structure)."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9422,7 +9422,7 @@
         "value": "Single vertical stabilizer with a fenestron (enclosed) tail rotor mounted on the rear fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9526,7 +9526,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9630,7 +9630,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the right side of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9734,7 +9734,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9838,7 +9838,7 @@
         "value": "Single vertical stabilizer with a fenestron (enclosed) tail rotor for reduced noise and increased safety."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -9942,7 +9942,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -10046,7 +10046,7 @@
         "value": "V-tail configuration mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -10150,7 +10150,7 @@
         "value": "V-tail configuration mounted at the ends of the twin booms."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -10254,7 +10254,7 @@
         "value": "V-tail configuration mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "straight-mounted",
@@ -10358,7 +10358,7 @@
         "value": "Single vertical stabilizer with a tail rotor mounted on the rear."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "rotary",
         "placement": "top-mounted",
@@ -10462,7 +10462,7 @@
         "value": "Twin-boom tail with a horizontal stabilizer connecting the booms."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -10566,7 +10566,7 @@
         "value": "V-tail configuration mounted at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -10670,7 +10670,7 @@
         "value": "Inverted V-tail configuration mounted at the ends of the twin booms."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -10774,7 +10774,7 @@
         "value": "No tail due to the flying wing configuration."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "flying wing",
         "placement": "wing-body",
@@ -10797,9 +10797,7 @@
         "tailRotor": "none"
       },
       "dimensions": {
-        "length": "Classified",
-        "wingspan": 20,
-        "height": "Classified"
+        "wingspan": 20
       },
       "roleData": {
         "primaryRole": "Reconnaissance",
@@ -10878,7 +10876,7 @@
         "value": "V-tail configuration at the rear of the fuselage."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -10981,7 +10979,7 @@
         "value": "Conventional tail with vertical and horizontal stabilizers."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11084,7 +11082,7 @@
         "value": "Twin-boom tail configuration with a horizontal stabilizer connecting the booms."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11187,7 +11185,7 @@
         "value": "V-tail configuration mounted at the rear."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "low-mounted",
         "placement": "fixed",
@@ -11290,7 +11288,7 @@
         "value": "Conventional tail with single vertical fin"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11393,7 +11391,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11496,7 +11494,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11599,7 +11597,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11702,7 +11700,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -11805,7 +11803,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -11908,7 +11906,7 @@
         "value": "Conventional tail configuration with a large vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -12011,7 +12009,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -12114,7 +12112,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -12217,7 +12215,7 @@
         "value": "Conventional tail configuration with a large vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -12320,7 +12318,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -12423,7 +12421,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -12526,7 +12524,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -12629,7 +12627,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -12732,7 +12730,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -12835,7 +12833,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -12938,7 +12936,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "low-mounted",
         "placement": "fuselage",
@@ -13041,7 +13039,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "high-mounted",
         "placement": "fuselage",
@@ -13144,7 +13142,7 @@
         "value": "T-tail configuration with a large vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "low-mounted",
         "placement": "fuselage",
@@ -13247,7 +13245,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "high-mounted",
         "placement": "fuselage",
@@ -13350,7 +13348,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "high-mounted",
         "placement": "fuselage",
@@ -13453,7 +13451,7 @@
         "value": "T-tail with engine mounted in tail fin"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -13556,7 +13554,7 @@
         "value": "Conventional tail configuration with a large vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -13659,7 +13657,7 @@
         "value": "Twin tail fins"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -13762,7 +13760,7 @@
         "value": "Conventional tail configuration with a large vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -13865,7 +13863,7 @@
         "value": "Conventional tail with a single vertical fin"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -13968,7 +13966,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -14071,7 +14069,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -14174,7 +14172,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "mid-mounted",
@@ -14277,7 +14275,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -14380,7 +14378,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -14483,7 +14481,7 @@
         "value": "Conventional tail configuration with a vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "tiltrotor",
         "placement": "top-mounted",
@@ -14587,7 +14585,7 @@
         "value": "Conventional tail with twin vertical stabilizers"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "tiltrotor",
         "placement": "high-mounted",
@@ -14690,7 +14688,7 @@
         "value": "T-tail with conventional layout"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -14793,7 +14791,7 @@
         "value": "Twin fins"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "none",
         "placement": "none",
@@ -14896,7 +14894,7 @@
         "value": "Twin vertical stabilizers"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "none",
         "placement": "none",
@@ -14999,7 +14997,7 @@
         "value": "Conventional tail"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -15102,7 +15100,7 @@
         "value": "None"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "blended",
         "placement": "none",
@@ -15205,7 +15203,7 @@
         "value": "Conventional tail"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "variable",
         "placement": "low-mounted",
@@ -15308,7 +15306,7 @@
         "value": "Conventional tail with single vertical fin"
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -15411,7 +15409,7 @@
         "value": "Spacious fuselage designed for comfort and utility."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -15514,7 +15512,7 @@
         "value": "V-tail configuration (on some models) or conventional tail with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -15617,7 +15615,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -15720,7 +15718,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "low-mounted",
         "placement": "dihedral",
@@ -15824,7 +15822,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "high-mounted",
         "placement": "straight",
@@ -15928,7 +15926,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer and horizontal stabilizers mounted low."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "low-mounted",
         "placement": "straight",
@@ -16032,7 +16030,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "high-mounted",
         "placement": "straight",
@@ -16136,7 +16134,7 @@
         "value": "T-tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "low-mounted",
         "placement": "straight",
@@ -16240,7 +16238,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -16343,7 +16341,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -16446,7 +16444,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -16549,7 +16547,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "low-mounted",
@@ -16652,7 +16650,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer and horizontal stabilizers mounted at mid-level."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",
@@ -16755,7 +16753,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "biplane",
         "placement": "high-mounted",
@@ -16858,7 +16856,7 @@
         "value": "Conventional tail configuration with a single vertical stabilizer."
       }
     ],
-    "I.S.A.B.E.L": {
+    "isabel": {
       "wings": {
         "type": "fixed",
         "placement": "high-mounted",

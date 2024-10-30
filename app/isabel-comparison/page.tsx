@@ -1,9 +1,11 @@
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
-import AnswerKey from '../components/AnswerKey';
+'use client';
 
-export default function AnswerKeyPage() {
+import IsabelComparison from '@/app/components/IsabelComparison';
+import { Button } from '@/components/ui/button';
+import { ArrowLeft } from 'lucide-react';
+import Link from 'next/link';
+
+export default function IsabelComparisonPage() {
   return (
     <div className="container mx-auto p-4">
       <Button variant="ghost" asChild className="mb-4">
@@ -12,7 +14,7 @@ export default function AnswerKeyPage() {
           Back to Home
         </Link>
       </Button>
-      <AnswerKey />
+      <IsabelComparison />
     </div>
   );
 }
