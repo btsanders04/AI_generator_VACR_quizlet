@@ -1,14 +1,13 @@
-import * as React from 'react';
-
+import * as React from "react"
+ 
 import {
   Select,
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
+} from "@/components/ui/select"
 
 //  AIT Advanced Individual Training
 //  RTI Regional Training Institute
@@ -29,7 +28,7 @@ export function SelectHLTag({ onValueChange }: SelectH1TagProps) {
       <SelectContent>
         <SelectGroup>
           <SelectItem value="default">Default</SelectItem>
-          <SelectItem value="AIT">A.I.T</SelectItem>
+          <SelectItem value="AIT">A.I.T</SelectItem> 
           <SelectItem value="RTI">R.T.I</SelectItem>
           <SelectItem value="EDI">EDI</SelectItem>
           <SelectItem value="NCR">NCR</SelectItem>
@@ -37,5 +36,5 @@ export function SelectHLTag({ onValueChange }: SelectH1TagProps) {
         </SelectGroup>
       </SelectContent>
     </Select>
-  );
+  )
 }
